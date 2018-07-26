@@ -1,0 +1,4 @@
+{
+	"name": "egret",
+	"typings": "src/benchmark.d.ts"
+}

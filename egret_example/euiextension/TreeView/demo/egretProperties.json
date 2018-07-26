@@ -1,0 +1,34 @@
+{
+	"native": {
+		"path_ignore": []
+	},
+	"publish": {
+		"web": 0,
+		"native": 1,
+		"path": "bin-release"
+	},
+	"egret_version": "5.0.6",
+	"template": {},
+	"modules": [
+		{
+			"name": "egret",
+			"path": "${EGRET_DEFAULT}"
+		},
+		{
+			"name": "game",
+			"path": "${EGRET_DEFAULT}"
+		},
+		{
+			"name": "res",
+			"path": "${EGRET_DEFAULT}"
+		},
+		{
+			"name": "eui",
+			"path": "${EGRET_DEFAULT}"
+		},
+		{
+			"name": "treeview",
+			"path": "../libsrc"
+		}
+	]
+}

@@ -1,0 +1,34 @@
+{
+	"native": {
+		"path_ignore": [],
+		"android_path": "../demoA"
+	},
+	"publish": {
+		"web": 0,
+		"native": 1
+	},
+	"egret_version": "5.0.6",
+	"template": {},
+	"modules": [
+		{
+			"name": "egret",
+			"path": "${EGRET_DEFAULT}"
+		},
+		{
+			"name": "game",
+			"path": "${EGRET_DEFAULT}"
+		},
+		{
+			"name": "tween",
+			"path": "${EGRET_DEFAULT}"
+		},
+		{
+			"name": "jszip",
+			"path": "../libsrc"
+		},
+		{
+			"name": "res",
+			"path": "${EGRET_DEFAULT}"
+		}
+	]
+}
