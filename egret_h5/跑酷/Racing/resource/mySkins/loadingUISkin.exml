@@ -1,0 +1,8 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="loadingUISkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="loadingBg" source="loadingBg_png" left="0" right="0" top="0" bottom="0"/>
+	<e:Group id="loadingGroup" width="85" height="74" x="79" y="333">
+		<e:Image source="loadingCar_png" left="0" right="0" top="0" bottom="0"/>
+		<e:Label id="loadingText" text="0%" top="0" size="29" width="64" x="19"/>
+	</e:Group>
+</e:Skin>

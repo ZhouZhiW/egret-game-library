@@ -1,0 +1,7 @@
+/**
+ *
+ * @author 
+ *
+ */
+interface PacketHandler {
+}

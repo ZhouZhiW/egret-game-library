@@ -1,0 +1,13 @@
+<?xml version='1.0' encoding='utf-8'?>
+<e:Skin class="gamePlayingSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="bg_png" x="0" y="0" locked="true"/>
+	<e:Image id="bg1" source="bg_png" x="0" y="-800" locked="true"/>
+	<e:Image id="roadblock" source="startLine_png" x="80" y="416" locked="true"/>
+	<e:Image id="carlight" source="carLight_png" x="281" y="450" locked="true"/>
+	<e:Image id="hero" source="hero_png" x="288" y="486" locked="true"/>
+	<e:Group id="carLayer" left="0" right="0" top="0" bottom="0"/>
+	<e:Image id="distanceBg" source="roadnumBg_png" y="52" right="0" locked="true"/>
+	<e:Image id="timeBg" source="timenumBg_png" y="52" left="0" locked="true"/>
+	<e:BitmapLabel id="distanceNum" x="353" y="88" font="roadnum_fnt" text="0" width="167" height="44" scaleX="0.8" scaleY="0.8" locked="true"/>
+	<e:BitmapLabel id="timeNum" x="77" y="90" width="226" height="41" font="timenum_fnt" scaleX="0.5" scaleY="0.5" locked="true"/>
+</e:Skin>
