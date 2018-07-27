@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Up_Selection_DialogSkin" width="330" height="368" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="selection_bg_png"/>
+	<e:Label id="titleTx" text="别怕不就是把苹果放在你的头上么！我又不会射歪的" x="11" y="11" fontFamily="黑体" size="16" textColor="0xffa200" stroke="2" strokeColor="0x2b1910" anchorOffsetX="0" width="229"/>
+	<e:Group id="selectGroup" width="324" bottom="0" horizontalCenter="0" height="87">
+		<e:layout>
+			<e:TileLayout orientation="rows" horizontalGap="0" verticalGap="0"/>
+		</e:layout>
+		<e:ToggleButton id="ari" label="" scaleX="1" scaleY="1" width="54" x="0" y="-268" selected="true">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_ari_n_png" source.down="rk_btn_ari_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="tau" label="" x="50" y="-268" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_tau_n_png" source.down="rk_btn_tau_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="gem" label="" x="101" y="-268" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_gem_n_png" source.down="rk_btn_gem_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="cnc" label="" x="151" y="-268" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_cnc_n_png" source.down="rk_btn_cnc_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="leo" label="" x="201" y="-268" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_leo_n_png" source.down="rk_btn_leo_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="vir" label="" x="251" y="-268" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_vir_n_png" source.down="rk_btn_vir_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="lib" label="" x="-73" y="-103" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_lib_n_png" source.down="rk_btn_lib_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="sco" label="" x="-12" y="-96" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_sco_n_png" source.down="rk_btn_sco_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="sgr" label="" x="58" y="-85" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_sgr_n_png" source.down="rk_btn_sgr_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="cap" label="" x="144" y="-82" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_cap_n_png" source.down="rk_btn_cap_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="agr" label="" x="216" y="-90" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_agr_n_png" source.down="rk_btn_agr_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+		<e:ToggleButton id="psc" label="" x="291" y="-89" scaleX="1" scaleY="1" width="54">
+			<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="rk_btn_psc_n_png" source.down="rk_btn_psc_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+			</e:Skin>
+			</e:skinName>
+		</e:ToggleButton>
+	</e:Group>
+	<e:Label id="middleTx" text="天秤（12月21日-1月21日）" y="256" size="14" fontFamily="黑体" textColor="0xfff6e7" strokeColor="0x543b2e" horizontalCenter="0"/>
+</e:Skin>

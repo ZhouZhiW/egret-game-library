@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Up_ItemUpgradedButtonSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="upItemButtonA_G" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="upItemButtonA_1" x="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="up_item_a_n_png" source.down="up_item_a_p_png"/>
+				<e:Label id="labelDisplay0" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+
+		</e:Button>
+		<e:Label id="upItemButtonA_1_name" text="升级" x="31" y="14" size="24" fontFamily="黑体" stroke="2" strokeColor="0x1b6401" touchEnabled="false" textColor="0xfffdf9"/>
+		<e:Image id="btnIcon_A" x="23" y="42" touchEnabled="false" source="up_item_btn_money_png"/>
+		<e:Label id="upItemButtonA_1_value" text="6.29t" x="48" y="45" size="15" fontFamily="黑体" stroke="2" strokeColor="0x1b6401" width="50" touchEnabled="false" bold="true" textColor="0xfffdf9"/>
+		<e:Button id="upItemButtonA_10" x="107" y="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="up_item_as_n_png" source.down="up_item_as_p_png"/>
+				<e:Label id="labelDisplay1" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="x10" x="127" y="11" size="20" fontFamily="黑体" stroke="2" strokeColor="0x1b6401" touchEnabled="false" textColor="0xfffdf9"/>
+		<e:Button id="upItemButtonA_100" x="107" y="40">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="up_item_as_n_png" source.down="up_item_as_p_png"/>
+				<e:Label id="labelDisplay2" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label text="x100" x="121" y="50" size="20" fontFamily="黑体" stroke="2" strokeColor="0x1b6401" touchEnabled="false"/>
+	</e:Group>
+	<e:Group id="upItemButtonB_G" horizontalCenter="0" verticalCenter="0">
+		<e:Button id="upItemButtonB" horizontalCenter="0" verticalCenter="0">
+			<e:skinName>
+				<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="up_item_b_n_png" source.down="up_item_b_p_png"/>
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+				</e:Skin>
+			</e:skinName>
+		</e:Button>
+		<e:Label id="upItemButtonB_name" text="升级" y="12" size="23" fontFamily="黑体" stroke="2" strokeColor="0xbe521a" touchEnabled="false" horizontalCenter="0" textColor="0xfffdf9" bold="true"/>
+		<e:Label id="upItemButtonB_value" text="6.29t" x="56" y="41" size="15" fontFamily="黑体" stroke="2" strokeColor="0xbe521a" width="50" touchEnabled="false" textColor="0xfffdf9" bold="true"/>
+		<e:Image id="btnIcon_B" source="up_item_btn_money_png" x="32" y="37" touchEnabled="false"/>
+	</e:Group>
+</e:Skin>

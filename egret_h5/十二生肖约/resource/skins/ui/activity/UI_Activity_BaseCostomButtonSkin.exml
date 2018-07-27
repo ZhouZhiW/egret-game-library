@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Activity_BaseCostomButtonSkin" xmlns:e="http://ns.egret.com/eui" states="up,down,disabled" >
+	<e:Image scale9Grid="32,14,21,12" width="100%" height="100%" scale9Grid.down="32,14,21,12" source="button_activity_n_png" source.up="button_activity_n_png" source.down="button_activity_p_png" source.disabled="button_activity_d_png"/>
+    <e:Label id="btnText" top="8" bottom="8" left="12" right="12" size="16" verticalAlign="middle" textAlign="center"
+             fontFamily.up="黑体" strokeColor.up="0x815001" left.up="14" right.up="14" fontFamily="黑体" stroke="2"
+             strokeColor="0x815001"  textColor="0xffff95" textColor.up="0xffff95" strokeColor.down="0xc19200"  strokeColor.disabled="0x5d5d5d"  text="" textColor.down="0xfff9de" textColor.disabled="0xe6e6e6" stroke.down="0"/>
+</e:Skin>

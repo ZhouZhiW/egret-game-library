@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Rank_Friends_TabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing"  width="433" height="565">
+	<e:Image source="base_tab_bg3_png" scale9Grid="22,16,27,17" width="433" anchorOffsetY="0" height="539"/>
+	<ns1:UI_Rank_Friends_List id="friendsList" width="420" height="528" y="7" scaleX="1" scaleY="1" anchorOffsetY="0" horizontalCenter="0">
+	</ns1:UI_Rank_Friends_List>
+	<e:Label text="世界约会收益会更高！" size="14" fontFamily="黑体" textColor="0x574236" bold="true" bottom="4" horizontalCenter="0.5"/>
+</e:Skin>

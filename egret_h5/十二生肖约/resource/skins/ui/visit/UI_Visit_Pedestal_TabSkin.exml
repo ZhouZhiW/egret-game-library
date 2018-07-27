@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Visit_Pedestal_TabSkin" width="415" height="541" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="gs_title_num_bg_png" x="9" y="8" scaleX="1" scaleY="1"/>
+	<e:Image source="gs_fragment_png" x="20" y="6" scaleX="1" scaleY="1"/>
+	<e:Label id="fragmentNum" text="233QU" x="50" y="17" size="18" fontFamily="微软雅黑" textColor="0xffc21f" stroke="2" strokeColor="0x5a462e"/>
+	<e:Label text="攻击提升：" x="31" y="283" textColor="0x574236" size="16" fontFamily="黑体" scaleX="1" scaleY="1"/>
+	<e:Label text="精华提升：" x="31" y="302" textColor="0x574236" size="16" fontFamily="黑体" scaleX="1" scaleY="1"/>
+	<e:Label text="宝石提升：" x="31" y="321" textColor="0x574236" size="16" fontFamily="黑体" scaleX="1" scaleY="1"/>
+	<e:Label text="宝石提升：" x="222" y="283" textColor="0x574236" size="16" fontFamily="黑体" scaleX="1" scaleY="1"/>
+	<e:Label text="碎片提升：" x="222" y="302" textColor="0x574236" size="16" fontFamily="黑体" scaleX="1" scaleY="1"/>
+	<e:Label id="damageUp" text="3443%" x="103" y="283" size="16" fontFamily="黑体" scaleX="1" scaleY="1" anchorOffsetY="0" height="17" textColor="0xbd0000" bold="true"/>
+	<e:Label id="essenceUp" text="3443%" x="103" y="302" size="16" fontFamily="黑体" textColor="0xbd0000" bold="true"/>
+	<e:Label id="gemUp" text="3443%" x="103" y="321" size="16" fontFamily="黑体" textColor="0xBD0000" bold="true"/>
+	<e:Label id="goldUp" text="3443%" x="295" y="283" size="16" fontFamily="黑体" textColor="0xBD0000" bold="true"/>
+	<e:Label id="fragmentUp" text="3443%" x="295" y="302" size="16" fontFamily="黑体" textColor="0xBD0000" bold="true"/>
+	<e:Image source="gs_gem_assistorBg_png" y="93" horizontalCenter="-1" x="80" scaleX="1" scaleY="1"/>
+	<e:Label id="lvTx" text="LV.2" y="172" fontFamily="黑体" size="16" textColor="0xffffff" strokeColor="0x675444" stroke="2" horizontalCenter="0" bold="true" italic="true"/>
+	<e:Image source="up_item_divide_png" y="275" x="30"/>
+	<e:Image source="visit_stardust_btn_mask_png" y="120" horizontalCenter="0"/>
+</e:Skin>

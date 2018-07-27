@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Base_DialogSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="100%" height="100%" touchEnabled="true" source="base_black_bg_png" alpha=".7" locked="true" />
+	<e:Group horizontalCenter="0" verticalCenter="0">
+		<e:Image horizontalCenter="0" verticalCenter="0" source="base_dialog_bg_png" touchEnabled="false"
+		         scale9Grid="76,65,229,86" width="100%" height="100%"  visible="false"/>
+		<e:Image source="base_dialog_bg1_png" verticalCenter="0" horizontalCenter="0" width="100%" height="100%" scale9Grid="40,59,217,96"/>
+		<e:Image source="base_dialog_bg2_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%" scale9Grid="71,55,173,102"/>
+		<e:Image id="dialogMask" source="base_dialog_bg2_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%" scale9Grid="71,55,173,102" x="10" y="10"/>
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Scroller id="dialogGroupMask" y="109" minHeight="150" minWidth="254" maxHeight="480" maxWidth="380">
+				<e:Group id="dialogGroup">
+					<e:layout>
+						<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" />
+					</e:layout>
+
+				</e:Group>
+			</e:Scroller>
+			<e:layout>
+				<e:VerticalLayout horizontalAlign="center" verticalAlign="middle" paddingLeft="28" paddingRight="28" paddingTop="30"
+				                  paddingBottom="30" gap="20" />
+			</e:layout>
+		</e:Group>
+		<e:Button id="dialogCloseBtn" right="7">
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="base_dialog_close_n_png" source.down="base_dialog_close_p_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:Button>
+		<e:Group id="dialogBtnGroup" bottom="13" horizontalCenter="0" width="300">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1" requestedColumnCount="3" columnAlign="justifyUsingWidth"
+				              horizontalAlign="center" verticalAlign="bottom" rowAlign="top" />
+			</e:layout>
+		</e:Group>
+	</e:Group>
+</e:Skin>

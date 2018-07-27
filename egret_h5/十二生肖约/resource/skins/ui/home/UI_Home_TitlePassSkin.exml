@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_TitlePassSkin" width="44" height="37" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="homeTitlePassBg" horizontalCenter="0" verticalCenter="0" source="home_title_pass_lock_png"/>
+	<e:Label id="homeTitlePassLevel" size="14" horizontalCenter="0" verticalCenter="0" stroke="2" fontFamily="黑体" strokeColor="0x533f35" textColor="0xe5e2db" bold="true"/>
+</e:Skin>

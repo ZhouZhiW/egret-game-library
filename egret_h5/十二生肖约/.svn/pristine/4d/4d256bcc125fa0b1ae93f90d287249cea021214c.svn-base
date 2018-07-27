@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="UI_Tab_Title_ToggleBtnSkin" states="up,down" minHeight="50" minWidth="100" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" height="42">
+    <e:Image width="100%" height="100%" source.up="gs_title_toggleBtn_n_png" source.down="gs_title_toggleBtn_p_png"
+             scale9Grid.down="17,14,80,22" scale9Grid.up="17,14,80,22" 
+             scale9Grid="17,14,80,22"  source="gs_title_toggleBtn_n_png"/>
+    <e:Label id="labelDisplay" top="8" bottom="8" left="8" right="8" size="17" textColor="0xFFFFFF"
+             verticalAlign="middle" textAlign="center" bold="true" strokeColor="0x675444" stroke="2" 
+              fontFamily="SimHei"  strokeColor.up="0x675444" strokeColor.down="0x057172" />
+</e:Skin>

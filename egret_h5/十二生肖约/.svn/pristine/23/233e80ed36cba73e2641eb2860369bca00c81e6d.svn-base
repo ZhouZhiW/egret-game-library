@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CustomImageDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="158ce0d59a9"/>
+	<e:Scroller id="scroller" width="330" height="368" anchorOffsetY="0" scrollPolicyH="off">
+		<e:Group>
+		<e:Image id="image" horizontalCenter="0" source=""/>
+		</e:Group>
+	</e:Scroller>
+</e:Skin>

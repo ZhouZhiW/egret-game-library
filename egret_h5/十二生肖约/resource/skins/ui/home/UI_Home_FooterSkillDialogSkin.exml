@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_FooterSkillDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="330" height="160">
+
+
+	<e:Label id="skillName" fontFamily="黑体" size="24" verticalAlign="middle" bold="true" stroke="2" strokeColor="0x69552e" text="这是名称" width="163" textAlign="left" y="42" x="146" textColor="0xffde00"/>
+	<e:Image id="skillIcon" x="71.1" source="p_skill_aoes_png" y="25"/>
+	<e:Label id="skillText" maxWidth="260" size="18" bold="true" fontFamily="黑体" textAlign="center" verticalAlign="middle" width="230" y="98" text="这是描述" textColor="0x4b1f1f" horizontalCenter="0"/>
+
+
+
+</e:Skin>

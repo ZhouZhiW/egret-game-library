@@ -1,0 +1,97 @@
+var __reflect = (this && this.__reflect) || function (p, c, t) {
+    p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
+};
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var UI_Backpack_MailDialog = (function (_super) {
+    __extends(UI_Backpack_MailDialog, _super);
+    function UI_Backpack_MailDialog(id) {
+        var _this = _super.call(this) || this;
+        _this.bpID = id;
+        _this.delBtn = _this.addButton("删除", true, _this.clickDelBtn, _this);
+        _this.getBtn = _this.addButton("领取", true, _this.clickGetBtn, _this);
+        NetEventManager.inst.pushEMail(id, 0);
+        return _this;
+    }
+    UI_Backpack_MailDialog.prototype.onCreate = function () {
+    };
+    UI_Backpack_MailDialog.prototype.onDestroy = function () {
+    };
+    UI_Backpack_MailDialog.prototype.setData = function (data) {
+        this.titleTx.text = data.emailTitle;
+        this.contentTx.text = data.emailContent;
+        this.timeTx.text = data.date;
+        this.endTime.text = data.expireTime;
+        this.rewardGroup.removeChildren();
+        this.gemGroup.removeChildren();
+        // if (data.mailRewards.length == 0) {
+        //     this.line.visible = false;
+        // } else {
+        //     this.line.visible = true;
+        // }
+        // if (data.mailGems != null) {
+        //     for (let i = 0; i < data.mailGems.length; i++) {
+        //         const g = new UI_Tre_Gem();
+        //         g.setData(data.mailGems[i]);
+        //         g.setListener(this.clickedGem, this)
+        //         this.gemGroup.addChild(g);
+        //     }
+        // }
+        // for (let i = 0; i < data.mailRewards.length; i++) {
+        //     this.rewardGroup.addChild(new UI_Backpack_Reward(data.mailRewards[i].type, data.mailRewards[i].value));
+        // }
+        for (var i = 0; i < data.rewards.length; i++) {
+            if (data.rewards[i].type == DataType_Material.Gem) {
+                var g = new SubscriptMaterial();
+                g.setMaterialData(data.rewards[i]);
+                this.gemGroup.addChild(g);
+                continue;
+            }
+            var reward = new IconImageMaterial();
+            reward.setMaterialData(data.rewards[i]);
+            this.rewardGroup.addChild(reward);
+        }
+        if (data.btnStatus == 0) {
+            this.getBtn.enabled = true;
+        }
+        if (data.btnStatus == 1 || data.btnStatus == 2) {
+            this.getBtn.enabled = false;
+        }
+    };
+    UI_Backpack_MailDialog.prototype.clickGetBtn = function (d) {
+        // console.log(this.bpID);
+        d.close();
+        NetEventManager.inst.pushEMail(this.bpID, 1);
+    };
+    UI_Backpack_MailDialog.prototype.clickDelBtn = function (d) {
+        this.tipsDialog = new NTextDialog();
+        this.tipsDialog.setContent("确定删除此封邮件吗");
+        this.tipsDialog.addButton("确定", true, this.clickedBtn, this);
+        this.tipsDialog.show();
+    };
+    UI_Backpack_MailDialog.prototype.clickedBtn = function (d) {
+        NetEventManager.inst.pushEMail(this.bpID, 2);
+        this.close();
+        this.tipsDialog.close();
+    };
+    Object.defineProperty(UI_Backpack_MailDialog.prototype, "skinPath", {
+        get: function () {
+            return "resource/skins/ui/backpack/UI_Backpack_MailDialogSkin.exml";
+        },
+        enumerable: true,
+        configurable: true
+    });
+    Object.defineProperty(UI_Backpack_MailDialog.prototype, "style", {
+        get: function () {
+            return 1;
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return UI_Backpack_MailDialog;
+}(CustomDialog));
+__reflect(UI_Backpack_MailDialog.prototype, "UI_Backpack_MailDialog");
+//# sourceMappingURL=UI_Backpack_MailDialog.js.map

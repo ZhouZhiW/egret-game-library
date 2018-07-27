@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_TitleSkin" width="480" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="15800021a48" />
+	<e:Image width="100%" height="100%" x="0" y="0" alpha="1" source="home_title_bg_png" scale9Grid="12,11,454,68" />
+	<ns1:UI_UserAvatar id="userAvatar"  x="13" y="9" width="60" height="60" />
+
+
+
+	<e:Image id="homeTitleUserHelp" x="55" y="47" source="home_title_user_help_png" />
+	<e:Label id="homeTitleUserTx" x="1" y="74.2" size="13" fontFamily="SimHei" width="90.4" verticalAlign="middle"
+	         textAlign="center" stroke="1" strokeColor="0x5A2206" border="false" textColor="0xFFFFFF" anchorOffsetX="0"
+	         anchorOffsetY="0" text="" />
+	<e:Label id="homeTitleDiamond" x="404" y="19.5" size="14" fontFamily="微软雅黑" verticalAlign="middle" textAlign="left"
+	         stroke="2" strokeColor="0x533f35" border="false" text="" width="52" bold="true" textColor="0xfffdf8" />
+	<ns1:UI_Home_TitleAsset id="homeTitleAsset" x="360" y="7" skinName="UI_Home_TitleAssetSkin" />
+	<e:Group x="98" y="9.8" height="37" width="245">
+		<ns1:UI_Home_TitlePass id="homeTitlePass0" x="19" y="1" skinName="UI_Home_TitlePassSkin" />
+		<ns1:UI_Home_TitlePass id="homeTitlePass1" x="29" y="11" skinName="UI_Home_TitlePassSkin" />
+		<ns1:UI_Home_TitlePass id="homeTitlePass2" x="39" y="21" skinName="UI_Home_TitlePassSkin" />
+		<ns1:UI_Home_TitlePass id="homeTitlePass3" x="49" y="31" skinName="UI_Home_TitlePassSkin" />
+		<ns1:UI_Home_TitlePass id="homeTitlePass4" x="59" y="41" skinName="UI_Home_TitlePassSkin" />
+		<e:layout>
+			<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<ns1:UI_Home_TitleProgressBar id="homeTitleProgressBar" x="105.8" y="53.5" skinName="UI_Home_TitleProgressBarSkin" />
+</e:Skin>

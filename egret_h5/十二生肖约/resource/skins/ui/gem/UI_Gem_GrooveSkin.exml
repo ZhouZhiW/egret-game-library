@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_GrooveSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+
+	<e:Group x="0" y="0">
+		<ns1:UI_Gem_Gem id="gem" width="60" height="60" x="32" y="29"/>
+
+		<e:Label id="gemGrooveTx" horizontalCenter="0" size="12" verticalAlign="bottom" textColor="0xFB0C0C" fontFamily="微软雅黑" height="14" bold="true"/>
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="bottom" gap="2"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AssistorInfoSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group horizontalCenter="0" top="0" x="68" y="-70" scaleX="1" scaleY="1">
+		<e:Group width="42" height="42" x="63" y="16">
+			<e:Image source="game_assistor_avatar_bg_png" fillMode="scale" scaleX="1" scaleY="1"/>
+			<e:Image id="infoAvatar" width="42" height="42" scaleX="1" scaleY="1" horizontalCenter="0" verticalCenter="0" fillMode="scale" source=""/>
+			<e:Image id="infoAvatarMask" source="rk_item_icon_min_mask_png" horizontalCenter="0" verticalCenter="0" width="34" height="34"/>
+		</e:Group>
+		<e:Label id="infoLevel" text="" x="57" y="37" fontFamily="SimHei" stroke="2" strokeColor="0x2b1910" size="18" textColor="0xfff8ea" italic="true"/>
+		<e:layout>
+		<e:HorizontalLayout gap="8" verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="infoTime" text="" y="46" fontFamily="SimHei" size="16" stroke="2" strokeColor="0x2b1910" horizontalCenter="0" textColor="0xaf0000"/>
+</e:Skin>

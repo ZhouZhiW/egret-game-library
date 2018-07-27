@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Backpack_DescriptionSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="158d9291dcb"/>
+	<e:Group width="221" anchorOffsetX="0">
+		<e:Label id="tips" text="啦啦啦来了提高：" x="9" y="3" size="18" fontFamily="黑体" bold="true" stroke="2" strokeColor="0x675444"/>
+		<e:Label id="numPre" text="1023%" x="96" y="4" fontFamily="黑体" size="23" textColor="0x00ff24" stroke="2" strokeColor="0x675444"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="bottom"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

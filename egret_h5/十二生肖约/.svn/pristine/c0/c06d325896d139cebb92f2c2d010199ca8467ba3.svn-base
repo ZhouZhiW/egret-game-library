@@ -1,0 +1,54 @@
+var __reflect = (this && this.__reflect) || function (p, c, t) {
+    p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
+};
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var UI_Backpack_Reward = (function (_super) {
+    __extends(UI_Backpack_Reward, _super);
+    function UI_Backpack_Reward(t, n) {
+        var _this = _super.call(this) || this;
+        _this.type = t;
+        _this.num = n;
+        return _this;
+    }
+    UI_Backpack_Reward.prototype.onCreate = function () {
+        this.numTx.text = "x" + EasyNumber.easyNum(this.num);
+        this.icon.source = this.selectType(this.type);
+    };
+    UI_Backpack_Reward.prototype.onDestroy = function () {
+    };
+    UI_Backpack_Reward.prototype.selectType = function (t) {
+        var path;
+        switch (t) {
+            case 1:
+                path = "resource/res/ui/backpack/bp_gold.png";
+                break;
+            case 2:
+                path = "resource/res/ui/rank/rk_item_diamond.png";
+                break;
+            case 3:
+                path = "resource/res/ui/backpack/bp_essence.png";
+                break;
+            case 4:
+                path = "resource/res/ui/backpack/bp_fragment.png";
+                break;
+            case 5:
+                path = "resource/res/ui/rank/rk_item_gem.png";
+                break;
+        }
+        return path;
+    };
+    Object.defineProperty(UI_Backpack_Reward.prototype, "skinPath", {
+        get: function () {
+            return "resource/skins/ui/backpack/UI_Backpack_RewardSkin.exml";
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return UI_Backpack_Reward;
+}(BaseComponent));
+__reflect(UI_Backpack_Reward.prototype, "UI_Backpack_Reward");
+//# sourceMappingURL=UI_Backpack_Reward.js.map

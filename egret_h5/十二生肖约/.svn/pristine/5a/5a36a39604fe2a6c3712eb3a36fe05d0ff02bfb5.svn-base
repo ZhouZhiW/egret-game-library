@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_EssDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="455" height="280">
+	<e:Image source="gs_title_num_bg_png" x="22" y="20"/>
+	<e:Image x="33" y="23" source="assicon_ess_png"/>
+	<e:Label id="essNums" text="0" x="62.33" y="30.66" size="16" fontFamily="SimHei" textColor="0xFFC21F" stroke="2" strokeColor="0x5A462E" scaleX="1" scaleY="1" anchorOffsetX="0" width="62.5" textAlign="right"/>
+	<e:Image x="40" y="103" source="gs_gem_starBg_min_png"/>
+	<e:Label text="所有宝石效果提升" y="85" size="18" fontFamily="黑体" bold="true" scaleX="1" scaleY="1" textColor="0xFFFFFF" stroke="2" strokeColor="0x675444" x="259"/>
+	<e:Image source="gs_gem_ess_dialog_arrow_png" x="314" y="131"/>
+	<e:Label id="groovesCurrent" text="5%" y="125" size="23" fontFamily="黑体" bold="true" scaleX="1" scaleY="1" stroke="2" strokeColor="0x675444" x="207" textColor="0xFFD880" anchorOffsetX="0" width="95" textAlign="right"/>
+	<e:Label id="groovesNext" text="5%" y="124" size="23" fontFamily="黑体" bold="true" scaleX="1" scaleY="1" stroke="2" strokeColor="0x675444" x="354" textColor="0x00FF64" anchorOffsetX="0" width="96" textAlign="left"/>
+	<e:Label id="groovesLevel" text="等级：LV.1" x="48.12" y="211" size="18" fontFamily="黑体" bold="true" textColor="0xFFFFFF" anchorOffsetX="0" width="136" textAlign="center" italic="true" strokeColor="0x675444" stroke="2"/>
+	<ns1:UI_BaseCostomButton id="groovesBtn" label="" x="274" y="171" skinName="UI_CustomButtonIconSkin" width="107" height="62" anchorOffsetX="0" anchorOffsetY="0"/>
+</e:Skin>

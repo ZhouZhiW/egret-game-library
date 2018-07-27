@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_offline_MaterialSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="60" height="78">
+	<ns1:SubscriptMaterial id="subscriptMaterial" x="0" y="0" width="60" height="60"/>
+	<e:Label id="materialName" text="金币" y="65" textColor="0x7e2c13" size="13" fontFamily="SimHei" horizontalCenter="0"/>
+</e:Skin>

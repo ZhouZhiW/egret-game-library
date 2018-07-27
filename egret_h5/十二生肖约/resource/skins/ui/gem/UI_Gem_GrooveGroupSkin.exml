@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_GrooveGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*"
+        xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="gemGroup" x="0" y="0">
+		<ns1:UI_Gem_Groove x="0" y="50" skinName="UI_Gem_GrooveSkin" />
+		<ns1:UI_Gem_Groove x="94" y="14" skinName="UI_Gem_GrooveSkin" />
+		<ns1:UI_Gem_Groove x="188" y="14" skinName="UI_Gem_GrooveSkin" />
+		<ns1:UI_Gem_Groove x="282" y="50" skinName="UI_Gem_GrooveSkin" />
+		<ns1:UI_Gem_Groove x="282" y="139" skinName="UI_Gem_GrooveSkin" />
+		<ns1:UI_Gem_Groove x="188" y="173" skinName="UI_Gem_GrooveSkin" />
+		<ns1:UI_Gem_Groove x="94" y="173" skinName="UI_Gem_GrooveSkin" />
+		<ns1:UI_Gem_Groove x="0" y="139" skinName="UI_Gem_GrooveSkin" />
+		<e:layout>
+			<e:BasicLayout/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

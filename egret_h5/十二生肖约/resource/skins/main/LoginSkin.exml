@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoginSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" width="100%" height="100%" source="login_bg_png"/>
+
+	<e:Label id="errorInfo" text="初始化中，请稍后…" fontFamily="SimHei" stroke="2" strokeColor="0x0c193a" verticalCenter="338" horizontalCenter="1" size="20" textColor="0x81d6f9" textAlign="center"/>
+
+
+</e:Skin>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_Offline_DialogSkin" width="330" height="368" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="home_dialog_title_png" y="0" horizontalCenter="0" />
+	<e:Group y="97" horizontalCenter="9">
+		<e:Label text="您获得" y="33" anchorOffsetX="0" size="18" strokeColor="0x684523" stroke="2" fontFamily="SimHei" textColor="0xffffff" horizontalCenter="0" x="75" scaleX="1" scaleY="1"/>
+		<e:Label id="offlineTime" text="12:18:56" x="52" y="31" size="21" fontFamily="SimHei" textColor="0xfff961" strokeColor="0x742f1c" stroke="2" scaleX="1" scaleY="1"/>
+		<e:Label text="离线奖励" y="33" anchorOffsetX="0" size="18" strokeColor="0x684523" stroke="2" fontFamily="SimHei" textColor="0xFFFFFF" horizontalCenter="0" x="66" scaleX="1" scaleY="1"/>
+		<e:layout>
+			<e:HorizontalLayout verticalAlign="middle"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="materialGroup" y="203" anchorOffsetY="0" horizontalCenter="0">
+		<e:layout>
+		<e:HorizontalLayout/>
+		</e:layout>
+	</e:Group>
+	<e:Label id="offlineInfo" text="当前最多可累计6小时离线奖励\n月卡与终身卡可增加离线奖励" fontFamily="黑体" size="13" anchorOffsetY="0" height="34" anchorOffsetX="0" width="280" bottom="5" textAlign="center" horizontalCenter="0" textColor="0x612907" bold="true" lineSpacing="2"/>
+</e:Skin>

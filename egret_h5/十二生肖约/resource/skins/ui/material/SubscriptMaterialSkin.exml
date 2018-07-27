@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="SubscriptMaterialSkin" width="60" height="60" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<ns1:ImageMaterial id="imageMaterial" x="0" y="0" source=""/>
+	<e:Label id="count" text="x1" width="48" bottom="5" size="13" fontFamily="SimHei" textAlign="right" strokeColor="0x370404" stroke="2" horizontalCenter="0"/>
+</e:Skin>

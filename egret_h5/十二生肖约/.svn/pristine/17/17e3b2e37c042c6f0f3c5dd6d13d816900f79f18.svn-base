@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Rank_Rank_ItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="420" height="96">
+	<w:Config id="1585224e5db" locked="true" />
+	<e:Image x="0" y="0" scaleX="1" scaleY="1"  source="rk_item_bg_png"/>
+	<e:Image source="rk_item_name_bg_png" x="94.5" y="18"/>
+	<ns1:UI_UserAvatar id="userAvatar" x="18"  y="14.5" width="64" height="64"  />
+	<e:Label id="playerName" text="d" x="98" y="20" size="14" fontFamily="黑体" textColor="0xffffff"
+	         strokeColor="0x675444" stroke="2" scaleX="1" scaleY="1" maxChars="6"  anchorOffsetX="0" width="163"/>
+	<e:Label id="playerHoroscope" text="" x="95" y="44" size="13" fontFamily="黑体"
+	         strokeColor="0x675444"  anchorOffsetX="0" textAlign="right" textColor="0x9f552c" bold="true"/>
+	<e:Label id="playerDps" text="秒伤: 0" x="95" y="64.5" size="13" fontFamily="黑体" bold="true" strokeColor="0x675444" scaleX="1" scaleY="1"
+	          anchorOffsetX="0" width="102" textColor="0x9f552c"/>
+	<e:Image id="playerSex" source="up_item_sex_g_png" x="152" y="34.5" />
+	<e:Image id="skillIcon" x="203.5" y="46.5" scaleX="1" scaleY="1" width="30" height="30" source="rk_item_skill_chest_png"/>
+	<e:Image id="skillValueIcon" source="rk_item_arrow_png" x="243.5" y="61.5" anchorOffsetX="0" width="12" anchorOffsetY="0" height="15.5"/>
+	<e:Label id="skillValue" text="0%" x="256.5" y="64.5" size="14" fontFamily="黑体" bold="true" strokeColor="0x252d1c" scaleX="1" scaleY="1" textColor="0x9f552c"/>
+	<e:Label id="assistorName" text="约会" x="316" y="57.5" size="12" fontFamily="黑体" strokeColor="0x675444" scaleX="1" scaleY="1" textAlign="center" maxChars="3" anchorOffsetY="0" anchorOffsetX="0" bold="true" width="84" textColor="0x594336"/>
+	<e:Label id="assistorTime" text="00:00:00" y="71" size="13" fontFamily="黑体" strokeColor="0x675940" scaleX="1" scaleY="1" textColor="0x0cfcff" stroke="2" textAlign="center" width="59" x="331"/>
+	<ns1:UI_BaseCostomButton id="assistorBtn" width="85" height="53" x="315.5" anchorOffsetX="0" anchorOffsetY="0" skinName="UI_CustomButtonDefaultSkin" verticalCenter="-0.5"/>
+	<ns1:UI_Rank_AssistorAvatar id="assistorAvatar" x="337.5" y="10.5" width="42" height="42"/>
+</e:Skin>

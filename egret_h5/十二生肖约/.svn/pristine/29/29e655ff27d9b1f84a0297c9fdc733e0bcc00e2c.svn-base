@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Online_TabSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+    <e:Image width="480" height="180" touchEnabled="true" horizontalCenter="0" source="black_bg_png" locked="true" />
+    <e:Image width="480" height="180" touchEnabled="true" horizontalCenter="0" bottom="0" source="black_bg_png"
+             locked="true" />
+    <e:Image source="topUp_frame_bg_png" horizontalCenter="0" verticalCenter="0" scale9Grid="75,151,23,35" width="478"
+             height="596" locked="true" />
+    <e:Button id="tabCloseBtn" x="423" y="108" locked="true">
+        <e:Skin states="up,down,disabled" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*">
+            <e:Image width="100%" height="100%" source="base_tab_close_n_png" source.down="base_tab_close_p_png" />
+            <e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+        </e:Skin>
+    </e:Button>
+    <e:Image source="activity_title_bg_png" y="68" horizontalCenter="0" />
+    <e:Image source="activity_tab_bg_png" y="155" horizontalCenter="0.5" height="490" />
+    <ns1:UI_Online_List id="onlineList" width="390" height="484" horizontalCenter="0" verticalCenter="0">
+        <e:Group/>
+    </ns1:UI_Online_List>
+	<e:Image source="online_title_bg_png" y="98" horizontalCenter="0"/>
+</e:Skin>

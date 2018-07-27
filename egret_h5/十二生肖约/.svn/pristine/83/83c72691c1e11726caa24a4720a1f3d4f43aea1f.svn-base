@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Visit_Tab_MainSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" width="480" height="800">
+	<w:Config id="158c00d79dd"/>
+	<e:Image source="visit_main_bg_png"/>
+	<e:Image source="visit_footer_bg_png" bottom="0" x="0" y="728" scaleX="1" scaleY="1"/>
+	<e:Image width="100%" height="90" x="0" y="0" alpha="1" source="home_title_bg_png"/>
+	<e:Image x="13" y="9" source="home_title_user_frame_png"/>
+	<e:Image id="visitTitleUserIcon" x="16" y="10" width="59" height="59" source="home_title_user_bg_png" scaleX="1" scaleY="1"/>
+	<e:Image id="visitTitleUserMask" source="home_title_user_mask_png" x="19" y="13.5" scaleX="1" scaleY="1"/>
+	<e:Label id="visitName" text="屁屁虫时尚" x="81" y="8" size="14" fontFamily="黑体" textColor="0xF4F4F4"/>
+	<e:Label id="visitStar" text="天枰" x="171" y="8" size="14" fontFamily="黑体" textColor="0xF4F4F4"/>
+	<e:Image id="sex" source="up_item_sex_g_png" x="204" y="1"/>
+	<e:Label text="总DPS：" x="82" y="28" size="12" fontFamily="黑体" textColor="0xF3EDDE" strokeColor="0x533F35" stroke="2"/>
+	<e:Label text="当前金币数：" x="82" y="44" size="12" fontFamily="黑体" textColor="0xF3EDDE" strokeColor="0x533F35" stroke="2" scaleX="1" scaleY="1"/>
+	<e:Label text="最高关卡数：" x="82" y="60" size="12" fontFamily="黑体" strokeColor="0x533F35" stroke="2" textColor="0xF3EDDE"/>
+	<e:Label id="visitDps" text="3455666" x="135" y="28" textColor="0xF4DDA1" size="12" fontFamily="黑体" strokeColor="0x2B1910" stroke="2"/>
+	<e:Label id="visitGoldNum" text="7225666" x="155" y="44" textColor="0xF4DDA1" size="12" fontFamily="黑体" strokeColor="0x2B1910" stroke="2"/>
+	<e:Label id="visitMaxChapter" text="3456" x="155" y="60" textColor="0xF4DDA1" size="12" fontFamily="黑体" strokeColor="0x2B1910" stroke="2"/>
+	<e:Button id="stardust" label="" x="275" y="200" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="visit_stardust_btn_n_png" source.down="visit_stardust_btn_p_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Button id="heroTower" label="" x="97" y="259" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="visit_heroTower_btn_n_png" source.down="visit_heroTower_btn_p_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image source="visit_master_icon_png" x="24" y="429"/>
+	<e:Image id="appointmentIcon" source="visit_master_icon_png" x="457" y="369" scaleX="-1"/>
+	<e:Image id="minClould" source="visit_minClould_bg_png" x="417" y="115"/>
+	<e:Image id="maxClould" source="visit_maxClould_bg_png" x="-250" y="151"/>
+	<e:Label id="masterLV" text="LV.2345" x="71" y="582" textColor="0xfff8ea" fontFamily="黑体" size="16" strokeColor="0x2b1910" stroke="2" italic="true"/>
+	<e:Label id="appointmentLV" text="LV.2345" x="385" y="526" textColor="0xFFF8EA" fontFamily="黑体" size="16" strokeColor="0x2B1910" stroke="2" italic="true"/>
+	<e:Image id="dateUserBg" source="rk_item_icon_min_bg_png" x="334" y="524.5" scaleX="1" scaleY="1"/>
+	<e:Image id="dateUserMask" source="rk_item_icon_min_mask_png" x="338" y="527.5" scaleX="1" scaleY="1"/>
+	<e:Image id="dateUserAvatar" source="home_title_user_bg_png" y="527.5" anchorOffsetX="0" width="34" anchorOffsetY="0" height="34" scaleX="1" scaleY="1" x="337.5"/>
+	<e:Button id="goBack" label="" x="197" y="693" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="visit_goback_btn_n_png" source.down="visit_goback_btn_p_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+</e:Skin>

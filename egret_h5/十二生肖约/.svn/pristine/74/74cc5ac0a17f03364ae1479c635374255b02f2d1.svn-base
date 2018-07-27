@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Visit_Hero_ItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Group x="0" y="0" width="100%">
+		<e:Group horizontalCenter="0" verticalCenter="0">
+			<e:Image source="up_item_bg_png" scale9Grid="23,18,42,14" height="171" width="415"/>
+			<e:Image id="upItemIcon" x="17" y="12" source="up_item_def_png"/>
+			<e:Label id="upItemLevel" text="lv. 555" x="20" y="86" size="14" fontFamily="黑体" width="76" verticalAlign="middle" textAlign="center" bold="true" textColor="0xfff29e" stroke="2" strokeColor="0x675444"/>
+			<e:Label id="upItemName" text="姓名名称" x="97" y="14" size="16" bold="true" stroke="2" strokeColor="0x675444" fontFamily="黑体" textColor="0xffffff"/>
+
+			<e:Group id="upItemSkillGroup" width="329" height="34" x="39" y="114">
+				<e:layout>
+					<e:TileLayout requestedRowCount="1" requestedColumnCount="7" columnAlign="justifyUsingGap"/>
+				</e:layout>
+			</e:Group>
+			<e:Label id="upItemDPS" x="97" y="37" size="15" strokeColor="0xFFFFFF" fontFamily="黑体" bold="true" text="秒伤：123Q" verticalAlign="bottom" textColor="0x674236"/>
+
+			<e:Group id="upItemTotleDPSGroup" y="61" x="95" width="116">
+				<e:Label text="占总DPS：" x="99" y="33" size="15" strokeColor="0xFFFFFF" fontFamily="黑体" bold="true" verticalAlign="bottom" textColor="0x674236"/>
+				<e:Label id="upItemTotleDPS" x="6" y="43" size="14" strokeColor="0xFFFFFF" fontFamily="微软雅黑" bold="true" text="100.00%" verticalAlign="bottom" textColor="0xff0000"/>
+				<e:layout>
+					<e:HorizontalLayout gap="0" verticalAlign="bottom"/>
+				</e:layout>
+			</e:Group>
+			<e:Image id="upItemSex" source="up_item_sex_b_png" x="98" y="54" scaleX="1" scaleY="1" visible="false"/>
+			<e:Image source="up_item_divide_png" y="104" horizontalCenter="0"/>
+		</e:Group>
+	</e:Group>
+</e:Skin>

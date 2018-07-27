@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_GetLotteryBtnSkin" xmlns:e="http://ns.egret.com/eui" states="up,down" >
+	<e:Image source="gs_get_starBtn_p_png" includeIn="down"/>
+	<e:Label text="获取宝石" size="16" fontFamily="黑体" textColor="0xFFFFD5" strokeColor="0x946022" stroke="2" includeIn="down" horizontalCenter="0" verticalCenter="0" x="17" y="12" scaleX="1" scaleY="1"/>
+	<e:Image includeIn="up" source="gs_get_starBtn_n_png"/>
+	<e:Label text="获取宝石" size="16" fontFamily="黑体" textColor="0xFFFFD5" strokeColor="0x698118" stroke="2" includeIn="up" horizontalCenter="0" verticalCenter="0"/>
+</e:Skin>

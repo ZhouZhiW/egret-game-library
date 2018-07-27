@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="Base_TextDialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group minHeight="150" minWidth="254">
+		<e:Label id="dialogTitle" x="73" y="35" fontFamily="微软雅黑" size="16" bold="true" verticalAlign="middle" text="标题" textColor="0xffffff" stroke="2" strokeColor="0x761c10" width="100%" textAlign="center" maxWidth="280"/>
+		<e:Label id="dialogText" size="15" fontFamily="微软雅黑" textAlign="center" text="内容" bold="true" verticalAlign="middle" textColor="0x333333" width="100%" maxWidth="280"/>
+		<e:Label id="dialogFooter" text="提示" x="100" y="109" size="12" textColor="0xc31c17" width="100%" verticalAlign="middle" textAlign="center" bold="true" fontFamily="微软雅黑" maxWidth="340"/>
+	
+		<e:layout>
+			<e:VerticalLayout horizontalAlign="center" verticalAlign="justify" gap="10" paddingLeft="10" paddingRight="10" paddingTop="10" paddingBottom="10"/>
+		</e:layout>
+	</e:Group>
+</e:Skin>

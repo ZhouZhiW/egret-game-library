@@ -1,0 +1,206 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,top2_png,top1_png,right_png,rect2_png,rect1_png,left_png,gun_png,circle2_png,circle1_png,bottom_png,bg_jpg,ball_png,numBg_png,line_png,topLine_png,addIcon_png,hit_mp3,addNum_mp3,fire_mp3,background_mp3,floor_mp3,addIcon2_png,topLine2_png,addNum2_mp3,background2_mp3,fire2_mp3,floor2_mp3,hit2_mp3,startPanel_png,btnStart_png,overPanel_png,btnGuangGao_png,btnRank_png,btnRestart_png,btnScore_png,btnEmpty_png,rect3_png,circle3_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "assets/top2.png",
+			"type": "image",
+			"name": "top2_png"
+		},
+		{
+			"url": "assets/top1.png",
+			"type": "image",
+			"name": "top1_png"
+		},
+		{
+			"url": "assets/right.png",
+			"type": "image",
+			"name": "right_png"
+		},
+		{
+			"url": "assets/rect2.png",
+			"type": "image",
+			"name": "rect2_png"
+		},
+		{
+			"url": "assets/rect1.png",
+			"type": "image",
+			"name": "rect1_png"
+		},
+		{
+			"url": "assets/left.png",
+			"type": "image",
+			"name": "left_png"
+		},
+		{
+			"url": "assets/gun.png",
+			"type": "image",
+			"name": "gun_png"
+		},
+		{
+			"url": "assets/circle2.png",
+			"type": "image",
+			"name": "circle2_png"
+		},
+		{
+			"url": "assets/circle1.png",
+			"type": "image",
+			"name": "circle1_png"
+		},
+		{
+			"url": "assets/bottom.png",
+			"type": "image",
+			"name": "bottom_png"
+		},
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/ball.png",
+			"type": "image",
+			"name": "ball_png"
+		},
+		{
+			"url": "assets/numBg.png",
+			"type": "image",
+			"name": "numBg_png"
+		},
+		{
+			"url": "assets/line.png",
+			"type": "image",
+			"name": "line_png"
+		},
+		{
+			"url": "assets/topLine.png",
+			"type": "image",
+			"name": "topLine_png"
+		},
+		{
+			"url": "assets/addIcon.png",
+			"type": "image",
+			"name": "addIcon_png"
+		},
+		{
+			"url": "music/hit.mp3",
+			"type": "sound",
+			"name": "hit_mp3"
+		},
+		{
+			"url": "music/addNum.mp3",
+			"type": "sound",
+			"name": "addNum_mp3"
+		},
+		{
+			"url": "music/fire.mp3",
+			"type": "sound",
+			"name": "fire_mp3"
+		},
+		{
+			"url": "music/background.mp3",
+			"type": "sound",
+			"name": "background_mp3"
+		},
+		{
+			"url": "music/floor.mp3",
+			"type": "sound",
+			"name": "floor_mp3"
+		},
+		{
+			"url": "assets/addIcon.png",
+			"type": "image",
+			"name": "addIcon2_png"
+		},
+		{
+			"url": "assets/topLine.png",
+			"type": "image",
+			"name": "topLine2_png"
+		},
+		{
+			"url": "music/addNum.mp3",
+			"type": "sound",
+			"name": "addNum2_mp3"
+		},
+		{
+			"url": "music/background.mp3",
+			"type": "sound",
+			"name": "background2_mp3"
+		},
+		{
+			"url": "music/fire.mp3",
+			"type": "sound",
+			"name": "fire2_mp3"
+		},
+		{
+			"url": "music/floor.mp3",
+			"type": "sound",
+			"name": "floor2_mp3"
+		},
+		{
+			"url": "music/hit.mp3",
+			"type": "sound",
+			"name": "hit2_mp3"
+		},
+		{
+			"url": "assets/startPanel.png",
+			"type": "image",
+			"name": "startPanel_png"
+		},
+		{
+			"url": "assets/btnStart.png",
+			"type": "image",
+			"name": "btnStart_png"
+		},
+		{
+			"url": "assets/overPanel.png",
+			"type": "image",
+			"name": "overPanel_png"
+		},
+		{
+			"url": "assets/btnGuangGao.png",
+			"type": "image",
+			"name": "btnGuangGao_png"
+		},
+		{
+			"url": "assets/btnRank.png",
+			"type": "image",
+			"name": "btnRank_png"
+		},
+		{
+			"url": "assets/btnRestart.png",
+			"type": "image",
+			"name": "btnRestart_png"
+		},
+		{
+			"url": "assets/btnScore.png",
+			"type": "image",
+			"name": "btnScore_png"
+		},
+		{
+			"url": "assets/btnEmpty.png",
+			"type": "image",
+			"name": "btnEmpty_png",
+			"scale9grid": "15,18,18,18"
+		},
+		{
+			"name": "rect3_png",
+			"type": "image",
+			"url": "assets/rect3.png"
+		},
+		{
+			"name": "circle3_png",
+			"type": "image",
+			"url": "assets/circle3.png"
+		}
+	]
+}

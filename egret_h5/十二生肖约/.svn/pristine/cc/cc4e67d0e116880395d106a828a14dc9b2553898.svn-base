@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_Pedestal_DialogSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="455" height="280">
+	<w:Config id="15894177051"/>
+	<e:Image source="gs_title_num_bg_png" x="22" y="20"/>
+	<e:Image x="33" y="23" source="assicon_frg_png"/>
+	<e:Label id="diaFraNum" text="0" x="62.33" y="30.66" size="16" fontFamily="SimHei" textColor="0xFFC21F" stroke="2" strokeColor="0x5A462E" scaleX="1" scaleY="1" anchorOffsetX="0" width="62.5" textAlign="right"/>
+	<e:Image source="gem_pedestal_bg_min_png" x="38" y="103"/>
+	<e:Label id="diaLv" text="等级：LV.1" x="48.12" y="211" size="18" fontFamily="黑体" bold="true" textColor="0xFFFFFF" anchorOffsetX="0" width="136" textAlign="center" italic="true" stroke="2" strokeColor="0x675444"/>
+	<e:Label text="攻速提升" y="81" size="18" fontFamily="黑体" bold="true" scaleX="1" scaleY="1" textColor="0xFFFFFF" stroke="2" strokeColor="0x675444" x="287"/>
+	<e:Label id="speedeUp" text="5%" y="122.5" size="23" fontFamily="黑体" bold="true" scaleX="1" scaleY="1" stroke="2" strokeColor="0x675444" x="213" textColor="0xFFD880" anchorOffsetX="0" width="83" textAlign="right"/>
+	<e:Image source="gs_gem_ess_dialog_arrow_png" x="313" y="127"/>
+	<e:Label id="speedUpNext" text="5%" y="122.5" size="23" fontFamily="黑体" bold="true" scaleX="1" scaleY="1" stroke="2" strokeColor="0x675444" x="361" textColor="0x00FF64" anchorOffsetX="0" width="86" textAlign="left"/>
+	<ns1:UI_BaseCostomButton id="costBtn" label="" x="274" y="175" skinName="UI_CustomButtonIconSkin" width="107" height="62"/>
+</e:Skin>

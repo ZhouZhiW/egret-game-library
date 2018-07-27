@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_Main_TabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="480" height="748">
+	<w:Config id="1580a74ada4"/>
+	<e:Image x="0" y="0" width="480" height="180" touchEnabled="true"  source="black_bg_png" locked="true"/>
+	<e:Image touchEnabled="false" y="70" x="0" source="base_tab_bg2_png" scaleX="1" scaleY="1" scale9Grid="34,44,414,549" height="679" locked="true"/>
+	<e:Image y="142"  source="base_tab_bg3_png" scale9Grid="10,10,49,24" anchorOffsetX="0" width="433" anchorOffsetY="0" height="565" horizontalCenter="0" locked="true"/>
+
+
+
+
+
+	<e:Button id="tabCloseBtn" x="423" y="71" locked="true">
+		<e:skinName>
+			<e:Skin states="up,down,disabled">
+				<e:Image width="100%" height="100%" source="base_tab_close_n_png" source.down="base_tab_close_p_png" />
+				<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0" />
+			</e:Skin>
+		</e:skinName>
+	</e:Button>
+	<e:Image id="subTabArea" source="up_item_bg_png" y="148" scaleX="1" scaleY="1" scale9Grid="23,15,34,15" height="552" anchorOffsetX="0" anchorOffsetY="0" x="32" width="418" locked="true"/>
+	<e:ToggleButton id="subBtn1" label="王座" x="34" y="103" skinName="UI_Tab_Title_ToggleBtnSkin" width="112" height="42"/>
+	<e:ToggleButton id="subBtn2" label="神坛" x="139" y="103" skinName="UI_Tab_Title_ToggleBtnSkin" width="112" height="42"/>
+	<e:Button id="titleHelp" label="" x="379" y="93" scaleX="1" scaleY="1">
+		<e:skinName>
+		<e:Skin states="up,down,disabled">
+			<e:Image width="100%" height="100%" source="gs_tab_help_n_png" source.down="gs_tab_help_p_png"/>
+			<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+		</e:skinName>
+	</e:Button>
+
+
+
+</e:Skin>

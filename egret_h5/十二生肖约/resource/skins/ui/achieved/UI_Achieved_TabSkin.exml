@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Achieved_TabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        height="541">
+	<w:Config id="1589590f0a2"/>
+
+
+
+
+
+
+
+	<e:Image source="ac_damage_bg_png"/>
+	<e:Label text="DPS加成：" x="16" y="9" size="20" strokeColor="0x5A462E" stroke="2" fontFamily="黑体" scaleX="1" scaleY="1" textColor="0xffffff"/>
+	<e:Label id="dps" text="60%" x="102" y="10.5" size="18" strokeColor="0x5a462e" stroke="2" fontFamily="微软雅黑" textColor="0xffc21f"/>
+	<ns1:UI_Achieved_List id="acList" width="424" height="495" y="45">
+		<e:Group/>
+	</ns1:UI_Achieved_List>
+</e:Skin>

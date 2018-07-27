@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Backpack_MailDialogSkin" width="330" height="368" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Label id="titleTx" text="薛亮SB啊" y="25" textColor="0xffde00" size="24" fontFamily="黑体" bold="true" stroke="2" strokeColor="0x675444" textAlign="center" horizontalCenter="0"/>
+	<e:Label id="timeTx" text="2017-08-09" y="63" size="18" fontFamily="黑体" strokeColor="0x675444" textAlign="center" textColor="0xfffefa" horizontalCenter="0"/>
+	<e:Label id="contentTx" text="     阿松哈市东方哈ois符号升高i哦ii后哀伤" y="106" anchorOffsetX="0" width="273" anchorOffsetY="0" height="83" size="18" fontFamily="黑体" strokeColor="0x675444" horizontalCenter="0" bold="true" textColor="0x4b1f1f"/>
+	<e:Label id="endTime" text="标签" x="95.5" y="195" size="15" fontFamily="黑体" textColor="0x821515" anchorOffsetX="0" width="196" textAlign="right"/>
+	<e:Image id="line" source="bp_mail_line_png" horizontalCenter="0" y="224"/>
+	<e:Group id="rewardGroup" width="240" height="60" y="236" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="2" horizontalAlign="center" verticalAlign="top" rowAlign="top" columnAlign="justifyUsingGap"/>
+		</e:layout>
+	</e:Group>
+	<e:Group id="gemGroup" width="322" height="65" anchorOffsetX="0" horizontalCenter="0" y="300">
+		<e:layout>
+			<e:HorizontalLayout gap="0" horizontalAlign="center"/>
+		</e:layout>
+	</e:Group>
+	<w:Config id="158dc40479d"/>
+</e:Skin>

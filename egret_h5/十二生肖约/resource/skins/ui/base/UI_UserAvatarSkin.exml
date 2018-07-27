@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_UserAvatarSkin" xmlns:e="http://ns.egret.com/eui" width="64" height="64">
+	<e:Image source="home_title_user_frame_png" scaleX="1" scaleY="1" width="100%" x="0" height="100%" y="0" scale9Grid="10,10,45,44"/>
+	<e:Image id="userAvatar" anchorOffsetX="0" anchorOffsetY="0" scaleX="1" scaleY="1" source="" top="4" left="4" bottom="4" right="4" fillMode="scale"/>
+	<e:Image id="userMask" source="home_title_user_mask_png" top="5" left="5" bottom="5" right="5" scale9Grid="5,5,43,42"/>
+</e:Skin>

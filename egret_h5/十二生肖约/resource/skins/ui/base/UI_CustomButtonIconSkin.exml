@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="UI_CustomButtonIconSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image width="100%" height="100%" scale9Grid="18,14,49,22" source="base_btn_y_n_png" source.up="base_btn_y_n_png"
+             source.down="base_btn_y_p_png" source.disabled="base_btn_d_png" />
+    <e:Label id="btnText" verticalAlign="middle" textAlign="center" horizontalCenter="0" size="12" fontFamily="黑体"
+             stroke="2" strokeColor="0xbe521a" text="" top="10" textColor="0xfffdf9" textColor.up="0xfffdf9"
+             strokeColor.up="0xbe521a" textColor.down="0xfffdf9" strokeColor.down="0xcf9200"
+             strokeColor.disabled="0x555555" />
+    <e:Group horizontalCenter="0" bottom="10">
+        <e:Image id="btnIcon" x="-8" y="5" source="dialog_diamond_png" width="20" height="20" />
+        <e:Label id="btnValue" size="12" verticalAlign="middle" textAlign="center" fontFamily="黑体" stroke="2"
+                 strokeColor="0xbe521a" text="" textColor.up="0xfffdf9" textColor="0xfffdf9" x="12" y="12"
+                 strokeColor.down="0xc19200" strokeColor.disabled="0x555555" />
+        <e:layout>
+            <e:HorizontalLayout gap="8" verticalAlign="middle" />
+        </e:layout>
+    </e:Group>
+</e:Skin>

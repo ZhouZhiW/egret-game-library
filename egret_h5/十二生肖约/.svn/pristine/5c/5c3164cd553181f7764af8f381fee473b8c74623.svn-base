@@ -1,0 +1,85 @@
+var __reflect = (this && this.__reflect) || function (p, c, t) {
+    p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
+};
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var UI_Backpack_Grid = (function (_super) {
+    __extends(UI_Backpack_Grid, _super);
+    function UI_Backpack_Grid() {
+        return _super.call(this) || this;
+    }
+    Object.defineProperty(UI_Backpack_Grid.prototype, "skinPath", {
+        get: function () {
+            return "resource/skins/ui/backpack/UI_Backpack_GridSkin.exml";
+        },
+        enumerable: true,
+        configurable: true
+    });
+    UI_Backpack_Grid.prototype.onCreate = function () {
+        this.gridIcon.addEventListener(egret.TouchEvent.TOUCH_TAP, this.onClickIcon, this);
+    };
+    UI_Backpack_Grid.prototype.onDestroy = function () {
+        this.gridIcon.removeEventListener(egret.TouchEvent.TOUCH_TAP, this.onClickIcon, this);
+    };
+    UI_Backpack_Grid.prototype.onClickIcon = function (e) {
+        if (this.gridType == 0) {
+            var d = new UI_Backpack_MailDialog(this.gridData.mailData.emailId);
+            d.setData(this.gridData.mailData);
+            d.show();
+        }
+        if (this.gridType == 1) {
+            var d = new UI_Backpack_EquipDialog(this.gridData.equipData.clotheId, this.gridData.equipData.btnStatus);
+            d.setData(this.gridData.equipData);
+            d.show();
+        }
+    };
+    // public onChange(id: number, type: number, status: number, path: string) {
+    //     this.gridID = id;
+    //     this.gridType = type;
+    //     this.gridStatus = status;
+    //     this.gridIcon.source = path;
+    // }
+    UI_Backpack_Grid.prototype.setData = function (data) {
+        this.gridData = data;
+        this.gridIcon.source = this.setIcon(data.type);
+        this.gridType = data.type;
+    };
+    UI_Backpack_Grid.prototype.setIcon = function (type) {
+        var path;
+        switch (type) {
+            case 0:
+                if (this.gridData.mailData.state == 0) {
+                    path = "resource/res/itemicon/item_icon_mail_unread.png";
+                }
+                else {
+                    path = "resource/res/itemicon/item_icon_mail_read.png";
+                }
+                break;
+            case 1:
+                if (this.gridData.equipData.level == 10) {
+                    if (this.gridData.equipData.btnStatus == 0) {
+                        path = "resource/res/itemicon/item_icon_equip_nomal_up.png";
+                    }
+                    else {
+                        path = "resource/res/itemicon/item_icon_equip_nomal_down.png";
+                    }
+                }
+                else {
+                    if (this.gridData.equipData.btnStatus == 0) {
+                        path = "resource/res/itemicon/item_icon_equip_luxury_up.png";
+                    }
+                    else {
+                        path = "resource/res/itemicon/item_icon_equip_luxury_down.png";
+                    }
+                }
+                break;
+        }
+        return path;
+    };
+    return UI_Backpack_Grid;
+}(BaseComponent));
+__reflect(UI_Backpack_Grid.prototype, "UI_Backpack_Grid");
+//# sourceMappingURL=UI_Backpack_Grid.js.map

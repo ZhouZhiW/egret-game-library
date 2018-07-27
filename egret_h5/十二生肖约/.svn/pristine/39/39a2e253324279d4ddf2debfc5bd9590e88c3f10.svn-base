@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_GemGroupSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" width="398" height="150">
+	<w:Config id="1582e6a0fe1"/>
+	<e:Image id="gemGroupArrowLeft" source="gs_arr_left_u_png" verticalCenter="0" left="-4"/>
+	<e:Group id="gemGroup" width="350" height="126" anchorOffsetY="0" anchorOffsetX="0" verticalCenter="0" horizontalCenter="0">
+		<ns1:UI_Gem_Gem x="324" y="115" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="334" y="125" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="344" y="135" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="414" y="205" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="424" y="215" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="434" y="225" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="444" y="235" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="454" y="245" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="464" y="255" skinName="UI_Tre_GemSkin"/>
+		<ns1:UI_Gem_Gem x="474" y="265" skinName="UI_Tre_GemSkin"/>
+		<e:layout>
+			<e:TileLayout columnAlign="justifyUsingGap" requestedRowCount="2" requestedColumnCount="5"/>
+		</e:layout>
+	</e:Group>
+	<e:Image id="gemGroupArrowRight" source="gs_arr_right_u_png" verticalCenter="0" right="-4"/>
+</e:Skin>

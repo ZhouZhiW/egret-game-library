@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Gem_TabSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*"
+        width="418" height="552">
+	<w:Config id="1582e7f0e12"/>
+
+	<e:Image source="gs_gem_starBg_png" y="93" scaleX="1" scaleY="1" horizontalCenter="0"/>
+	<e:Label id="groovesLevel" text="" y="172" fontFamily="黑体" size="16" textColor="0xFFFFFF" strokeColor="0x675444" stroke="2" italic="true" scaleX="1" scaleY="1" horizontalCenter="0" bold="true"/>
+
+	<ns1:UI_Gem_GrooveGroup id="gemTabGrooveGroup" y="15" skinName="UI_Gem_GrooveGroupSkin" scaleX="1" scaleY="1" horizontalCenter="0" width="344" height="251"/>
+	<e:Button id="gemEss" label="" y="120" horizontalCenter="0">
+		<e:Skin states="up,down,disabled">
+		<e:Image width="100%" height="100%" source="gs_gem_upBtn_n_png" source.down="gs_gem_upBtn_p_png"/>
+		<e:Label id="labelDisplay" horizontalCenter="0" verticalCenter="0"/>
+		</e:Skin>
+	</e:Button>
+	<e:Image source="gs_title_num_bg_png" x="9" y="10"/>
+	<e:Image x="20" y="11" source="assicon_ess_png"/>
+	<e:Label id="essNums" text="0" x="49.33" y="20.66" size="16" fontFamily="SimHei" textColor="0xFFC21F" stroke="2" strokeColor="0x5A462E" scaleX="1" scaleY="1" anchorOffsetX="0" width="62.5" textAlign="right"/>
+	<e:Image source="up_item_divide_png" y="275" horizontalCenter="0" x="30" scaleX="1" scaleY="1"/>
+
+
+
+
+
+
+
+
+
+
+	<e:Label text="点击伤害：" x="31" y="283" fontFamily="微软雅黑" size="14" bold="true" textColor="0x574236"/>
+	<e:Label text="点击爆率：" x="222" y="283" fontFamily="微软雅黑" size="14" bold="true" textColor="0x574236"/>
+	<e:Label text="英雄秒伤：" x="31" y="302" fontFamily="微软雅黑" size="14" bold="true" textColor="0x574236"/>
+	<e:Label text="暴击伤害：" x="222" y="302" fontFamily="微软雅黑" size="14" bold="true" textColor="0x574236"/>
+	<e:Label text="金币掉落：" x="31" y="321" fontFamily="微软雅黑" size="14" bold="true" textColor="0x574236"/>
+	<e:Label id="gemPlayerAtt" text="88.80%" x="103" y="283" fontFamily="微软雅黑" size="14" bold="true" width="88" textColor="0xBD0000"/>
+	<e:Label id="gemPlayerCri" text="88.80%" x="295" y="283" fontFamily="微软雅黑" size="14" bold="true" width="88" textColor="0xBD0000"/>
+	<e:Label id="gemHerosAtt" text="88.80%" x="103" y="302" fontFamily="微软雅黑" size="14" bold="true" width="88" textColor="0xBD0000"/>
+	<e:Label id="gemPlayerCsd" text="88.80%" x="295" y="302" fontFamily="微软雅黑" size="14" bold="true" width="88" textColor="0xBD0000"/>
+	<e:Label id="gemGold" text="88.80%" x="103" y="321" fontFamily="微软雅黑" size="14" bold="true" width="88" textColor="0xBD0000"/>
+	<e:Image source="gs_gem_tab2Bg_png" y="342" scaleX="1" scaleY="1" anchorOffsetX="0" width="418" anchorOffsetY="0" height="210" horizontalCenter="0" scale9Grid="10,8,26,19"/>
+	<ns1:UI_Gem_GemGroup id="gemTabGemGroup" skinName="UI_Gem_GemGroupSkin" horizontalCenter="0" y="352"/>
+	<e:Button id="gemLottery" label="" skinName="UI_Gem_GetLotteryBtnSkin" y="500" horizontalCenter="0.5"/>
+	<ns1:UI_Gem_TouchGem id="touchGem" visible="false" locked="true"/>
+
+</e:Skin>

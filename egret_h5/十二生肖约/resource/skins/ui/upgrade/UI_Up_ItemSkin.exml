@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Up_ItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image source="up_item_bg_png" scale9Grid="23,18,42,14" height="171" width="415"/>
+	<e:Image id="upItemIcon" x="17" y="12" source=""/>
+	<e:Label id="upItemLevel" text="lv. 555" x="20" y="86" size="14" fontFamily="黑体" width="70" verticalAlign="middle" textAlign="center" textColor="0xfff29e" stroke="2" strokeColor="0x675444" anchorOffsetX="0"/>
+	<e:Label id="upItemName" text="姓名名称" x="97" y="14.99" size="16" stroke="2" strokeColor="0x675444" fontFamily="SimHei" textColor="0xffffff"/>
+	<e:Label id="upItemDPS" x="97" y="43.94" size="15" strokeColor="0xFFFFFF" fontFamily="SimHei" text="秒伤:123Q" verticalAlign="bottom" textColor="0x674236" bold="true"/>
+	<e:Label id="upItemTDPSLable" text="占总DPS:" x="97" y="69.9" size="15" strokeColor="0xFFFFFF" fontFamily="SimHei" verticalAlign="bottom" textColor="0x674236" bold="true"/>
+	<e:Label id="upItemTDPS" x="159.34" y="69.9" size="14" strokeColor="0xFFFFFF" fontFamily="SimHei" text="100.00%" verticalAlign="bottom" textColor="0xff0000" bold="true"/>
+	<e:Image id="upItemSex" source="up_item_sex_b_png" x="97.34" y="63.57" scaleX="1" scaleY="1" visible="false"/>
+	<ns1:UI_Up_ItemUpgradedButton id="upItemUpgradedButton" x="228" y="18" skinName="UI_Up_ItemUpgradedButtonSkin"/>
+	<e:Image source="up_item_divide_png" y="104" horizontalCenter="0" width="360"/>
+	<e:Group id="upItemSkillGroup" width="360" y="110" anchorOffsetX="0" horizontalCenter="0">
+		<e:layout>
+			<e:HorizontalLayout horizontalAlign="justify"/>
+		</e:layout>
+	</e:Group>
+
+</e:Skin>

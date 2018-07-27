@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_CustomSmallButtonSkin" states="up,down,disabled" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing" >
+    <e:Image width="100%" height="100%"
+             source.disabled="base_btn_d_png" scale9Grid="19,15,47,23"  source="base_btn_y_n_png" source.up="base_btn_y_n_png" source.down="base_btn_y_p_png"/>
+    <e:Label id="btnText" verticalAlign="middle" textAlign="center" horizontalCenter="0" size="12" fontFamily="黑体"
+             stroke="2" strokeColor="0xbe521a" text="" top="10" textColor="0xfffdf9" textColor.up="0xfffdf9"
+             strokeColor.up="0xbe521a" textColor.down="0xfffdf9" strokeColor.down="0xcf9200"
+             strokeColor.disabled="0x555555" />
+</e:Skin>

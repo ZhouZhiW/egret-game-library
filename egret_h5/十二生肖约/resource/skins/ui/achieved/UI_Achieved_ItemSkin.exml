@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" class="UI_Achieved_ItemSkin" width="420" height="96">
+	<w:Config id="15895971832"/>
+	<e:Image source="rk_item_bg_png" scaleX="1" scaleY="1"/>
+
+	<e:Label text="奖励：" x="119" y="66" size="12" fontFamily="黑体" strokeColor="0x5f2515" scaleX="1" scaleY="1" textColor="0xef6b00" bold="true"/>
+	<e:Label id="reward" text="全体放假一个星期1%" x="154" y="66" size="12" fontFamily="黑体" strokeColor="0x5f2515" scaleX="1" scaleY="1" textColor="0xef6b00" bold="true"/>
+	<e:Label id="target" text="获得飞燕剑100个" x="95" y="19.5" height="14" size="14" stroke="2" strokeColor="0x675444" fontFamily="黑体" scaleX="1" scaleY="1" textColor="0xffffff"/>
+	<e:Image source="ac_item_progressBg_png" x="94" y="44.5" scaleX="1" scaleY="1" scale9Grid="13,7,8,5" anchorOffsetX="0" width="196.5"/>
+	<e:Image id="progress" x="96.5" y="46" source="ac_item_progress_png" scaleX="1" scaleY="1" anchorOffsetX="0" scale9Grid="9,5,11,4"/>
+	<e:Label id="progressTx" text="223D/250D" x="120" y="46.5" size="14" fontFamily="黑体" stroke="2" strokeColor="0x675444" width="150" textAlign="center" scaleX="1" scaleY="1" textColor="0xffffff"/>
+	<e:Image id="clear" source="ac_item_btn_clear_png" x="303.5" scaleX="1" scaleY="1" verticalCenter="0" y="18"/>
+
+
+
+	<e:Image id="itemPic" x="23.5" source="" scaleX="1" scaleY="1" verticalCenter="0"/>
+	<ns1:UI_BaseCostomButton id="acBtn" label="" x="298" width="105" height="55" skinName="UI_CustomButtonDefaultSkin" verticalCenter="0"/>
+
+</e:Skin>

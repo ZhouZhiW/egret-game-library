@@ -1,0 +1,1 @@
+{"version":3,"file":"UI_Mail_List.js","sourceRoot":"","sources":["../../../src/ui/mail/UI_Mail_List.ts"],"names":[],"mappings":";;;;;;;;AAAA;IAA2B,gCAAQ;IAC/B;eACI,iBAAO;IACX,CAAC;IAEM,8BAAO,GAAd,UAAe,KAA4B;QACvC,iBAAM,OAAO,YAAC,KAAK,CAAC,CAAC;IACzB,CAAC;IAEM,sCAAe,GAAtB;QACI,MAAM,CAAC,YAAY,CAAC;IACxB,CAAC;IACL,mBAAC;AAAD,CAAC,AAZD,CAA2B,QAAQ,GAYlC;AAZK,UAAA,YAAY,2BAYjB,CAAA"}

@@ -1,0 +1,14 @@
+{"file":"game_level_text.png","frames":{
+"b":{"x":0,"y":38,"w":124,"h":39,"offX":7,"offY":4,"sourceW":132,"sourceH":49},
+"r":{"x":0,"y":0,"w":147,"h":36,"offX":5,"offY":5,"sourceW":158,"sourceH":47},
+"9":{"x":126,"y":46,"w":38,"h":45,"offX":1,"offY":5,"sourceW":40,"sourceH":57},
+"8":{"x":190,"y":38,"w":38,"h":45,"offX":0,"offY":5,"sourceW":40,"sourceH":57},
+"7":{"x":119,"y":93,"w":37,"h":43,"offX":3,"offY":6,"sourceW":40,"sourceH":57},
+"6":{"x":80,"y":79,"w":37,"h":45,"offX":1,"offY":4,"sourceW":40,"sourceH":57},
+"5":{"x":0,"y":79,"w":38,"h":44,"offX":0,"offY":5,"sourceW":40,"sourceH":57},
+"4":{"x":149,"y":0,"w":39,"h":44,"offX":0,"offY":5,"sourceW":40,"sourceH":57},
+"3":{"x":206,"y":93,"w":38,"h":45,"offX":0,"offY":4,"sourceW":40,"sourceH":57},
+"2":{"x":40,"y":79,"w":38,"h":44,"offX":1,"offY":5,"sourceW":40,"sourceH":57},
+"1":{"x":119,"y":138,"w":30,"h":44,"offX":2,"offY":5,"sourceW":36,"sourceH":57},
+"0":{"x":166,"y":85,"w":38,"h":45,"offX":0,"offY":4,"sourceW":40,"sourceH":57},
+"!":{"x":230,"y":0,"w":22,"h":49,"offX":5,"offY":0,"sourceW":40,"sourceH":57}}}

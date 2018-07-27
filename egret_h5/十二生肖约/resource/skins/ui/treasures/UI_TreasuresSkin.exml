@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_TreasuresSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image x="0" y="0" width="480" height="800" touchEnabled="false" source="black_bg_png"/>
+	<e:Image id="treasureLight" source="tre_light_bg_png" horizontalCenter="0" verticalCenter="0" anchorOffsetX="273" anchorOffsetY="274" touchEnabled="false"/>
+	<e:Image id="treasureTitle" source="tre_title_png" y="125" horizontalCenter="0" touchEnabled="false"/>
+
+	<e:Label id="treasureInfo" text="2级紫水晶x1" size="16" fontFamily="微软雅黑" strokeColor="0x98412a" stroke="2" touchEnabled="false" horizontalCenter="0" verticalCenter="52"/>
+	<ns1:ImageMaterial id="treasureIcon" width="60" height="60" x="240" y="400" anchorOffsetX="30" anchorOffsetY="30"/>
+</e:Skin>

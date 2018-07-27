@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_FooterSkillPanelSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing" >
+    <e:Group id="skillsGroup" width="100%" height="100%" x="0" y="0">
+			<e:layout>
+				<e:TileLayout requestedRowCount="1" requestedColumnCount="7" rowAlign="top" columnAlign="justifyUsingGap" horizontalGap="0" verticalGap="0"/>
+			</e:layout>
+			<ns1:UI_Home_FooterSkill x="47" y="18" skinName="UI_Home_FooterSkillSkin"/>
+			<ns1:UI_Home_FooterSkill x="57" y="28" skinName="UI_Home_FooterSkillSkin"/>
+			<ns1:UI_Home_FooterSkill x="67" y="38" skinName="UI_Home_FooterSkillSkin"/>
+			<ns1:UI_Home_FooterSkill x="57" y="28" skinName="UI_Home_FooterSkillSkin"/>
+			<ns1:UI_Home_FooterSkill x="67" y="38" skinName="UI_Home_FooterSkillSkin"/>
+			<ns1:UI_Home_FooterSkill x="77" y="48" skinName="UI_Home_FooterSkillSkin"/>
+			<ns1:UI_Home_FooterSkill x="87" y="58" skinName="UI_Home_FooterSkillSkin"/>
+    </e:Group>
+</e:Skin>

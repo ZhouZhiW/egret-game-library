@@ -1,0 +1,11 @@
+{
+    "useClip": false,
+    "maxImageWidth": 2048,
+    "maxImageHeight": 2048,
+    "defaultResPath": "d:\\game\\ZodiacLegend\\resource\\default.res.json",
+    "packGroups": {
+        "preload": true,
+        "mc": false,
+        "game": true
+    }
+}

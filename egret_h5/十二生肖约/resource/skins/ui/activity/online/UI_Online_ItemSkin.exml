@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Online_ItemSkin" width="389" height="120
+" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+    <e:Image source="activity_item_bg_png" x="0" scale9Grid="11,10,20,15" width="389" height="100" verticalCenter="0" />
+    <e:Image id="onlineIcon" source="Daily_Item_Icon_png" x="18" verticalCenter="0" />
+    <e:Label id="caption" text="标签" x="94" y="25" size="16" fontFamily="黑体" textColor="0xffe700" strokeColor="0x5f3b02"
+             stroke="2" />
+    <ns1:UI_Activity_BaseCostomButton id="itemBtn" label="" x="266" skinName="UI_Activity_BaseCostomButtonSkin"
+                                      width="107" height="46" verticalCenter="0" />
+
+<e:Group id="rewardsGroup" width="166" height="52" x="87" y="47" anchorOffsetX="0">
+		<e:layout>
+			<e:TileLayout requestedRowCount="2" requestedColumnCount="2" columnAlign="left" rowAlign="top"/>
+		</e:layout>
+	</e:Group>
+    	<e:Label id="timeTx" text="" x="280" y="59" fontFamily="黑体" size="21" textColor="0xffeb68" stroke="2" strokeColor="0x853225" verticalCenter="0"  bold="true"/>
+</e:Skin>

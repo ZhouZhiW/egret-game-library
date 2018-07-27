@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_TitleProgressBarSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="155a00f2431"/>
+	<e:Image id="homeTitleProgressClock" source="home_title_progress_clock_png" x="1.1" y="5.1"/>
+	<e:Image source="home_title_progress_bg_png" x="24.8" y="2"/>
+	<e:Image id="homeTitleProgressHP" source="home_title_progress_hp_png" x="26.8" y="4" scale9Grid="3,1,10,8" width="198"/>
+	<e:Image id="homeTitleProgressTimeBg" source="home_title_progress_lock_png" x="24.8" y="23" scaleX="1" scaleY="1"/>
+	<e:Image id="homeTitleProgressTime" source="home_title_progress_time_png" x="26.8" y="24" scale9Grid="2,0,8,5" width="198"/>
+
+
+
+
+
+
+
+
+
+	<e:Label id="homeTitleProgressLevel" text="" y="3" size="12" fontFamily="黑体" verticalAlign="middle" textAlign="left" strokeColor="0x533f35" stroke="1" width="64" right="130"/>
+	<e:Label id="homeTitleProgressHPTx" text="" y="3" size="12" fontFamily="黑体" verticalAlign="middle" textAlign="right" strokeColor="0x533f35" stroke="1" width="74" x="146.4" anchorOffsetX="0"/>
+	<e:Label id="homeTitleProgressTimeTx" text="" x="117.8" y="21" size="10" fontFamily="黑体" verticalAlign="middle" strokeColor="0x533f35" stroke="1" textColor="0xffffff"/>
+
+
+</e:Skin>

@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Tre_GemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="gemIcon" x="0" y="0" source="item_icon_gem_null_png"/>
+
+	<e:Label id="gemNum" right="8" bottom="8" textColor="0xFFFFFF" size="12" stroke="2" strokeColor="0x111111"/>
+</e:Skin>

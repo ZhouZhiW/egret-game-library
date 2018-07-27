@@ -1,0 +1,40 @@
+var __reflect = (this && this.__reflect) || function (p, c, t) {
+    p.__class__ = c, t ? t.push(c) : t = [c], p.__types__ = p.__types__ ? t.concat(p.__types__) : t;
+};
+var __extends = (this && this.__extends) || function (d, b) {
+    for (var p in b) if (b.hasOwnProperty(p)) d[p] = b[p];
+    function __() { this.constructor = d; }
+    d.prototype = b === null ? Object.create(b) : (__.prototype = b.prototype, new __());
+};
+var SubscriptMaterial = (function (_super) {
+    __extends(SubscriptMaterial, _super);
+    function SubscriptMaterial(data) {
+        if (data === void 0) { data = null; }
+        var _this = _super.call(this) || this;
+        _this.width = 60;
+        _this.height = 60;
+        _this.setMaterialData(data);
+        return _this;
+    }
+    SubscriptMaterial.prototype.setMaterialData = function (data) {
+        if (data == null) {
+            return;
+        }
+        this.imageMaterial.setMaterialData(data);
+        this.count.text = "x" + EasyNumber.easyNum(data.counts);
+        this.count.visible = data.counts > 1;
+    };
+    SubscriptMaterial.prototype.getMaterialData = function () {
+        return this.imageMaterial.getMaterialData();
+    };
+    Object.defineProperty(SubscriptMaterial.prototype, "skinPath", {
+        get: function () {
+            return "resource/skins/ui/material/SubscriptMaterialSkin.exml";
+        },
+        enumerable: true,
+        configurable: true
+    });
+    return SubscriptMaterial;
+}(BaseComponent));
+__reflect(SubscriptMaterial.prototype, "SubscriptMaterial");
+//# sourceMappingURL=SubscriptMaterial.js.map

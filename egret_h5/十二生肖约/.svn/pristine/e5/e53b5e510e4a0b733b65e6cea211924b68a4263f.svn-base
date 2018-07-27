@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<e:Skin class="UI_Gem_GrooveLockDialogBtnLockSkin" states="up,down"   xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+    <e:Image width="100%" height="100%"                             scale9Grid="25,20,35,5" scale9Grid.up="25,20,35,5" source="up_item_b_n_png" source.down="up_item_b_p_png" source.up="up_item_b_n_png"/>
+    <e:Label
+             size="22"
+             verticalAlign="middle" textAlign="center" fontFamily.up="黑体" size.up="22" stroke.up="2" strokeColor.up="0xbe521a" fontFamily="黑体" stroke="2" strokeColor="0xbe521a" text.up="立即解锁" text.down="立即解锁" size.down="22" text="立即解锁" top="10" top.up="10" x.up="24" x.down="24" textColor="0xfffdf9" horizontalCenter="0" textColor.up="0xfffdf9" textColor.down="0xfffdf9" strokeColor.down="0xcf9200"/>
+	<e:Label id="labelDisplay" size="14" verticalAlign="middle" textAlign="center" fontFamily="黑体" stroke="2" strokeColor="0xbe521a" text="2000" width="61" textColor.up="0xfffdf9" textColor="0xfffdf9" x="47" y="41" strokeColor.down="0xc19200"/>
+	<e:Image source="rk_item_diamond_png" x="27" y="39"/>
+</e:Skin>

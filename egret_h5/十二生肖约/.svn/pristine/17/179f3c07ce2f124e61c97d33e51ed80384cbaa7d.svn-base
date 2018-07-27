@@ -1,0 +1,10 @@
+{
+  "global": {
+    "globalAdsorbEnable": true,
+    "globalAutoLayerMarkEnable": false,
+    "globalRulerEnable": true
+  },
+  "157e1960a43": {
+    "guideLinesEnabled": false
+  }
+}

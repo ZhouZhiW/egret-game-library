@@ -1,0 +1,1 @@
+{"version":3,"file":"DataEvent.js","sourceRoot":"","sources":["../../../src/data/Base/DataEvent.ts"],"names":[],"mappings":";;;AAAA;IACI,mBAAY,MAAc,EAAE,IAAY,EAAE,IAAS;QAC/C,IAAI,CAAC,MAAM,GAAG,MAAM,CAAC;QACrB,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;QACjB,IAAI,CAAC,IAAI,GAAG,IAAI,CAAC;IACrB,CAAC;IAIL,gBAAC;AAAD,CAAC,AATD,IASC;AATK,UAAA,SAAS,wBASd,CAAA"}

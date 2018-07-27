@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Mail_ItemSkin" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" xmlns:ns1="*" width="415" height="91">
+	<e:Image source="mail_item_bg_png"/>
+	<e:Image id="maiIcon" x="28" verticalCenter="0" source=""/>
+	<e:Label id="mailDescribe" text="大爷你大爷你二大爷你三大爷" x="108" fontFamily="黑体" size="15" textColor="0x5f2a03" bold="true" anchorOffsetX="0" width="176.5" verticalCenter="0.5" textAlign="left"/>
+	<ns1:UI_BaseCostomButton id="buyBtn" label="" x="298" skinName="UI_CustomButtonIconSkin" width="85" height="53" verticalCenter="0"/>
+</e:Skin>

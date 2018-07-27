@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UI_Home_FooterSkillSkin" xmlns:e="http://ns.egret.com/eui"
+        xmlns:w="http://ns.egret.com/wing">
+    <e:Image id="skillIcon" horizontalCenter="0" verticalCenter="0"  source="player_skill_icon_spes_png"/>
+    <e:Image id="skillMask" horizontalCenter="0" verticalCenter="0"  source="skill_mask_png"/>
+    <e:Label id="skillTime" text="" fontFamily="微软雅黑" size="14" textColor="0x2ca117" stroke="1"
+             strokeColor="0xffffff" horizontalCenter="0" verticalCenter="0" />
+    <e:Image id="skillLock" horizontalCenter="0" verticalCenter="0"
+              source="skill_lock_png"/>
+</e:Skin>
