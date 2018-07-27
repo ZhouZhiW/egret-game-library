@@ -1,0 +1,8 @@
+{"file":"loadimg.png","frames":{
+"netloading":{"x":333,"y":1,"w":76,"h":76,"offX":2,"offY":2,"sourceW":80,"sourceH":80},
+"zhengban":{"x":1,"y":201,"w":430,"h":26,"offX":3,"offY":0,"sourceW":436,"sourceH":26},
+"jiankang1":{"x":132,"y":97,"w":256,"h":50,"offX":0,"offY":0,"sourceW":256,"sourceH":50},
+"jiankang2":{"x":132,"y":149,"w":256,"h":50,"offX":0,"offY":0,"sourceW":256,"sourceH":50},
+"loading":{"x":132,"y":1,"w":199,"h":94,"offX":0,"offY":0,"sourceW":200,"sourceH":200},
+"loading2":{"x":1,"y":1,"w":129,"h":148,"offX":46,"offY":27,"sourceW":200,"sourceH":200},
+"loading3":{"x":1,"y":229,"w":157,"h":36,"offX":2,"offY":0,"sourceW":160,"sourceH":36}}}

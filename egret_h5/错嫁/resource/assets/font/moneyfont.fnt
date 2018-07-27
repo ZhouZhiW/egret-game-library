@@ -1,0 +1,12 @@
+{"file":"moneyfont.png","frames":{
+"0":{"x":20,"y":26,"w":17,"h":23,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"1":{"x":1,"y":76,"w":12,"h":23,"offX":1,"offY":3,"sourceW":14,"sourceH":28},
+"2":{"x":1,"y":1,"w":17,"h":23,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"3":{"x":19,"y":51,"w":16,"h":23,"offX":1,"offY":3,"sourceW":17,"sourceH":28},
+"4":{"x":1,"y":51,"w":16,"h":23,"offX":1,"offY":3,"sourceW":17,"sourceH":28},
+"5":{"x":39,"y":26,"w":17,"h":23,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"6":{"x":39,"y":1,"w":17,"h":23,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"7":{"x":37,"y":51,"w":16,"h":23,"offX":1,"offY":3,"sourceW":17,"sourceH":28},
+"8":{"x":20,"y":1,"w":17,"h":23,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"9":{"x":1,"y":26,"w":17,"h":23,"offX":0,"offY":3,"sourceW":17,"sourceH":28},
+"c":{"x":15,"y":76,"w":14,"h":18,"offX":2,"offY":7,"sourceW":17,"sourceH":28}}}

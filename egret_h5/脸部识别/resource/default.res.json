@@ -1,0 +1,140 @@
+{
+	"groups": [
+		{
+			"keys": "pics_json,cover-bottom_png,bg_jpg,newnum_fnt,sms_json,kuang_png,erweima_png,ssfont_fnt,ssfont_png,meilian_png,error_png,bg2_jpg,error2_png,cover-bottom2_png,erweima2_png,kuang2_png,meilian2_png,newnum2_fnt,newnum_png,pics2_json,pics_png,sms2_json,sms_png,ssfont2_fnt,ssfont2_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "pics.json",
+			"type": "sheet",
+			"name": "pics_json",
+			"subkeys": "bar,button,cover-top,loading,loadingui,man,newlogo,tishi,woman,xin"
+		},
+		{
+			"url": "cover-bottom.png",
+			"type": "image",
+			"name": "cover-bottom_png"
+		},
+		{
+			"url": "bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "newnum.fnt",
+			"type": "font",
+			"name": "newnum_fnt"
+		},
+		{
+			"url": "sms.json",
+			"type": "sheet",
+			"name": "sms_json",
+			"subkeys": "s0,s1,s2,s3,s4,s5,s6,s7,s8,s9"
+		},
+		{
+			"url": "kuang.png",
+			"type": "image",
+			"name": "kuang_png",
+			"scale9grid": "27,17,42,39"
+		},
+		{
+			"url": "erweima.png",
+			"type": "image",
+			"name": "erweima_png"
+		},
+		{
+			"url": "ssfont.fnt",
+			"type": "font",
+			"name": "ssfont_fnt"
+		},
+		{
+			"url": "ssfont.png",
+			"type": "image",
+			"name": "ssfont_png"
+		},
+		{
+			"url": "meilian.png",
+			"type": "image",
+			"name": "meilian_png"
+		},
+		{
+			"url": "error.png",
+			"type": "image",
+			"name": "error_png"
+		},
+		{
+			"name": "bg2_jpg",
+			"type": "image",
+			"url": "bg.jpg"
+		},
+		{
+			"name": "error2_png",
+			"type": "image",
+			"url": "error.png"
+		},
+		{
+			"name": "cover-bottom2_png",
+			"type": "image",
+			"url": "cover-bottom.png"
+		},
+		{
+			"name": "erweima2_png",
+			"type": "image",
+			"url": "erweima.png"
+		},
+		{
+			"name": "kuang2_png",
+			"type": "image",
+			"url": "kuang.png"
+		},
+		{
+			"name": "meilian2_png",
+			"type": "image",
+			"url": "meilian.png"
+		},
+		{
+			"name": "newnum2_fnt",
+			"type": "font",
+			"url": "newnum.fnt"
+		},
+		{
+			"name": "newnum_png",
+			"type": "image",
+			"url": "newnum.png"
+		},
+		{
+			"name": "pics2_json",
+			"type": "sheet",
+			"url": "pics.json",
+			"subkeys": "button,loading,loadingui,man,tishi,woman,xin,bar,cover-top,newlogo"
+		},
+		{
+			"name": "pics_png",
+			"type": "image",
+			"url": "pics.png"
+		},
+		{
+			"name": "sms2_json",
+			"type": "sheet",
+			"url": "sms.json",
+			"subkeys": "s0,s1,s2,s3,s4,s5,s6,s7,s8,s9"
+		},
+		{
+			"name": "sms_png",
+			"type": "image",
+			"url": "sms.png"
+		},
+		{
+			"name": "ssfont2_fnt",
+			"type": "font",
+			"url": "ssfont.fnt"
+		},
+		{
+			"name": "ssfont2_png",
+			"type": "image",
+			"url": "ssfont.png"
+		}
+	]
+}

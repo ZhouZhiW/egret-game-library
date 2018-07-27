@@ -1,0 +1,12 @@
+{"file":"paihangimg.png","frames":{
+"paihangkuang1":{"x":1,"y":91,"w":509,"h":88,"offX":1,"offY":1,"sourceW":510,"sourceH":90},
+"top_0":{"x":297,"y":315,"w":90,"h":58,"offX":0,"offY":0,"sourceW":90,"sourceH":58},
+"top_1":{"x":389,"y":315,"w":77,"h":58,"offX":7,"offY":0,"sourceW":90,"sourceH":58},
+"top_2":{"x":1,"y":316,"w":65,"h":53,"offX":12,"offY":0,"sourceW":90,"sourceH":58},
+"paihangbtn_0":{"x":329,"y":181,"w":162,"h":66,"offX":2,"offY":2,"sourceW":166,"sourceH":68},
+"paihangbtn_1":{"x":149,"y":250,"w":146,"h":64,"offX":10,"offY":4,"sourceW":166,"sourceH":68},
+"paihangbtn_2":{"x":165,"y":181,"w":162,"h":67,"offX":2,"offY":1,"sourceW":166,"sourceH":68},
+"paihangbtn_3":{"x":1,"y":250,"w":146,"h":64,"offX":10,"offY":4,"sourceW":166,"sourceH":68},
+"paihangbtn_4":{"x":1,"y":181,"w":162,"h":67,"offX":2,"offY":1,"sourceW":166,"sourceH":68},
+"paihangbtn_5":{"x":329,"y":249,"w":146,"h":64,"offX":10,"offY":4,"sourceW":166,"sourceH":68},
+"paihangkuang":{"x":1,"y":1,"w":509,"h":88,"offX":1,"offY":1,"sourceW":510,"sourceH":90}}}

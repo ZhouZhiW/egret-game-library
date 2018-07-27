@@ -1,0 +1,29 @@
+{
+  "engineVersion": "5.2.2",
+  "compilerVersion": "5.2.2",
+  "template": {},
+  "target": {
+    "current": "web"
+  },
+  "modules": [
+    {
+      "name": "egret"
+    },
+    {
+      "name": "game"
+    },
+    {
+      "name": "tween"
+    },
+    {
+       "name": "res"
+    },
+    {
+      "name": "promise"
+    },
+    {
+			"name": "hlmyzip",
+			"path": "D:\\libsprojects\\hlmyzip"
+		}
+  ]
+}

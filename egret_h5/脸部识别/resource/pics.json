@@ -1,0 +1,11 @@
+{"file":"pics.png","frames":{
+"button":{"x":0,"y":368,"w":897,"h":127,"offX":0,"offY":0,"sourceW":897,"sourceH":127},
+"loading":{"x":893,"y":107,"w":118,"h":38,"offX":0,"offY":0,"sourceW":118,"sourceH":38},
+"loadingui":{"x":893,"y":0,"w":124,"h":105,"offX":0,"offY":0,"sourceW":124,"sourceH":105},
+"man":{"x":930,"y":147,"w":33,"h":54,"offX":0,"offY":0,"sourceW":33,"sourceH":54},
+"tishi":{"x":0,"y":671,"w":585,"h":40,"offX":0,"offY":0,"sourceW":585,"sourceH":40},
+"woman":{"x":893,"y":147,"w":35,"h":53,"offX":0,"offY":0,"sourceW":35,"sourceH":53},
+"xin":{"x":420,"y":497,"w":200,"h":172,"offX":0,"offY":0,"sourceW":200,"sourceH":172},
+"bar":{"x":622,"y":497,"w":138,"h":158,"offX":0,"offY":0,"sourceW":138,"sourceH":158},
+"cover-top":{"x":0,"y":0,"w":891,"h":366,"offX":0,"offY":0,"sourceW":891,"sourceH":366},
+"newlogo":{"x":0,"y":497,"w":418,"h":147,"offX":0,"offY":0,"sourceW":418,"sourceH":147}}}

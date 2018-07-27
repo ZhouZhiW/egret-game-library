@@ -1,0 +1,12 @@
+{"file":"miansinum.png","frames":{
+"4":{"x":82,"y":1,"w":23,"h":29,"offX":1,"offY":1,"sourceW":24,"sourceH":32},
+"5":{"x":56,"y":1,"w":24,"h":28,"offX":0,"offY":2,"sourceW":24,"sourceH":32},
+"6":{"x":81,"y":32,"w":22,"h":28,"offX":1,"offY":2,"sourceW":24,"sourceH":32},
+"7":{"x":105,"y":32,"w":21,"h":28,"offX":1,"offY":2,"sourceW":23,"sourceH":32},
+"8":{"x":1,"y":31,"w":23,"h":28,"offX":0,"offY":2,"sourceW":24,"sourceH":32},
+"9":{"x":26,"y":32,"w":22,"h":28,"offX":1,"offY":2,"sourceW":24,"sourceH":32},
+"+":{"x":1,"y":61,"w":23,"h":23,"offX":0,"offY":8,"sourceW":24,"sourceH":32},
+"0":{"x":1,"y":1,"w":27,"h":28,"offX":0,"offY":2,"sourceW":27,"sourceH":32},
+"1":{"x":107,"y":1,"w":12,"h":29,"offX":1,"offY":1,"sourceW":14,"sourceH":32},
+"2":{"x":30,"y":1,"w":24,"h":29,"offX":1,"offY":2,"sourceW":25,"sourceH":32},
+"3":{"x":56,"y":31,"w":23,"h":28,"offX":1,"offY":2,"sourceW":25,"sourceH":32}}}

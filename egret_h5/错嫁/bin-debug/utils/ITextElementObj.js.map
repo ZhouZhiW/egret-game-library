@@ -1,0 +1,1 @@
+{"version":3,"file":"ITextElementObj.js","sourceRoot":"","sources":["../../src/utils/ITextElementObj.ts"],"names":[],"mappings":";;;AAAA;;;;GAIG;AACH;IAGI,yBAAmB,GAAW,EAAE,UAAkB;QAC9C,IAAI,CAAC,IAAI,GAAG,GAAG,CAAC;QAChB,IAAI,CAAC,KAAK,GAAG,IAAI,aAAa,CAAC,UAAU,CAAC,CAAC;IAC/C,CAAC;IACL,sBAAC;AAAD,CAAC,AAPD,IAOC;AAPK,UAAA,eAAe,8BAOpB,CAAA"}

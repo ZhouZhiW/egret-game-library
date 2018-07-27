@@ -1,0 +1,12 @@
+{"file":"/ssfont.png","frames":{
+"0":{"x":33,"y":0,"w":29,"h":44,"offX":2,"offY":2,"sourceW":35,"sourceH":49},
+"1":{"x":82,"y":91,"w":15,"h":42,"offX":6,"offY":3,"sourceW":35,"sourceH":49},
+"2":{"x":0,"y":90,"w":27,"h":43,"offX":3,"offY":2,"sourceW":35,"sourceH":49},
+"3":{"x":31,"y":46,"w":27,"h":44,"offX":2,"offY":2,"sourceW":35,"sourceH":49},
+"4":{"x":0,"y":0,"w":31,"h":42,"offX":1,"offY":3,"sourceW":35,"sourceH":49},
+"5":{"x":90,"y":46,"w":27,"h":43,"offX":2,"offY":3,"sourceW":35,"sourceH":49},
+"6":{"x":0,"y":44,"w":29,"h":44,"offX":2,"offY":2,"sourceW":35,"sourceH":49},
+"7":{"x":60,"y":46,"w":28,"h":42,"offX":3,"offY":3,"sourceW":35,"sourceH":49},
+"8":{"x":95,"y":0,"w":29,"h":44,"offX":2,"offY":2,"sourceW":35,"sourceH":49},
+"9":{"x":64,"y":0,"w":29,"h":44,"offX":2,"offY":2,"sourceW":35,"sourceH":49},
+"%":{"x":60,"y":90,"w":20,"h":42,"offX":0,"offY":0,"sourceW":20,"sourceH":42}}}
