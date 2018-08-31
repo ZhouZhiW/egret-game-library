@@ -1,0 +1,31 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/res/res.js",
+		"libs/modules/experimental/experimental.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/socket/socket.js",
+		"promise/promise.js"
+	],
+	"game": [
+		"bin-debug/munu.js",
+		"bin-debug/CoolingQueueMcForCircle.js",
+		"bin-debug/data.js",
+		"bin-debug/game.js",
+		"bin-debug/gameOver.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/map.js",
+		"bin-debug/Daoju.js",
+		"bin-debug/overAndMunu.js",
+		"bin-debug/rect.js",
+		"bin-debug/RectBool.js",
+		"bin-debug/rectGroup.js",
+		"bin-debug/rotationPanel.js",
+		"bin-debug/start.js",
+		"bin-debug/timerPanel.js"
+	]
+}

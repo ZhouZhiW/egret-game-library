@@ -1,0 +1,245 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,achievement_png,again_png,bar_empty_png,bar_fill_png,bar_leaf_png,bg2_jpg,bg_cover_png,button_01_png,button_jdms_png,continue_png,display_01_png,gameover_png,gift_png,glow_01_png,glow_02_png,glow_03_png,home_png,nextlevel_png,number_bg_png,refresh_png,selectpoint_bg_png,transform_png,transform_bg_png,white_bg_png,geizi_png,c1_png,c4_png,c2_png,c3_png,c6_png,c5_png,geizibg_png,test_json,test_png,share_png,more_png,sound_del2_mp3,sound_set2_mp3,sun_json,sun_png,rainbow_ef_json,rainbow_ef_png,rank_arrow_png,rank_arrow_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "bg_jpg",
+			"type": "image",
+			"url": "assets/bg.jpg"
+		},
+		{
+			"name": "egret_icon_png",
+			"type": "image",
+			"url": "assets/egret_icon.png"
+		},
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "achievement_png",
+			"type": "image",
+			"url": "img/achievement.png"
+		},
+		{
+			"name": "again_png",
+			"type": "image",
+			"url": "img/again.png"
+		},
+		{
+			"name": "bar_empty_png",
+			"type": "image",
+			"url": "img/bar_empty.png"
+		},
+		{
+			"name": "bar_fill_png",
+			"type": "image",
+			"url": "img/bar_fill.png"
+		},
+		{
+			"name": "bar_leaf_png",
+			"type": "image",
+			"url": "img/bar_leaf.png"
+		},
+		{
+			"name": "bg2_jpg",
+			"type": "image",
+			"url": "img/bg.jpg"
+		},
+		{
+			"name": "bg_cover_png",
+			"type": "image",
+			"url": "img/bg_cover.png"
+		},
+		{
+			"name": "button_01_png",
+			"type": "image",
+			"url": "img/button_01.png"
+		},
+		{
+			"name": "button_jdms_png",
+			"type": "image",
+			"url": "img/button_jdms.png"
+		},
+		{
+			"name": "continue_png",
+			"type": "image",
+			"url": "img/continue.png"
+		},
+		{
+			"name": "display_01_png",
+			"type": "image",
+			"url": "img/display_01.png"
+		},
+		{
+			"name": "gameover_png",
+			"type": "image",
+			"url": "img/gameover.png"
+		},
+		{
+			"name": "gift_png",
+			"type": "image",
+			"url": "img/gift.png"
+		},
+		{
+			"name": "glow_01_png",
+			"type": "image",
+			"url": "img/glow_01.png"
+		},
+		{
+			"name": "glow_02_png",
+			"type": "image",
+			"url": "img/glow_02.png"
+		},
+		{
+			"name": "glow_03_png",
+			"type": "image",
+			"url": "img/glow_03.png"
+		},
+		{
+			"name": "home_png",
+			"type": "image",
+			"url": "img/home.png"
+		},
+		{
+			"name": "nextlevel_png",
+			"type": "image",
+			"url": "img/nextlevel.png"
+		},
+		{
+			"name": "number_bg_png",
+			"type": "image",
+			"url": "img/number_bg.png"
+		},
+		{
+			"name": "refresh_png",
+			"type": "image",
+			"url": "img/refresh.png"
+		},
+		{
+			"name": "selectpoint_bg_png",
+			"type": "image",
+			"url": "img/selectpoint_bg.png"
+		},
+		{
+			"name": "transform_png",
+			"type": "image",
+			"url": "img/transform.png"
+		},
+		{
+			"name": "transform_bg_png",
+			"type": "image",
+			"url": "img/transform_bg.png"
+		},
+		{
+			"name": "white_bg_png",
+			"type": "image",
+			"url": "img/white_bg.png"
+		},
+		{
+			"name": "geizi_png",
+			"type": "image",
+			"url": "img/geizi.png"
+		},
+		{
+			"name": "c1_png",
+			"type": "image",
+			"url": "img/c1.png"
+		},
+		{
+			"name": "c4_png",
+			"type": "image",
+			"url": "img/c4.png"
+		},
+		{
+			"name": "c2_png",
+			"type": "image",
+			"url": "img/c2.png"
+		},
+		{
+			"name": "c3_png",
+			"type": "image",
+			"url": "img/c3.png"
+		},
+		{
+			"name": "c6_png",
+			"type": "image",
+			"url": "img/c6.png"
+		},
+		{
+			"name": "c5_png",
+			"type": "image",
+			"url": "img/c5.png"
+		},
+		{
+			"name": "geizibg_png",
+			"type": "image",
+			"url": "img/geizibg.png"
+		},
+		{
+			"name": "test_json",
+			"type": "json",
+			"url": "act/test.json"
+		},
+		{
+			"name": "test_png",
+			"type": "image",
+			"url": "act/test.png"
+		},
+		{
+			"name": "share_png",
+			"type": "image",
+			"url": "img/share.png"
+		},
+		{
+			"name": "more_png",
+			"type": "image",
+			"url": "img/more.png"
+		},
+		{
+			"name": "sound_del2_mp3",
+			"type": "sound",
+			"url": "video/sound_del2.mp3"
+		},
+		{
+			"name": "sound_set2_mp3",
+			"type": "sound",
+			"url": "video/sound_set2.mp3"
+		},
+		{
+			"name": "sun_json",
+			"type": "json",
+			"url": "act/sun.json"
+		},
+		{
+			"name": "sun_png",
+			"type": "image",
+			"url": "act/sun.png"
+		},
+		{
+			"name": "rainbow_ef_json",
+			"type": "json",
+			"url": "img/rainbow_ef.json"
+		},
+		{
+			"name": "rainbow_ef_png",
+			"type": "image",
+			"url": "img/rainbow_ef.png"
+		},
+		{
+			"name": "rank_arrow_png",
+			"type": "image",
+			"url": "rank_arrow.png"
+		},
+		{
+			"name": "rank_arrow_json",
+			"type": "json",
+			"url": "rank_arrow.json"
+		}
+	]
+}
