@@ -1,2 +1,0 @@
-﻿文件下载网址  =>  文件保存路径
-http://uploads-admin.cdn.woquhudong.cn/##img##  =>  C:\Users\Administrator.EIT-20160809JTR\Desktop\www.weceshi.com\picture\5bf6243cd2094901ad30ec81a7511488.gif
