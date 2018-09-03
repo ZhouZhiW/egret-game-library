@@ -1,0 +1,41 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/assetsmanager/assetsmanager.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/game/game.js",
+		"libs/modules/promise/promise.js",
+		"libs/modules/md5/md5.js"
+	],
+	"game": [
+		"bin-debug/game/GameObject.js",
+		"bin-debug/game/StateMachine.js",
+		"bin-debug/Main.js",
+		"bin-debug/Platform.js",
+		"bin-debug/ThemeAdapter.js",
+		"bin-debug/constant/Configs.js",
+		"bin-debug/constant/Const.js",
+		"bin-debug/constant/GameState.js",
+		"bin-debug/constant/PlayerInfo.js",
+		"bin-debug/AssetAdapter.js",
+		"bin-debug/game/GameScene.js",
+		"bin-debug/game/ObjectPool.js",
+		"bin-debug/game/State.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/manager/GameManager.js",
+		"bin-debug/model/BulletObject.js",
+		"bin-debug/model/FloorObject.js",
+		"bin-debug/model/GoldObject.js",
+		"bin-debug/model/GroundObject.js",
+		"bin-debug/model/HeroObject.js",
+		"bin-debug/net/HttpClient.js",
+		"bin-debug/net/NetClient.js",
+		"bin-debug/utils/BlockUtils.js",
+		"bin-debug/utils/GameUtils.js",
+		"bin-debug/utils/MD5Utils.js",
+		"bin-debug/view/Background.js",
+		"bin-debug/view/GameView.js"
+	]
+}

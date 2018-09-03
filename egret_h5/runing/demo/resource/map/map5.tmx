@@ -1,0 +1,256 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map version="1.0" orientation="orthogonal" renderorder="right-down" width="1" height="1" tilewidth="20000" tileheight="640" nextobjectid="339">
+ <tileset firstgid="1" name="1" tilewidth="2880" tileheight="640">
+  <image source="1.png" width="2880" height="640"/>
+ </tileset>
+ <objectgroup name="bg">
+  <object id="16" gid="1" x="0" y="640" width="20000" height="640"/>
+ </objectgroup>
+ <objectgroup color="#0000ff" name="groundLayer">
+  <properties>
+   <property name="background" value="0x515151"/>
+   <property name="behind" value="1"/>
+   <property name="front" value="5"/>
+   <property name="middle" value="1"/>
+   <property name="moon" value="true"/>
+  </properties>
+  <object id="6" type="地" x="1240" y="200" width="576.606" height="59"/>
+  <object id="8" type="地" x="1171.33" y="420" width="926.667" height="64"/>
+  <object id="17" type="地" x="0" y="411" width="610" height="157"/>
+  <object id="24" type="地" x="3409.33" y="242.667" width="61" height="61"/>
+  <object id="74" type="地" x="5419.33" y="368" width="816.667" height="192"/>
+  <object id="75" type="地" x="5569.7" y="-3" width="538.303" height="253.667"/>
+  <object id="92" type="地" x="6569.33" y="364.576" width="680.667" height="183.424"/>
+  <object id="94" type="地" x="10227.8" y="321.636" width="61" height="61"/>
+  <object id="104" type="地" x="12161.6" y="-21" width="590.424" height="253.667"/>
+  <object id="105" type="地" x="10021.9" y="218.606" width="61" height="61"/>
+  <object id="107" type="地" x="10642.5" y="356.242" width="61" height="61"/>
+  <object id="109" type="地" x="7340.33" y="300.666" width="61" height="61"/>
+  <object id="110" type="地" x="12059.3" y="368" width="816.667" height="192"/>
+  <object id="116" type="地" x="10423.8" y="239.758" width="61" height="61"/>
+  <object id="122" type="地" x="14495.3" y="328" width="816.667" height="192"/>
+  <object id="130" type="地" x="16672.3" y="182.333" width="61" height="61"/>
+  <object id="131" type="地" x="14590.6" y="-43" width="620.364" height="253.667"/>
+  <object id="133" type="地" x="13233.3" y="379" width="704.667" height="157"/>
+  <object id="146" type="地" x="16875.8" y="301" width="166.428" height="61"/>
+  <object id="148" type="地" x="17345.5" y="313.939" width="154.545" height="61"/>
+  <object id="150" type="地" x="14042.3" y="281.666" width="61" height="61"/>
+  <object id="151" type="地" x="18744.3" y="378.425" width="1860.67" height="192"/>
+  <object id="157" type="地" x="17163.3" y="174.939" width="61" height="61"/>
+  <object id="164" type="地" x="1934.33" y="176.333" width="61" height="61"/>
+  <object id="165" type="地" x="2242.33" y="400.333" width="61" height="61"/>
+  <object id="166" type="地" x="2774.33" y="362.333" width="312.67" height="61"/>
+  <object id="167" type="地" x="4128.88" y="244" width="61" height="61"/>
+  <object id="168" type="地" x="6368.88" y="277.181" width="61" height="61"/>
+  <object id="169" type="地" x="13040.6" y="287.727" width="61" height="61"/>
+  <object id="173" type="地" x="15392.3" y="193.303" width="61" height="61"/>
+  <object id="174" type="地" x="15639.4" y="306.394" width="192.06" height="61"/>
+  <object id="175" type="地" x="16095.3" y="190.272" width="61" height="61"/>
+  <object id="176" type="地" x="16321.2" y="292.272" width="224.242" height="61"/>
+  <object id="177" type="地" x="1042.33" y="196.333" width="61" height="61"/>
+  <object id="181" type="地" x="8317.33" y="-10.6667" width="224" height="50.6667"/>
+  <object id="183" type="地" x="8769.33" y="281.333" width="224" height="50.6667"/>
+  <object id="184" type="地" x="9012.48" y="409.576" width="224" height="50.6667"/>
+  <object id="185" type="地" x="9280.64" y="309.576" width="275.884" height="50.6667"/>
+  <object id="186" type="地" x="9651.88" y="306.545" width="224" height="50.6667"/>
+  <object id="207" type="地" x="8220.73" y="230.727" width="224" height="50.6667"/>
+  <object id="209" type="地" x="7736.12" y="401.455" width="272.88" height="50.6667"/>
+  <object id="210" type="地" x="8065.12" y="308.606" width="61" height="61"/>
+  <object id="214" type="地" x="8575.79" y="325.939" width="61" height="61"/>
+  <object id="330" type="地" x="2386.33" y="250.333" width="253.67" height="61"/>
+  <object id="335" type="地" x="3902.21" y="344" width="61" height="61"/>
+  <object id="336" type="地" x="3642.21" y="300" width="61" height="61"/>
+  <object id="337" type="地" x="691.663" y="319" width="61" height="61"/>
+  <object id="338" type="地" x="3185.33" y="306.667" width="61" height="61"/>
+ </objectgroup>
+ <objectgroup color="#00ff00" name="groundBigLayer">
+  <object id="64" type="高地" x="842.271" y="324" width="150" height="257.137"/>
+  <object id="70" type="高地" x="4630.48" y="330" width="229.517" height="292.773"/>
+  <object id="73" type="高地" x="5002.48" y="326" width="229.517" height="292.773"/>
+  <object id="77" type="高地" x="4254.48" y="326" width="229.517" height="292.773"/>
+  <object id="91" type="高地" x="11270.5" y="330" width="229.517" height="292.773"/>
+  <object id="102" type="高地" x="11642.5" y="326" width="229.517" height="292.773"/>
+  <object id="112" type="高地" x="7508.27" y="318" width="150" height="257.137"/>
+  <object id="114" type="高地" x="10894.5" y="326" width="229.517" height="292.773"/>
+  <object id="132" type="高地" x="17958.5" y="298" width="229.517" height="292.773"/>
+  <object id="143" type="高地" x="18330.5" y="294" width="229.517" height="292.773"/>
+  <object id="153" type="高地" x="14196.3" y="286" width="150" height="257.137"/>
+  <object id="155" type="高地" x="17582.5" y="294" width="229.517" height="292.773"/>
+ </objectgroup>
+ <objectgroup color="#ff0000" name="spineLayer">
+  <object id="315" type="小刺" x="458" y="374" width="38" height="45"/>
+  <object id="316" x="1311" y="385" width="38" height="45"/>
+  <object id="317" x="1540" y="383" width="38" height="45"/>
+  <object id="318" x="1796" y="382" width="38" height="45"/>
+  <object id="319" x="2914" y="323" width="38" height="45"/>
+  <object id="320" x="5812" y="339" width="38" height="45"/>
+  <object id="321" x="6759.06" y="328.97" width="38" height="45"/>
+  <object id="322" x="7037.06" y="325.97" width="38" height="45"/>
+  <object id="323" x="7864.06" y="362.97" width="38" height="45"/>
+  <object id="325" x="12296.1" y="332.97" width="38" height="45"/>
+  <object id="326" x="12598.1" y="330.97" width="38" height="45"/>
+  <object id="328" x="13356.1" y="344.97" width="38" height="45"/>
+  <object id="329" x="13804.1" y="340.97" width="38" height="45"/>
+ </objectgroup>
+ <objectgroup color="#000000" name="spineBigLayer">
+  <object id="71" type="刺" x="5094.43" y="273.227" width="45" height="63"/>
+  <object id="72" type="刺" x="4718.3" y="274.227" width="45" height="63"/>
+  <object id="87" type="刺" x="11370.4" y="274.227" width="45" height="63"/>
+  <object id="96" type="刺" x="11737.4" y="273.227" width="45" height="63"/>
+  <object id="106" type="刺" x="10982.4" y="268.227" width="45" height="63"/>
+  <object id="128" type="刺" x="18058.4" y="242.227" width="45" height="63"/>
+  <object id="137" type="刺" x="18425.4" y="241.227" width="45" height="63"/>
+  <object id="147" type="刺" x="17670.4" y="236.227" width="45" height="63"/>
+  <object id="160" type="刺" x="1395.27" y="147.985" width="45" height="63"/>
+  <object id="161" type="刺" x="1612.61" y="147.985" width="45" height="63"/>
+  <object id="324" type="刺" x="9398.4" y="255.56" width="45" height="63"/>
+  <object id="327" type="刺" x="13573.4" y="315.227" width="45" height="63"/>
+ </objectgroup>
+ <objectgroup color="#ffff00" name="goldLayer">
+  <object id="26" type="金币" x="699" y="229.5" width="40" height="40"/>
+  <object id="27" type="金币" x="1847" y="287.5" width="40" height="40"/>
+  <object id="28" type="金币" x="1531" y="291.5" width="40" height="40"/>
+  <object id="32" type="金币" x="1193" y="289.5" width="40" height="40"/>
+  <object id="33" type="金币" x="1306" y="289.5" width="40" height="40"/>
+  <object id="78" type="金币" x="7024" y="165.5" width="40" height="40"/>
+  <object id="79" type="金币" x="6767" y="164.833" width="40" height="40"/>
+  <object id="83" type="金币" x="6979" y="215.5" width="40" height="40"/>
+  <object id="97" type="金币" x="6810" y="214.833" width="40" height="40"/>
+  <object id="98" type="金币" x="7775.67" y="341.5" width="40" height="40"/>
+  <object id="101" type="金币" x="6936" y="165.5" width="40" height="40"/>
+  <object id="103" type="金币" x="7556" y="233.5" width="40" height="40"/>
+  <object id="108" type="金币" x="6724" y="213.833" width="40" height="40"/>
+  <object id="113" type="金币" x="6894" y="214.833" width="40" height="40"/>
+  <object id="115" type="金币" x="7351" y="203.5" width="40" height="40"/>
+  <object id="117" type="金币" x="6853" y="164.833" width="40" height="40"/>
+  <object id="119" type="金币" x="13790.3" y="234.5" width="40" height="40"/>
+  <object id="120" type="金币" x="13364" y="234.5" width="40" height="40"/>
+  <object id="121" type="金币" x="14634" y="257.5" width="40" height="40"/>
+  <object id="124" type="金币" x="13728.3" y="287.5" width="40" height="40"/>
+  <object id="126" type="金币" x="14745" y="257.5" width="40" height="40"/>
+  <object id="134" type="金币" x="14962" y="259.5" width="40" height="40"/>
+  <object id="136" type="金币" x="15175" y="258.5" width="40" height="40"/>
+  <object id="138" type="金币" x="13440" y="285.5" width="40" height="40"/>
+  <object id="139" type="金币" x="14521" y="257.5" width="40" height="40"/>
+  <object id="141" type="金币" x="14859" y="259.5" width="40" height="40"/>
+  <object id="142" type="金币" x="13659.3" y="230.5" width="40" height="40"/>
+  <object id="144" type="金币" x="14244" y="201.5" width="40" height="40"/>
+  <object id="149" type="金币" x="13295" y="284.5" width="40" height="40"/>
+  <object id="152" type="金币" x="15069" y="259.5" width="40" height="40"/>
+  <object id="156" type="金币" x="14045" y="171.5" width="40" height="40"/>
+  <object id="158" type="金币" x="13514" y="232.5" width="40" height="40"/>
+  <object id="170" type="金币" x="15256.8" y="256.47" width="40" height="40"/>
+  <object id="187" type="金币" x="8582.3" y="254.288" width="40" height="40"/>
+  <object id="188" type="金币" x="8585.3" y="176.955" width="40" height="40"/>
+  <object id="189" type="金币" x="8812.18" y="211.803" width="40" height="40"/>
+  <object id="190" type="金币" x="8897.18" y="212.47" width="40" height="40"/>
+  <object id="191" type="金币" x="9323.52" y="237.136" width="40" height="40"/>
+  <object id="192" type="金币" x="9466.52" y="239.137" width="40" height="40"/>
+  <object id="193" type="金币" x="9148.7" y="345.803" width="40" height="40"/>
+  <object id="194" type="金币" x="9063.7" y="345.136" width="40" height="40"/>
+  <object id="195" type="金币" x="9788.03" y="239.5" width="40" height="40"/>
+  <object id="196" type="金币" x="9703.03" y="238.833" width="40" height="40"/>
+  <object id="197" type="金币" x="10027.4" y="136.47" width="40" height="40"/>
+  <object id="198" type="金币" x="2419" y="213.5" width="40" height="40"/>
+  <object id="199" type="金币" x="2533" y="213.5" width="40" height="40"/>
+  <object id="200" type="金币" x="2818" y="291.5" width="40" height="40"/>
+  <object id="201" type="金币" x="2998" y="288.5" width="40" height="40"/>
+  <object id="202" type="金币" x="3195" y="247.5" width="40" height="40"/>
+  <object id="203" type="金币" x="3420" y="183.5" width="40" height="40"/>
+  <object id="204" type="金币" x="3653" y="249.5" width="40" height="40"/>
+  <object id="205" type="金币" x="3906" y="284.5" width="40" height="40"/>
+  <object id="206" type="金币" x="4140" y="190.5" width="40" height="40"/>
+  <object id="211" type="金币" x="7951.33" y="339.5" width="40" height="40"/>
+  <object id="212" type="金币" x="8259" y="173.167" width="40" height="40"/>
+  <object id="213" type="金币" x="8362" y="172.833" width="40" height="40"/>
+  <object id="215" type="金币" x="12658.3" y="297.5" width="40" height="40"/>
+  <object id="216" type="金币" x="12370" y="295.5" width="40" height="40"/>
+  <object id="217" type="金币" x="12506" y="296.5" width="40" height="40"/>
+  <object id="218" type="金币" x="12225" y="294.5" width="40" height="40"/>
+  <object id="219" type="金币" x="16681" y="116.5" width="40" height="40"/>
+  <object id="220" type="金币" x="16432" y="205.5" width="40" height="40"/>
+  <object id="221" type="金币" x="15404" y="126.5" width="40" height="40"/>
+  <object id="222" type="金币" x="18154.5" y="244.621" width="40" height="40"/>
+  <object id="223" type="金币" x="17746.9" y="233.439" width="40" height="40"/>
+  <object id="224" type="金币" x="15732" y="232.5" width="40" height="40"/>
+  <object id="225" type="金币" x="16936" y="232.5" width="40" height="40"/>
+  <object id="226" type="金币" x="17404" y="247.5" width="40" height="40"/>
+  <object id="227" type="金币" x="17172" y="109.5" width="40" height="40"/>
+  <object id="228" type="金币" x="16101" y="108.5" width="40" height="40"/>
+  <object id="229" type="金币" x="18768" y="107.5" width="40" height="40"/>
+  <object id="230" type="金币" x="18768" y="164.5" width="40" height="40"/>
+  <object id="231" type="金币" x="18772" y="236.5" width="40" height="40"/>
+  <object id="232" type="金币" x="18767" y="48.5" width="40" height="40"/>
+  <object id="233" type="金币" x="18834.7" y="47.1667" width="40" height="40"/>
+  <object id="234" type="金币" x="18909.3" y="47.1667" width="40" height="40"/>
+  <object id="235" type="金币" x="18910.7" y="109.833" width="40" height="40"/>
+  <object id="236" type="金币" x="18846.7" y="141.833" width="40" height="40"/>
+  <object id="237" type="金币" x="19109.3" y="48.5" width="40" height="40"/>
+  <object id="238" type="金币" x="19039.3" y="97.1667" width="40" height="40"/>
+  <object id="239" type="金币" x="19039" y="184.5" width="40" height="40"/>
+  <object id="240" type="金币" x="19183.7" y="99.8333" width="40" height="40"/>
+  <object id="241" type="金币" x="19192.7" y="180.5" width="40" height="40"/>
+  <object id="242" type="金币" x="19198.7" y="260.5" width="40" height="40"/>
+  <object id="243" type="金币" x="19033.7" y="264.5" width="40" height="40"/>
+  <object id="244" type="金币" x="19115" y="183.167" width="40" height="40"/>
+  <object id="245" type="金币" x="19409.7" y="59.5" width="40" height="40"/>
+  <object id="246" type="金币" x="19474.7" y="54.5" width="40" height="40"/>
+  <object id="247" type="金币" x="19558.7" y="54.5" width="40" height="40"/>
+  <object id="248" type="金币" x="19388.7" y="127.5" width="40" height="40"/>
+  <object id="250" type="金币" x="19454.7" y="162.5" width="40" height="40"/>
+  <object id="251" type="金币" x="19528.7" y="163.5" width="40" height="40"/>
+  <object id="252" type="金币" x="19545.7" y="275.5" width="40" height="40"/>
+  <object id="253" type="金币" x="19476.7" y="273.5" width="40" height="40"/>
+  <object id="254" type="金币" x="19395.7" y="273.5" width="40" height="40"/>
+  <object id="255" type="金币" x="19571.7" y="217.5" width="40" height="40"/>
+  <object id="266" type="金币" x="19871" y="285.197" width="40" height="40"/>
+  <object id="267" type="金币" x="19800" y="64.197" width="40" height="40"/>
+  <object id="268" type="金币" x="19884" y="64.197" width="40" height="40"/>
+  <object id="269" type="金币" x="19721" y="283.197" width="40" height="40"/>
+  <object id="270" type="金币" x="19714" y="137.197" width="40" height="40"/>
+  <object id="271" type="金币" x="19780" y="172.197" width="40" height="40"/>
+  <object id="272" type="金币" x="19854" y="173.197" width="40" height="40"/>
+  <object id="273" type="金币" x="19897" y="227.197" width="40" height="40"/>
+  <object id="274" type="金币" x="19735" y="69.197" width="40" height="40"/>
+  <object id="275" type="金币" x="19802" y="283.197" width="40" height="40"/>
+  <object id="276" type="金币" x="18514.5" y="237.955" width="40" height="40"/>
+  <object id="277" type="金币" x="5632" y="289.833" width="40" height="40"/>
+  <object id="278" type="金币" x="5717" y="290.5" width="40" height="40"/>
+  <object id="279" type="金币" x="5548" y="289.833" width="40" height="40"/>
+  <object id="280" type="金币" x="5462" y="288.833" width="40" height="40"/>
+  <object id="281" type="金币" x="6065.33" y="291.5" width="40" height="40"/>
+  <object id="282" type="金币" x="6150.33" y="292.167" width="40" height="40"/>
+  <object id="283" type="金币" x="5981.33" y="291.5" width="40" height="40"/>
+  <object id="284" type="金币" x="5895.33" y="290.5" width="40" height="40"/>
+  <object id="285" type="金币" x="6377.33" y="207.167" width="40" height="40"/>
+  <object id="286" type="金币" x="10236.8" y="243.136" width="40" height="40"/>
+  <object id="287" type="金币" x="10430.1" y="165.803" width="40" height="40"/>
+  <object id="288" type="金币" x="10646.1" y="281.803" width="40" height="40"/>
+  <object id="293" type="金币" x="8587.3" y="106.955" width="40" height="40"/>
+  <object id="294" type="金币" x="239.515" y="183.425" width="40" height="40"/>
+  <object id="295" type="金币" x="167.348" y="293.591" width="40" height="40"/>
+  <object id="296" type="金币" x="357.182" y="156.258" width="40" height="40"/>
+  <object id="297" type="金币" x="238.681" y="241.258" width="40" height="40"/>
+  <object id="298" type="金币" x="238.681" y="93.4246" width="40" height="40"/>
+  <object id="299" type="金币" x="357.181" y="92.2579" width="40" height="40"/>
+  <object id="300" type="金币" x="102.515" y="224.258" width="40" height="40"/>
+  <object id="301" type="金币" x="102.515" y="94.2579" width="40" height="40"/>
+  <object id="302" type="金币" x="357.182" y="222.258" width="40" height="40"/>
+  <object id="303" type="金币" x="491.636" y="292.818" width="40" height="40"/>
+  <object id="304" type="金币" x="236.969" y="294.818" width="40" height="40"/>
+  <object id="305" type="金币" x="494.848" y="156.091" width="40" height="40"/>
+  <object id="306" type="金币" x="192.181" y="183.425" width="40" height="40"/>
+  <object id="307" type="金币" x="424.348" y="89.4246" width="40" height="40"/>
+  <object id="308" type="金币" x="356.182" y="290.925" width="40" height="40"/>
+  <object id="309" type="金币" x="169.681" y="91.4246" width="40" height="40"/>
+  <object id="310" type="金币" x="494.014" y="220.591" width="40" height="40"/>
+  <object id="311" type="金币" x="101.515" y="292.925" width="40" height="40"/>
+  <object id="312" type="金币" x="102.515" y="158.258" width="40" height="40"/>
+  <object id="313" type="金币" x="493.348" y="91.4246" width="40" height="40"/>
+  <object id="314" type="金币" x="422.015" y="291.591" width="40" height="40"/>
+  <object id="331" type="金币" x="1424.33" y="290.167" width="40" height="40"/>
+  <object id="332" type="金币" x="896.333" y="264.167" width="40" height="40"/>
+  <object id="333" type="金币" x="1639" y="286.167" width="40" height="40"/>
+  <object id="334" type="金币" x="1740.33" y="284.833" width="40" height="40"/>
+ </objectgroup>
+</map>

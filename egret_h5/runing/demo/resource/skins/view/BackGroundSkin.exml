@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BackGroundSkin" width="1210" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Group id="behindGroup1" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" locked="true"/>
+	<e:Group id="behindGroup2" width="100%" height="100%" anchorOffsetX="0" anchorOffsetY="0" x="0" y="0" locked="true"/>
+	<e:Group id="middleGroup1" width="100%" height="280" anchorOffsetX="0" anchorOffsetY="0" y="152.72" x="0"/>
+	<e:Group id="middleGroup2" width="100%" height="280" anchorOffsetX="0" anchorOffsetY="0" x="0" y="152.72"/>
+	<e:Image id="bmp1" scale9Grid="815,80,99,480" width="1210" x="0" y="0" source="map_6_bg_motain0_png"/>
+	<e:Image id="bmp2" scale9Grid="815,80,99,480" width="1210" x="0" y="0" source="map_6_bg_motain0_png"/>
+	<e:Group id="frontGroup1" width="100%" height="200" anchorOffsetX="0" anchorOffsetY="0" x="0" bottom="100"/>
+	<e:Group id="frontGroup2" width="100%" height="200" anchorOffsetX="0" anchorOffsetY="0" x="0" bottom="100">
+	</e:Group>
+</e:Skin>

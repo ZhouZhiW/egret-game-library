@@ -1,0 +1,1 @@
+{"version":3,"file":"BlockUtils.js","sourceRoot":"","sources":["../../src/utils/BlockUtils.ts"],"names":[],"mappings":";;;AAAA;IAAA;IAcA,CAAC;IAbA;;OAEG;IACW,sBAAW,GAAzB,UAA0B,IAAY,EAAE,YAAoB;QAC3D,OAAO;QACP,GAAG,CAAC,CAAC,IAAI,GAAG,IAAI,YAAY,CAAC,CAAC,CAAC;YAC9B,eAAe;QAChB,CAAC;IACF,CAAC;IAEa,sBAAW,GAAzB;IAEA,CAAC;IACF,iBAAC;AAAD,CAAC,AAdD,IAcC;AAdK,UAAA,UAAU,yBAcf,CAAA"}

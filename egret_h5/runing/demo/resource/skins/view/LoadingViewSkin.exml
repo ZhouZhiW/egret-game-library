@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="LoadingViewSkin" width="960" height="640" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="icon_bg" source="indexbg_png" horizontalCenter="0" verticalCenter="0" width="100%" height="100%" visible="false"/>
+	<e:Rect width="100%" height="100%" horizontalCenter="0" verticalCenter="0" fillColor="0xffffff"/>
+	<e:Group id="uiGroup" width="960" height="640" horizontalCenter="0" verticalCenter="0">
+		<e:Image source="loading_png" y="344.08000000000004" horizontalCenter="0" x="399.00000000000006" scaleX="1" scaleY="1"/>
+		<e:Image source="bar2_png" y="282" scaleX="1" scaleY="1" horizontalCenter="0"/>
+		<e:Image id="icon_bar" source="bar1_png" y="291" x="251" scaleX="1" scaleY="1"/>
+		<e:Rect id="icon_mask" width="459" height="22" x="251" y="291" scaleX="1" scaleY="1" ellipseWidth="35" ellipseHeight="35"/>
+		<!--<e:Image bottom="20" scaleX="0.3" scaleY="0.3" source="game_loading_logo_png" horizontalCenter="0"/>-->
+		<e:Image source="loading_label_png" y="426" horizontalCenter="0"/>
+	</e:Group>
+</e:Skin>
