@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RockerBarSkin" width="50" height="50" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15af4ef91d8" ></w:Config>
+	<e:Button id="barBtn" label="RB" x="25" y="25" width="50" height="50" anchorOffsetX="25" anchorOffsetY="25"/>
+</e:Skin>

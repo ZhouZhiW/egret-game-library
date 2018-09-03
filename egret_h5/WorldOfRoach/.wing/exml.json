@@ -1,0 +1,61 @@
+{
+  "15af079bbfd": {
+    "path": "wor/view/window/MenuWindow.ts",
+    "class": "MenuWindow",
+    "parentPath": ""
+  },
+  "15af4ef91d8": {
+    "path": "nodep/view/display/RockerBar.ts",
+    "class": "RockerBar",
+    "parentPath": ""
+  },
+  "15af65213e4": {
+    "path": "wor/view/window/TopToolBar.ts",
+    "class": "TopToolBar",
+    "parentPath": ""
+  },
+  "15af6d7197d": {
+    "path": "wor/view/window/LogWindow.ts",
+    "class": "LogWindow",
+    "parentPath": ""
+  },
+  "15af6de878d": {
+    "path": "wor/view/window/MiniMap.ts",
+    "class": "MiniMap",
+    "parentPath": ""
+  },
+  "15af6e4addb": {
+    "path": "wor/view/window/OptWindow.ts",
+    "class": "OptWindow",
+    "parentPath": ""
+  },
+  "15af6eaf0ed": {
+    "path": "wor/view/window/CurbBar.ts",
+    "class": "CurbBar",
+    "parentPath": ""
+  },
+  "15af6f1c012": {
+    "path": "wor/view/window/BottomBar.ts",
+    "class": "BottomBar",
+    "parentPath": ""
+  },
+  "15af984f3df": {
+    "path": "wor/view/window/RoleWindow.ts",
+    "class": "RoleWindow",
+    "parentPath": ""
+  },
+  "15b4c6afd36": {
+    "path": "wor/view/window/GameMainLoaderWindow.ts",
+    "class": "GameMainLoaderWindow",
+    "parentPath": "",
+    "backgroundType": "null",
+    "backgroundColor": "#000000",
+    "useBgImage": false,
+    "useBgColor": true,
+    "backgroundX": 0,
+    "backgroundY": 0,
+    "backgroundWidth": -1,
+    "backgroundHeight": -1,
+    "backgroundAlpha": 100
+  }
+}

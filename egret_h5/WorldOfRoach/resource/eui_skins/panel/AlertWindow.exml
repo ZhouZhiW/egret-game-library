@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="AlertWindowSkin" width="400" height="260" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15aeb45456c" ></w:Config>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" source="header_png" scale9Grid="2,2,12,12" fillMode="scale" height="30" y="0" left="0" right="0" locked="true"/>
+	<e:Image anchorOffsetX="0" anchorOffsetY="0" scale9Grid="2,2,12,12" fillMode="scale" left="0" right="0" bottom="0" top="30" source="border_png"/>
+	<e:Button id="okBtn" label="确定" x="75" y="175" skinName="ButtonSkinGreenSkin"/>
+	<e:Button id="cancelBtn" label="取消" x="230" y="175" skinName="ButtonSkinRedSkin"/>
+	<e:Label id="titleTxt" text="提示" y="8" size="14" right="0" left="10"/>
+	<e:Label id="infoTxt" text="...的e" x="70.5" y="61" anchorOffsetX="0" width="269" anchorOffsetY="0" height="96" textColor="0x000000" multiline="true" wordWrap="true" size="16" verticalAlign="middle" textAlign="center"/>
+</e:Skin>

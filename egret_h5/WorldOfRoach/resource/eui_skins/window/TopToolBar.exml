@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="TopToolBarSkin" width="300" height="80" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15af65213e4" ></w:Config>
+	<e:Button id="logBtn" label="日志" x="0" y="0" height="80" width="80"/>
+	<e:Button id="mapBtn" label="地图" x="100" y="0" width="80" height="80"/>
+	<e:Button id="optBtn" label="设置" x="200" y="0" width="80" height="80"/>
+</e:Skin>

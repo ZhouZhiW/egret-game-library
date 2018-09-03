@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleWindowSkin" width="281" height="205" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15af984f3df" ></w:Config>
+	<e:Image id="dayBg" width="279" height="101" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_1_png"/>
+	<e:Image id="lightBg" width="279" height="101" x="0" y="0" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_8_png"/>
+	<e:Image id="barBg" width="279" height="102" x="0" y="104" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_2_png"/>
+	<e:Image id="hpBar" width="242" height="21" x="17" y="115" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_3_png"/>
+	<e:Image id="day" width="59" height="56" x="24" y="22.5" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_6_png"/>
+	<e:Image id="light" width="59" height="59" x="25" y="25.5" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_7_png"/>
+	<e:Image id="mpBar" width="240" height="20" x="18" y="141" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_4_png"/>
+	<e:Image id="epBar" width="235" height="20" x="21" y="167" anchorOffsetX="0" anchorOffsetY="0" source="roleModule_5_png"/>
+	<e:Label id="timeTxt" text="PM 08:00" x="170" y="52.5" anchorOffsetX="69" width="137" fontFamily="Trebuchet MS" verticalAlign="middle" textAlign="center" size="31" anchorOffsetY="16"/>
+</e:Skin>

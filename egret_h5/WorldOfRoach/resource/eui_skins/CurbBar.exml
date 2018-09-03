@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="CurbBarSkin" width="300" height="425" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15af6eaf0ed" ></w:Config>
+	<e:Button label="攻击" height="120" width="120" right="20" bottom="20"/>
+	<e:Button id="optBtn" label="互动采集" height="120" width="120" right="20" bottom="300">
+	</e:Button>
+</e:Skin>

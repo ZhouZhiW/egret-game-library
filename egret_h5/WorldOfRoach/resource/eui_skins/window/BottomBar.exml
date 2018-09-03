@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="BottomBarSkin" width="302" height="52" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing" >
+	<w:Config id="15af6f1c012" ></w:Config>
+	<e:Button label="Button" x="0" y="0"/>
+	<e:Button label="Button" x="100.5" y="0"/>
+	<e:Button label="Button" x="200.5" y="1"/>
+</e:Skin>
