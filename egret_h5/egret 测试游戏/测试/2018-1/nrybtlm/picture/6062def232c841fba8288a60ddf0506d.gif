@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,shrink-to-fit=no">
+    <meta itemprop="name" content="你容易“被套路”吗？--【超准】" id="qTitle">
+    <meta name="description" itemprop="description" content="" id="qDesc">
+    <meta itemprop="image" content='http://uploads-admin.cdn.woquhudong.cn/quce/1482914924t6W7d.png' id="qImg"/>
+    <meta name="keywords" content="你容易“被套路”吗？"/>
+    <title>你容易“被套路”吗？</title>
+    <script>
+    var fromMp = false;
+        var res_path = 'http://quce.cdn.woquhudong.cn';
+    var recordUrl = "/index.php/wetest/entry/addorupdaterecord";
+    var gameData = {"id":"5592","title":"\u4f60\u5bb9\u6613\u201c\u88ab\u5957\u8def\u201d\u5417\uff1f","logo":"quce\/1512811133Ds0WN.jpg","desc":"\u751f\u6d3b\u4e2d\u5145\u6ee1\u4e86\u5404\u79cd\u5927\u5927\u5c0f\u5c0f\u7684\u201c\u5c40\u201d\uff0c\u8ba9\u4eba\u4e00\u65f6\u4e0d\u614e\u5c31\u9677\u5165\u5957\u8def\uff0c\u4e0d\u7981\u611f\u53f9\u201c\u57ce\u5e02\u5957\u8def\u6df1\uff0c\u6211\u8981\u56de\u519c\u6751\u201d\u3002\u90a3\u4e48\uff0c\u4f60\u662f\u4e2a\u5bb9\u6613\u88ab\u5957\u8def\u7684\u4eba\u5417\uff1f\u6765\u6d4b\u8bd5\u4e00\u4e0b\u5427\uff01","question":"[{\"img\":\"\",\"question\":\"\u4f60\u6ca1\u4e8b\u5728\u8def\u4e0a\u95f2\u901b\uff0c\u770b\u89c1\u524d\u9762\u56f4\u7740\u4e00\u7fa4\u4eba\uff0c\u4f60\u4f1a\uff1a\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u679c\u65ad\u8def\u8fc7\uff0c\u7ee7\u7eed\u6563\u6b65\",\"weight\":\"2\",\"img\":\"\"},\"b\":{\"title\":\"\u5fc5\u987b\u8981\u53bb\u770b\u4e00\u4e0b\uff0c\u8fd9\u662f\u4e2d\u56fd\u7684\u4f20\u7edf\",\"weight\":\"1\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u4f60\u770b\u89c1\u4e86\u4e09\u4e2a\u5c0f\u644a\uff0c\u4e00\u8fb9\u5728\u5356\u5730\u644a\u8d27\uff0c\u4e00\u8fb9\u5728\u8868\u6f14\u9b54\u672f\uff0c\u8fd8\u6709\u4e00\u8fb9\u662f\u6b8b\u75be\u4eba\u5728\u5531\u6b4c\uff0c\u4f60\u4f1a\u503e\u5411\u4e8e\u53bb\u54ea\u4e2a\uff1f\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u5730\u644a\uff0c\u6dd8\u70b9\u5b9d\u8d1d\",\"weight\":\"2\",\"img\":\"\"},\"b\":{\"title\":\"\u9b54\u672f\uff0c\u70ab\u76ee\u53c8\u8fc7\u763e\",\"weight\":\"3\",\"img\":\"\"},\"c\":{\"title\":\"\u6b8b\u75be\u4eba\uff0c\u6ca1\u51c6\u8fd8\u53ef\u4ee5\u5e2e\u4e2a\u5fd9\",\"weight\":\"1\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u6700\u540e\u4f60\u51b3\u5b9a\u4e09\u4e2a\u90fd\u770b\u770b\uff0c\u4f60\u5148\u6765\u5230\u5730\u644a\u8fd9\u91cc\uff0c\u53d1\u73b0\u4ec0\u4e48\u4e1c\u897f\u90fd\u6709\uff0c\u4f60\u4f1a\u4e70\uff1a\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u8272\u6cfd\u9c9c\u4eae\u7684\u65b0\u5947\u73a9\u610f\",\"weight\":\"2\",\"img\":\"\"},\"b\":{\"title\":\"\u7834\u65e7\u53c8\u8c8c\u4f3c\u6709\u4ef7\u503c\u7684\u4e1c\u897f\",\"weight\":\"1\",\"img\":\"\"},\"c\":{\"title\":\"\u4fbf\u5b9c\u4f46\u4e0d\u4e00\u5b9a\u7528\u5f97\u4e0a\u7684\u4e1c\u897f\",\"weight\":\"3\",\"img\":\"\"},\"d\":{\"title\":\"\u5730\u644a\u600e\u4e48\u53ef\u80fd\u6709\u597d\u4e1c\u897f\uff0c\u4e0d\u4e70\",\"weight\":\"4\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u5730\u644a\u8001\u677f\u70ed\u60c5\u7684\u62db\u5f85\u4e86\u4f60\uff0c\u5e76\u63a8\u8350\u4f60\u4e00\u4e9b\u5b9d\u8d1d\uff0c\u4f60\u4f1a\uff1a\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u9002\u5f53\u542c\u53d6ta\u7684\u610f\u89c1\",\"weight\":\"2\",\"img\":\"\"},\"b\":{\"title\":\"\u8868\u9762\u9644\u548c\uff0c\u5b9e\u9645\u538b\u6839\u4e0d\u4fe1\",\"weight\":\"3\",\"img\":\"\"},\"c\":{\"title\":\"\u8bf4\u7684\u597d\u6709\u9053\u7406\uff0c\u542c\u4e86\u51c6\u6ca1\u9519\",\"weight\":\"1\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u4f60\u6b63\u51c6\u5907\u4e70\u4e0b\u4e00\u4ef6\u53e4\u73a9\uff0c\u9694\u58c1\u6709\u4eba\u5c31\u5bf9\u4f60\u8bf4\uff0c\u8fd9\u4e2a\u4e1c\u897f\u662f\u5047\u7684\uff0c\u4f46\u8001\u677f\u8bf4\u662f\u771f\u7684\uff0c\u4f60\u4f1a\u9009\u62e9\uff1a\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u76f8\u4fe1\u8001\u677f\uff0c\u4e70\u4e0b\",\"weight\":\"1\",\"img\":\"\"},\"b\":{\"title\":\"\u76f8\u4fe1\u9694\u58c1\u7684\u4eba\uff0c\u4e0d\u4e70\",\"weight\":\"1\",\"img\":\"\"},\"c\":{\"title\":\"\u542c\u542cta\u4eec\u7684\u89e3\u91ca\u548c\u5176\u4ed6\u4eba\u7684\u610f\u89c1\",\"weight\":\"3\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u7ecf\u8fc7\u5730\u644a\u8001\u677f\u548c\u964c\u751f\u4eba\u7684\u4e00\u756a\u7406\u8bba\uff0c\u964c\u751f\u4eba\u6539\u53e3\u4e86\uff0c\u4e5f\u8bf4\u662f\u771f\u7684\uff0c\u4f60\u4f1a\uff1a\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u4e70\u4e70\u4e70\",\"weight\":\"1\",\"img\":\"\"},\"b\":{\"title\":\"\u4fdd\u7559\u8d28\u7591\uff0c\u518d\u95ee\u95ee\u5176\u4ed6\u4eba\",\"weight\":\"2\",\"img\":\"\"},\"c\":{\"title\":\"\u6000\u7591ta\u88ab\u6536\u4e70\uff0c\u8fd8\u662f\u4e0d\u4e70\u4e86\",\"weight\":\"3\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u7a81\u7136\uff0c\u6b8b\u75be\u4eba\u7684\u6b4c\u58f0\u5438\u5f15\u5230\u4f60\uff0c\u4f60\u4e00\u542c\u53d1\u73b0\u8fd8\u4e0d\u9519\uff0c\u4f46\u662f\u4f60\u521a\u624d\u5206\u660e\u770b\u5230\u4e86ta\u817f\u90e8\u7684\u6b8b\u75be\u662f\u4f2a\u9020\u7684\uff0c\u8fd9\u65f6\u4f60\u9009\u62e9\uff1a\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u53c8\u6ca1\u5bb3\u4eba\uff0c\u8fd8\u662f\u6350\u70b9\u5427\uff0c\u6bd5\u7adf\u5531\u7684\u8fd8\u884c\",\"weight\":\"1\",\"img\":\"\"},\"b\":{\"title\":\"\u9a97\u5b50\uff0c\u4e0d\u6350\",\"weight\":\"2\",\"img\":\"\"},\"c\":{\"title\":\"\u5f53\u4f17\u62c6\u7a7f\uff0c\u8ba9ta\u65e0\u5730\u81ea\u5bb9\",\"weight\":\"3\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u6700\u540e\u4f60\u6765\u5230\u9b54\u672f\u5e08\u8fd9\u8fb9\uff0c\u9b54\u672f\u5e08\u4e00\u4e2a\u63a5\u4e00\u4e2a\u7684\u9b54\u672f\u8ba9\u4f60\u62cd\u6848\u53eb\u7edd\uff0c\u8fd9\u65f6\u5019\uff0c\u9b54\u672f\u5e08\u5411\u4f60\u8981100\u5143\u53d8\u9b54\u672f\uff0c\u4f60\u4f1a\uff1a\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u7ed9\u7ed9\u7ed9\uff0c\u8d76\u7d27\u6765\u4e2a\u597d\u73a9\u7684\",\"weight\":\"1\",\"img\":\"\"},\"b\":{\"title\":\"\u7ed9\uff0c\u4f46\u662f\u9b54\u672f\u7ed3\u675f\u4e86\u8ba8\u56de\u6765\",\"weight\":\"2\",\"img\":\"\"},\"c\":{\"title\":\"\u4e0d\u7ed9\uff0c\u8bf4\u4ec0\u4e48\u4e5f\u4e0d\u7ed9\",\"weight\":\"3\",\"img\":\"\"}},\"weight\":\"1\"}]","original":"0","type":"2","cid":"2","img":"quce\/1482914924t6W7d.png","tpl_id":"11","is_game":"0","share_url":"http:\/\/mp.weixin.qq.com\/s?__biz=MzIyMzk0NTg5NA==&mid=100004025&idx=1&sn=fb95eec388c19f48ea3651966f617f24&chksm=681725705f60ac66f3b682de6ecb505bfcb0075fa132f29c76651999a2a8caa5b6bd8e554c50#rd","view":"152700","like_num":"0","utime":"1514801401","subscribe":"15","new_plan":"2","author":"86","status":"1"};
+    var adminPath = 'http://uploads-admin.cdn.woquhudong.cn';
+    var url = "/index.php/wetest/entry/getresulttj/gid/";
+    var resultServer = "/index.php/wetest/entry/getresult";
+    var likeServer = "/index.php/wetest/entry/addlike";
+    var selectOption = [];    
+
+    var StatusUrl = "/index.php/wetest/entry/errortj";
+    var resultPage = "/index.php/wetest/entry/result";
+    var timeOutEvent=0;
+
+    var isLowVersion = false;
+    var isAndroid = navigator.userAgent.toLowerCase().match(/android/i) ? true : false;
+    var version = navigator.userAgent.toLowerCase().match(/MicroMessenger\/([\d\.]+)/i);
+    if((isAndroid && version < 'micromessenger/6.3.23') || (isAndroid && !version)) {
+        isLowVersion = true;
+    }
+    var attentioncid;
+    var qrcodelink;
+
+    var longTapServer = "/index.php/wetest/entry/inclongtap";
+    var uuid = 0?'kjZdeMdgAiMe':0;
+    var acid = 0?'0':0;
+</script>
+    <link href="http://quce.cdn.woquhudong.cn/entry/css/v8.css?v=2.8" rel="stylesheet"/>
+</head>
+<body ontouchstart>
+<div class="full_wrapper">
+    <div class="main">
+        <div id="load_mask">
+            <div class="main_area">
+                <div id="loading_item_container">
+                    <span id="loading_hint">正在进入测试</span>
+                    <img style="height: 26px;" src="http://quce.cdn.woquhudong.cn/entry/img/v8/LoadingDots.gif"/>
+                </div>
+            </div>
+            <div id="xiaoice_account_hint"><span></span></div>
+        </div>
+        <div class="xb_pageCont xb_flex">
+            <!-- title -->
+            <div class="page_header" style="display: none;"></div>
+            <!-- 问答内容div-->
+            <div class="page_body xb_head_padding" id="xb_page_body">
+                <div id="xb_chat_content"></div>
+                <div style="height: 0;overflow: hidden;"><a id="msg_end" name="1" href="#1">&nbsp</a></div>
+            </div>
+            <!-- 放大展示图片div -->
+            <div id="xb_img_overlay" >
+                <div id="xb_img_container">
+                    <div class="big_img_box">
+                        <img id="xb_img_expand" src="" />
+                        <img id="xb_img_expand_bigqrcode" src="http://quce.cdn.woquhudong.cn/entry/img/v8/bigqrcode.png?v=1.2" style="position: absolute; width: 100%; left: 0px; bottom: 0px; display: block; opacity: 0; ">
+                    </div>
+                    <img class="big_resultimg" id="xb_img_expand_opcity" src="" style="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 按钮div -->
+    <div id="xb_btn_field" class="xb_btn_area"></div>
+
+    <div id="morebtn_prompt" class="morebtn_prompt">
+        <img class="morebtn_prompt_hand" src="http://quce.cdn.woquhudong.cn/entry/img/v8/hand.png" alt="">
+        <img class="morebtn_prompt_arrow" src="http://quce.cdn.woquhudong.cn/entry/img/v8/arrow.png" alt="">
+    </div>
+</div>
+
+
+<script type="text/template" id="temp_question">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="http://quce.cdn.woquhudong.cn/entry/img/v8/quce.png"/>
+            <div class="xb_tri_left"></div>
+            <div class="xb_tri_left1"></div>
+            <div class="xb_conv_left  ">
+                ##content##
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_answer">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_right">
+            <img class="xb_avatar_right" src="##usericon##"/>
+            <div class="xb_tri_right"></div>
+            <div class="xb_tri_right1"></div>
+            <div class="xb_conv_right">##answer##</div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_image">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="http://quce.cdn.woquhudong.cn/entry/img/v8/quce.png">
+            <div class="xb_tri_left"></div><div class="xb_tri_left1"></div>
+            <div class="xb_conv_left  xb_conv_left_img img-longtap-fix">
+                <img src="##src##" class="xb_sendimg">
+                <img src="##src##" class="xb_sendimg_opcity">
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_result_image">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="http://quce.cdn.woquhudong.cn/entry/img/v8/quce.png">
+            <div class="xb_tri_left"></div><div class="xb_tri_left1"></div>
+            <div class="xb_conv_left  xb_conv_left_img img-longtap-fix" style="overflow: hidden;">
+                <img src="##src##" class="xb_sendimg" style="margin-bottom: -55px !important;">
+                <img style="display: none;" src="http://quce.cdn.woquhudong.cn/entry/img/v8/qrcode.png?v=1.6" class="xb_sendimg_qrcode"  >
+                <img src="##src##" class="xb_sendimg_opcity longtap-img" >
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_btn">
+    <div class="xb_btn_container">
+        <a id="##btn_id##" value="##btn_value##" data-onclick="##btn_onclick##" href="javascript:void(0)" class="btn_basic wechatGreen text_holder">##btn_title##</a>
+    </div>
+</script>
+<script type="text/template" id="temp_audio">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="http://quce.cdn.woquhudong.cn/entry/img/v8/quce.png"/>
+            <div class="xb_tri_left"></div>
+            <div class="xb_tri_left1"></div>
+            <div class="xb_conv_left audio_pause" onclick="playAudio(this, '##audio##');">
+                <span class="audio_icon_box ">
+                    <img src="http://quce.cdn.woquhudong.cn/entry/img/v8/audio_normal.png" class="audio_ani_btn audio_ani_normal">
+                    <img src="http://quce.cdn.woquhudong.cn/entry/img/v8/audio_ani1.png" class="audio_ani_btn audio_ani audio_ani_1">
+                    <img src="http://quce.cdn.woquhudong.cn/entry/img/v8/audio_ani2.png" class="audio_ani_btn audio_ani audio_ani_2">
+                    <img src="http://quce.cdn.woquhudong.cn/entry/img/v8/audio_ani3.png" class="audio_ani_btn audio_ani audio_ani_3">
+                    <span class="audio_timer" id="##audio_timer##" style="display: none;">11"</span>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</script>
+<audio id="quizaudio" src="" style="display: none;"></audio>
+
+<script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.js"></script>
+<script>
+            var usericon = "";</script>
+<script>
+    var imgclickflag;
+    var imgclicktimer;
+    var imgclicktimes;
+    var timeOutEvent;
+    var longtapflag = true;
+    var resultTjurl = "/index.php/wetest/entry/incgetresult";
+    $(document).on('touchstart','.xb_sendimg_opcity',function(e){
+        if($(this).hasClass('longtap-img')){
+            $('.big_img_box').removeClass('showbigimg');
+            $('#xb_img_expand_opcity').addClass('longtap-img');
+            $('#xb_img_expand_bigqrcode').show();
+            timeOutEvent = setTimeout("longPress()",500);
+        }else{
+            $('.big_img_box').addClass('showbigimg');
+            $('#xb_img_expand_opcity').removeClass('longtap-img');
+            $('#xb_img_expand_bigqrcode').hide();
+        }
+        imgclicktimes = 0;
+        imgclickflag = true;
+        imgclicktimer = setInterval(function(){
+            imgclicktimes++;
+            if(imgclicktimes > 20){
+                imgclickflag = false;
+                clearInterval(imgclicktimer);
+            }
+        },25);
+    });
+    $(document).on('touchmove','.xb_sendimg_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        imgclickflag = false;
+        clearInterval(imgclicktimer);
+    });
+    $(document).on('touchend','.xb_sendimg_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        clearInterval(imgclicktimer);
+        if(imgclickflag){
+            showImage( $(this).attr('src'));
+        }
+    });
+
+    $(document).on('touchstart','#xb_img_expand_opcity',function(e){
+        if($(this).hasClass('longtap-img')){
+            $('#xb_img_expand_bigqrcode').show();
+            timeOutEvent = setTimeout("longPress()",500);
+        }else{
+            $('#xb_img_expand_bigqrcode').hide();
+        }
+        imgclicktimes = 0;
+        imgclickflag = true;
+        imgclicktimer = setInterval(function(){
+            imgclicktimes++;
+            if(imgclicktimes > 20){
+                imgclickflag = false;
+                clearInterval(imgclicktimer);
+            }
+        },25);
+    });
+    $(document).on('touchmove','#xb_img_expand_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        imgclickflag = false;
+        clearInterval(imgclicktimer);
+    });
+    $(document).on('touchend','#xb_img_expand_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        clearInterval(imgclicktimer);
+        if(imgclickflag){
+            closeImage();
+        }
+    });
+
+    function longPress(){
+        if(longtapflag){
+            longtapflag = false;
+            timeOutEvent = 0;
+            var longtapimg = new Image();
+            longtapimg.src = longTapServer + '/gid/' + gameData.id + '/result/' + result['threshold'] + '/uid/' + uuid +'/account/' + attentioncid;
+        }
+    }
+    function showImage(src){
+        $('#xb_img_expand').attr('src',src);
+        $('#xb_img_expand_opcity').attr('src',src);
+        $('#xb_img_overlay').show();
+    }
+    function closeImage(){
+        $('#xb_img_expand').attr('src','');
+        $('#xb_img_expand_opcity').attr('src','');
+        $('#xb_img_overlay').hide();
+    }
+</script>
+<script src="http://quce.cdn.woquhudong.cn/entry/js/common.js?v=14"></script>
+<script src="http://quce.cdn.woquhudong.cn/entry/js/quceSubject.js?v=6.5"></script>
+<script src="http://quce.cdn.woquhudong.cn/entry/js/tjpage.js?v=6.0"></script>
+<script src="http://quce.cdn.woquhudong.cn/entry/js/v8/v8.js?v=3.4"></script>
+<script>
+    window.onload = function() {
+        $(document).on('click','.btn_basic',function(){
+            if(!$(this).hasClass('disabled')){
+                $('#xb_chat_content').append(getAnswerDom($(this).html()));
+                scroll();
+                $('.btn_basic').addClass('disabled');
+                var fun = eval($(this).attr('data-onclick'));
+                fun;
+            }
+        });
+        initQuceTest();
+    }
+</script>
+<script src="http://res.wx.qq.com/open/js/jweixin-1.0.0.js"></script>
+<script>
+    /* shareConfig */
+    var conf_data = {
+        appId: '',
+        timestamp: 1515408222,
+        nonceStr: 'wetest',
+        signature: ''
+    }
+    var shareData = {
+        trigger: function(res) {
+            wx.onMenuShareAppMessage(shareData);
+            /*wx.onMenuShareTimeline(shareData);*/
+        },
+    };
+    wx.config({
+        debug: false,
+        appId: conf_data.appId,
+        timestamp: conf_data.timestamp,
+        nonceStr: conf_data.nonceStr,
+        signature: conf_data.signature,
+        jsApiList: ['checkJsApi', 'onMenuShareAppMessage', 'onMenuShareTimeline', 'closeWindow', 'hideMenuItems']
+    });
+    wx.ready(function() {
+        wx.hideMenuItems({
+            menuList: [
+                'menuItem:share:timeline'
+            ]
+        })
+        wx.onMenuShareAppMessage(shareData);
+        /*wx.onMenuShareTimeline(shareData);*/
+    });
+    wx.checkJsApi({
+        jsApiList: ['onMenuShareTimeline'],
+        success: function(res) {}
+    });
+
+    var _host = "http://" + window.location.host;
+    var share_url = _host + "/index.php/wetest/entry/index/id/5592/from/mp";//baseInfo.shareUrl || "http://www.weceshi.com/index.php/wetest/entry/index/id/5592";
+    var sharewbqz = _host + "/index.php/wetest/entry/index/id/5592";
+
+    function attention_wx() {
+        // alert("《趣测》 - 每天发布最萌、逗、炫、酷的小测试！无需下载，点开即测！每日更新！\n----点击确认，立即去关注----");
+        // location.href = 'http://mp.weixin.qq.com/s?__biz=MzA4OTY4ODUyOA==&mid=201224433&idx=1&sn=854e678b07926f3e37cab8afbeb58312#rd';
+    }
+
+    function attention_wx2() {
+        // alert("《全球星座网》 - 微信上最大的星座爱好者集中营，每天发布星座运势，汇聚最新最准的星座分析！\n----点击确认，立即加入----");
+        // location.href = 'http://mp.weixin.qq.com/s?__biz=MzA5NTI3MDQ4Mg==&mid=206046425&idx=7&sn=71c93d4a337237d0e31ec0f065487f6f#rd';
+    }
+
+    function aboutUS() {
+        location.href = 'http://mp.weixin.qq.com/s?__biz=MzA4OTY4ODUyOA==&mid=201224433&idx=1&sn=854e678b07926f3e37cab8afbeb58312#rd';
+    }
+    function moreGame() {
+        location.href = "/index.php/wetest/index/index";
+    }
+    function shareCallBack() {
+        ajaxGet("/index.php/wetest/entry/incshare/mid/" + baseInfo.id);
+        /*wqa.sendAction(110, 'sharewx',baseInfo.id);*/
+            attention_wx2();    }
+
+    shareData = {
+        title: '我参加了“' + baseInfo.title + '”测试，你也快来测测',
+        desc: "微信中最全最准测试平台-【趣测】",
+        link: share_url,
+        imgUrl: baseInfo.shareImg,
+        trigger: shareData.trigger,
+        success: function() {
+            shareCallBack();
+        }
+    };
+
+    var sinaUrl = 'http://service.weibo.com/share/share.php?';
+    var qzoneUrl = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?';
+    var shareConfig = {
+        url: sharewbqz,
+        title: '我参加了“' + baseInfo.title + '”测试，你也快来测测',
+        desc: "",
+        pic: baseInfo.shareImg,
+        pics: baseInfo.shareImg,
+        summary: '',
+        site: ''
+    }
+
+    function diySerialize(obj, from) {
+        obj.url += '/from/' + from;
+        if(from == 'wb')
+        {
+            obj.title ="@趣测 "+ obj.title+ "✌戳这里你也快去测测👉👉";
+        }
+        var str = "";
+        for (var prop in obj) {
+            var temp = encodeURIComponent(obj[prop]);
+            str += prop + "=" + temp + "&"
+        }
+        return str;
+    }
+</script>
+<!-- menu -->
+<link rel="stylesheet" href="http://quce.cdn.woquhudong.cn/Common/backhandle/backhandle.css?v=1.4">
+<div class="prolist_container">
+    <div class="warpper"></div>
+    <div class="prolist_content">
+        <img class="prolist_close_btn" src="http://quce.cdn.woquhudong.cn/Common/backhandle/close.png">
+        <p class="prolist_title"><span class="prolist_title_line"></span>专业测评·占卜推荐<span class="prolist_title_line"></span></p>
+        <ul id="prolist_list" class="prolist_list">
+        </ul>
+        <p id="moreprolist_btn" class="moreprolist_btn"><span style="position: relative;">更多专业测评·占卜<img class="moreprolist_img" src="http://quce.cdn.woquhudong.cn/Common/backhandle/arrow2.png?v=1.1"></span></p>
+        <p class="prolist_ul_splite"></p>
+        <p class="prolist_tipwords"><span class="prolist_tip_i">*</span>以上测试均会生成一份详细的专业测评报告</p>
+        <p class="prolist_btnbox">
+            <span id="exitBtn" class="prolist_btn">仍要离开</span>
+            <span class="prolist_dontshow_box"><img class="prolist_btn_select prolist_btn_img" src="http://quce.cdn.woquhudong.cn/Common/backhandle/select.png" alt=""><img class="prolist_btn_detect prolist_btn_img" src="http://quce.cdn.woquhudong.cn/Common/backhandle/detect.png?v=1.1" alt=""><span>今日不再提醒</span></span>
+        </p>
+    </div>
+</div>
+<script type="text/template" id="prolist_list_litext">
+    <li class="prolist_list_li">
+        <span class="prolist_list_li_a" onclick="window.location.href='##host##/index.php/wetest/xinli001/brief/id/##id##/channel/10'">
+            <img class="prolist_list_li_icon" src="http://uploads-admin.cdn.woquhudong.cn/##img##" alt="">
+            <p class="prolist_list_li_title">##title##</p>
+            <span class="prolist_list_li_desc">##desc##</span>
+            <img class="prolist_list_li_arrow" src="http://quce.cdn.woquhudong.cn/Common/backhandle/arrow.png" alt="">
+        </span>
+    </li>
+</script>
+<script type="text/template" id="lingji_list_litext">
+    <li class="prolist_list_li">
+        <span class="prolist_list_li_a" onclick="window.location.href='##link##'">
+            <img class="prolist_list_li_icon" src="http://uploads-admin.cdn.woquhudong.cn/##img##" alt="">
+            <p class="prolist_list_li_title">##title##</p>
+            <span class="prolist_list_li_desc">##desc##</span>
+            <img class="prolist_list_li_arrow" src="http://quce.cdn.woquhudong.cn/Common/backhandle/arrow.png" alt="">
+        </span>
+    </li>
+</script>
+<script>
+    (function(){
+        var getProbindlist = "/index.php/wetest/entry/getbindlist/gid/"+gid+'/cid/'+gameData['cid'];
+        var prolistdom = $('#prolist_list_litext').html();
+        var lingjidom = $('#lingji_list_litext').html();
+        var WYisShowQR = true;
+        var WYisShow = true;
+        var exitType = !1;
+        var isAlert = true;
+        var _host =  window.location.host;
+        var maxHeight = document.body.clientHeight - 64;
+        var minHeight = 420;
+        console.log(maxHeight)
+        $.ajax({
+            type: "GET",
+            url: getProbindlist,
+            success: function(msg){
+                console.log(msg)
+                var ll = msg.length - 2;
+
+
+                $('#prolist_list').append(lingjidom.wreplace(msg[msg.length-2]));
+                $('#prolist_list').append('<li class="prolist_list_li_splite"></li>');
+
+                msg[0]['host'] = 'http://'+_host;
+                $('#prolist_list').append(prolistdom.wreplace(msg[0]));
+                $('#prolist_list').append('<li class="prolist_list_li_splite"></li>');
+
+                $('#prolist_list').append(lingjidom.wreplace(msg[msg.length-1]));
+                $('#prolist_list').append('<li class="prolist_list_li_splite"></li>');
+
+                if(maxHeight > minHeight){
+                    msg[1]['host'] = 'http://'+_host;
+                    $('#prolist_list').append(prolistdom.wreplace(msg[1]));
+                }
+
+
+            }
+        });
+
+
+        //getdate
+        function getNowFormatDate() {
+            var date = new Date();
+            var seperator1 = "-";
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate;
+            return currentdate;
+        }
+        if(window.localStorage.getItem('game248_prefix_sel_date_'+gid) && (window.localStorage.getItem('game248_prefix_sel_date_'+gid) == getNowFormatDate())){
+            isAlert = false;
+            window.removeEventListener('popstate',null);
+        }else{
+            isAlert = true;
+        }
+
+
+        var woquTouch = "ontouchstart" in document.documentElement ? "touchend" : "click";
+        function hasClass(elements, cName) {
+            return !!elements.className.match(new RegExp("(\\s|^)" + cName + "(\\s|$)"));
+        };
+        function addClass(elements, cName) {
+            if (!hasClass(elements, cName)) {
+                elements.className += " " + cName;
+            };
+        };
+        function removeClass(elements, cName) {
+            if (hasClass(elements, cName)) {
+                elements.className = elements.className.replace(new RegExp("(\\s|^)" + cName + "(\\s|$)"), " ");
+            };
+        };
+        document.querySelector('.warpper').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            document.querySelector('.prolist_container').style.display = 'none';
+            document.querySelector('.warpper').style.display = 'none';
+            pushHistory();
+        });
+        document.querySelector('.prolist_dontshow_box').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            if(!hasClass(document.querySelector('.prolist_btn_select'),'select')){
+                addClass(document.querySelector('.prolist_btn_select'),'select');
+                document.querySelector('.prolist_btn_select').style.display = 'inline-block';
+                document.querySelector('.prolist_btn_detect').style.display = 'none';
+                isAlert = false;
+                window.removeEventListener('popstate',null);
+                window.localStorage.setItem('game248_prefix_sel_date_'+gid,getNowFormatDate())
+            }else{
+                removeClass(document.querySelector('.prolist_btn_select'),'select');
+                document.querySelector('.prolist_btn_select').style.display = 'none';
+                document.querySelector('.prolist_btn_detect').style.display = 'inline-block';
+                isAlert = true;
+                window.localStorage.removeItem('game248_prefix_sel_date_'+gid);
+            }
+        });
+        document.querySelector('.prolist_close_btn').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            document.querySelector('.prolist_container').style.display = 'none';
+            document.querySelector('.warpper').style.display = 'none';
+            pushHistory();
+        });
+        document.querySelector('#exitBtn').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            if(window.navigator.userAgent.toLowerCase().match(/MicroMessenger/i) == 'micromessenger'){
+                if(window.history.length > 2){
+                    var url  = "http://" + _host + "/index.php/wetest/index/index";
+                    window.location.href =  url;
+                }else{
+                    WeixinJSBridge.call('closeWindow');
+                }
+            }else{
+                exitType = 1;
+            }
+            if(exitType == 1 ){
+                document.querySelector('.prolist_container').style.display = 'none';
+                document.querySelector('.warpper').style.display = 'none';
+                window.removeEventListener('popstate',function(){
+                    exitType = !1;
+                })
+                var url  = "http://" + _host + "/index.php/wetest/index/index";
+                window.location.href =  url;
+            }
+        });
+        document.querySelector('#moreprolist_btn').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            var url  = "http://" + _host + "/index.php/wetest/index/professional/channel/10";
+            window.location.href =  url;
+        });
+        //store histoty
+        function pushHistory() {
+            if(isAlert){
+                var state = {
+                    title: document.title,
+                    url: location.href
+                };
+                window.history.pushState(state, document.title, location.href);
+            };
+        }
+        // cancel exit
+        function cancelExit(){
+            if(window.localStorage.getItem('game248_prefix_sel_date_'+gid) && (window.localStorage.getItem('game248_prefix_sel_date_'+gid) == getNowFormatDate())){
+                isAlert = false;
+                window.removeEventListener('popstate',null);
+            }else{
+                isAlert = true;
+            }
+            if(isAlert){
+                pushHistory();
+                window.addEventListener("popstate", function(e) {
+                    if(WYisShow){
+                        document.querySelector('.warpper').style.display = 'block';
+                        document.querySelector('.prolist_container').style.display = 'block';
+                    }else{
+                        WYisShow = true;
+                    }
+                }, false);
+            }
+        }
+
+        //deal with ios<7
+        var agent = navigator.userAgent.toLowerCase() ;
+        var version;
+        if(agent.indexOf("like mac os x") > 0){
+            //ios
+            var regStr_saf = /os [\d._]*/gi ;
+            var verinfo = agent.match(regStr_saf) ;
+            version = (verinfo+"").replace(/[^0-9|_.]/ig,"").replace(/_/ig,".");
+            var version_str = version+"";
+            if(version_str != "undefined" && version_str.length >0){
+                version=version.substring(0,1);
+                if(version>=8){
+                    cancelExit();
+                }
+                else{
+                    cancelExit();
+                }
+            }
+        }else{
+            cancelExit();
+        }
+    })()
+</script>
+
+</body>
+<!--<div style="display:none">-->
+    <!--<script type="text/javascript">var cnzz_protocol = (("https:" == document.location.protocol) ? " https://" : " http://");document.write(unescape("%3Cspan id='cnzz_stat_icon_1260553398'%3E%3C/span%3E%3Cscript src='" + cnzz_protocol + "s4.cnzz.com/z_stat.php%3Fid%3D1260553398' type='text/javascript'%3E%3C/script%3E"));</script>-->
+<!--</div>-->
+<script>
+    var _mtac = {};
+    (function() {
+        var mta = document.createElement("script");
+        mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.4";
+        mta.setAttribute("name", "MTAH5");
+        mta.setAttribute("sid", "500148432");
+        mta.setAttribute("cid", "500492808");
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(mta, s);
+    })();
+</script>
+</html>

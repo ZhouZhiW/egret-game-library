@@ -1,0 +1,640 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0, user-scalable=no,shrink-to-fit=no">
+    <meta itemprop="name" content="你让异性心动的指数有多高？--【超准】" id="qTitle">
+    <meta name="description" itemprop="description" content="" id="qDesc">
+    <meta itemprop="image" content='http://uploads-admin.cdn.woquhudong.cn/quce/1516349606sDh5X.jpg' id="qImg"/>
+    <meta name="keywords" content="你让异性心动的指数有多高？"/>
+    <script src="http://res.1758.com/sdk/nanogame/light.js"> </script>
+    <script src="http://wxbyf.1gg2mm.com/static/quiz/ceshi_js/infomation.js"> </script>
+    <link rel="stylesheet" type="text/css" href="http://res.1758.com/sdk/nanogame/light.css">
+    <title>你让异性心动的指数有多高？</title>
+    <script>
+    var fromMp = false;
+//        var res_path = 'http://quce.cdn.woquhudong.cn';
+    var recordUrl = "/index.php/wetest/entry/addorupdaterecord";
+    var gameData = {"id":"5989","title":"\u4f60\u8ba9\u5f02\u6027\u5fc3\u52a8\u7684\u6307\u6570\u6709\u591a\u9ad8\uff1f","logo":"quce\/15163556108dQaa.jpg","desc":"\u5176\u5b9e\u8ba9\u5f02\u6027\u5fc3\u52a8\u7684\u65b9\u5f0f\u6709\u5f88\u591a\u79cd\uff0c\u53ef\u4ee5\u662f\u59e3\u597d\u7684\u9762\u5bb9\u8ba9\u4eba\u4e00\u89c1\u949f\u60c5\uff0c\u4e5f\u6216\u8bb8\u662f\u6027\u683c\u4e0a\u7684\u9b45\u529b\u8ba9\u4eba\u65e0\u6cd5\u81ea\u62d4\uff0c\u4f60\u8ba9\u5f02\u6027\u5fc3\u52a8\u7684\u6307\u6570\u6709\u591a\u9ad8\u5462\uff1f","question":"[{\"img\":\"\",\"question\":\"\u4f60\u89c9\u5f97\u8001\u53bb\u662f\u4e00\u4ef6\u5f88\u53ef\u6015\u7684\u4e8b\u60c5\u5417\uff1f\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u662f\u7684\",\"weight\":\"5\",\"img\":\"\"},\"b\":{\"title\":\"\u4e0d\u662f\",\"weight\":\"3\",\"img\":\"\"},\"c\":{\"title\":\"\u8fd8\u597d\u5427\",\"weight\":\"1\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u4f60\u6700\u60f3\u6539\u8fdb\u81ea\u8eab\u7684\u54ea\u4e00\u70b9\uff1f\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u8eab\u6750\",\"weight\":\"1\",\"img\":\"\"},\"b\":{\"title\":\"\u8eab\u9ad8\",\"weight\":\"5\",\"img\":\"\"},\"c\":{\"title\":\"\u5916\u8c8c\",\"weight\":\"3\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u5982\u679c\u6709\u6761\u4ef6\u548c\u4f34\u4fa3\u53bb\u56fd\u5916\u65c5\u6e38\uff0c\u4f60\u6700\u60f3\u53bb\u4e0b\u9762\u54ea\u4e00\u4e2a\u5730\u65b9\uff1f\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u65e5\u97e9\",\"weight\":\"3\",\"img\":\"\"},\"b\":{\"title\":\"\u6b27\u7f8e\",\"weight\":\"5\",\"img\":\"\"},\"c\":{\"title\":\"\u4e1c\u5357\u4e9a\",\"weight\":\"1\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u4e0b\u9762\u54ea\u4e00\u53e5\u8bdd\u4f60\u66f4\u8ba4\u540c\uff1f\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u4eba\u6027\u672c\u5584\",\"weight\":\"3\",\"img\":\"\"},\"b\":{\"title\":\"\u76f8\u7531\u5fc3\u751f\",\"weight\":\"1\",\"img\":\"\"},\"c\":{\"title\":\"\u4eba\u4e0d\u53ef\u8c8c\u76f8\",\"weight\":\"5\",\"img\":\"\"}},\"weight\":\"1\"},{\"img\":\"\",\"question\":\"\u4f60\u89c9\u5f97\u81ea\u5df1\u7684\u6027\u683c\u66f4\u50cf\u4e0b\u9762\u54ea\u79cd\u52a8\u7269\uff1f\",\"audio\":\"\",\"answer\":{\"a\":{\"title\":\"\u732b\",\"weight\":\"1\",\"img\":\"\"},\"b\":{\"title\":\"\u72d7\",\"weight\":\"5\",\"img\":\"\"},\"c\":{\"title\":\"\u9e70\",\"weight\":\"3\",\"img\":\"\"}},\"weight\":\"1\"}]","original":"1","type":"2","cid":"3","img":"quce\/1516349606sDh5X.jpg","tpl_id":"10","is_game":"0","share_url":"","view":"88800","like_num":"0","utime":"1516403401","subscribe":"17","new_plan":"1","author":"22","status":"1"};
+    var adminPath = '.';
+    var url = "/index.php/wetest/entry/getresulttj/gid/";
+    var resultServer = "/index.php/wetest/entry/getresult";
+    var likeServer = "/index.php/wetest/entry/addlike";
+    var selectOption = [];    
+
+    var StatusUrl = "/index.php/wetest/entry/errortj";
+    var resultPage = "/index.php/wetest/entry/result";
+    var timeOutEvent=0;
+
+    var isLowVersion = false;
+    var isAndroid = navigator.userAgent.toLowerCase().match(/android/i) ? true : false;
+    var version = navigator.userAgent.toLowerCase().match(/MicroMessenger\/([\d\.]+)/i);
+    if((isAndroid && version < 'micromessenger/6.3.23') || (isAndroid && !version)) {
+        isLowVersion = true;
+    }
+    var attentioncid;
+    var qrcodelink;
+
+    var longTapServer = "/index.php/wetest/entry/inclongtap";
+    var uuid = 0?'oktKCNswEeyP':0;
+    var acid = 0?'0':0;
+</script>
+    <link href="css/v8.css" rel="stylesheet"/>
+</head>
+<body ontouchstart>
+<div class="full_wrapper">
+    <div class="main">
+        <div id="load_mask">
+            <div class="main_area">
+                <div id="loading_item_container">
+                    <span id="loading_hint">正在进入测试</span>
+                    <img style="height: 26px;" src="picture/loadingdots.gif"/>
+                </div>
+            </div>
+            <div id="xiaoice_account_hint"><span></span></div>
+        </div>
+        <div class="xb_pageCont xb_flex">
+            <!-- title -->
+            <div class="page_header" style="display: none;"></div>
+            <!-- 问答内容div-->
+            <div class="page_body xb_head_padding" id="xb_page_body">
+                <div id="xb_chat_content"></div>
+                <div style="height: 0;overflow: hidden;"><a id="msg_end" name="1" href="#1">&nbsp</a></div>
+            </div>
+            <!-- 放大展示图片div -->
+            <div id="xb_img_overlay" >
+                <div id="xb_img_container">
+                    <div class="big_img_box">
+                        <img id="xb_img_expand" src="" />
+                        <img id="xb_img_expand_bigqrcode" src="picture/bigqrcode.png" style="position: absolute; width: 100%; left: 0px; bottom: 0px; display: block; opacity: 0; ">
+                    </div>
+                    <img class="big_resultimg" id="xb_img_expand_opcity" src="" style="" />
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 按钮div -->
+    <div id="xb_btn_field" class="xb_btn_area"></div>
+
+    <div id="morebtn_prompt" class="morebtn_prompt">
+        <img class="morebtn_prompt_hand" src="picture/hand.png" alt="">
+        <img class="morebtn_prompt_arrow" src="picture/arrow.png" alt="">
+    </div>
+</div>
+
+
+<script type="text/template" id="temp_question">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="picture/quce.png"/>
+            <div class="xb_tri_left"></div>
+            <div class="xb_tri_left1"></div>
+            <div class="xb_conv_left  ">
+                ##content##
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_answer">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_right">
+            <img class="xb_avatar_right" src=""/>
+            <div class="xb_tri_right"></div>
+            <div class="xb_tri_right1"></div>
+            <div class="xb_conv_right">##answer##</div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_image">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="picture/quce.png">
+            <div class="xb_tri_left"></div><div class="xb_tri_left1"></div>
+            <div class="xb_conv_left  xb_conv_left_img img-longtap-fix">
+                <img src="##src##" class="xb_sendimg">
+                <img src="##src##" class="xb_sendimg_opcity">
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_result_image">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="picture/quce.png">
+            <div class="xb_tri_left"></div><div class="xb_tri_left1"></div>
+            <div class="xb_conv_left  xb_conv_left_img img-longtap-fix" style="overflow: hidden;">
+                <img src="##src##" class="xb_sendimg" style="margin-bottom: -55px !important;">
+                <img style="display: none;" src="picture/qrcode.png" class="xb_sendimg_qrcode" style="opacity: 0;" >
+                <img src="##src##" class="xb_sendimg_opcity longtap-img" >
+            </div>
+        </div>
+    </div>
+</script>
+<script type="text/template" id="temp_btn">
+    <div class="xb_btn_container">
+        <a id="##btn_id##" value="##btn_value##" data-onclick="##btn_onclick##" href="javascript:void(0)" class="btn_basic wechatGreen text_holder">##btn_title##</a>
+    </div>
+</script>
+<script type="text/template" id="temp_audio">
+    <div class="xb_conversation_item">
+        <div class="xb_conv_wrap_left">
+            <img class="xb_avatar_left" src="picture/quce.png"/>
+            <div class="xb_tri_left"></div>
+            <div class="xb_tri_left1"></div>
+            <div class="xb_conv_left audio_pause" onclick="playAudio(this, '##audio##');">
+                <span class="audio_icon_box ">
+                    <img src="picture/audio_normal.png" class="audio_ani_btn audio_ani_normal">
+                    <img src="picture/audio_ani1.png" class="audio_ani_btn audio_ani audio_ani_1">
+                    <img src="picture/audio_ani2.png" class="audio_ani_btn audio_ani audio_ani_2">
+                    <img src="picture/audio_ani3.png" class="audio_ani_btn audio_ani audio_ani_3">
+                    <span class="audio_timer" id="##audio_timer##" style="display: none;">11"</span>
+                </span>
+            </div>
+
+        </div>
+    </div>
+</script>
+<audio id="quizaudio" src="" style="display: none;"></audio>
+
+<script src="js/jquery.js"></script>
+<script>
+            var usericon = "";</script>
+<script>
+    var imgclickflag;
+    var imgclicktimer;
+    var imgclicktimes;
+    var timeOutEvent;
+    var longtapflag = true;
+    var resultTjurl = "/index.php/wetest/entry/incgetresult";
+    $(document).on('touchstart','.xb_sendimg_opcity',function(e){
+        if($(this).hasClass('longtap-img')){
+            $('.big_img_box').removeClass('showbigimg');
+            $('#xb_img_expand_opcity').addClass('longtap-img');
+            $('#xb_img_expand_bigqrcode').show();
+            timeOutEvent = setTimeout("longPress()",500);
+        }else{
+            $('.big_img_box').addClass('showbigimg');
+            $('#xb_img_expand_opcity').removeClass('longtap-img');
+            $('#xb_img_expand_bigqrcode').hide();
+        }
+        imgclicktimes = 0;
+        imgclickflag = true;
+        imgclicktimer = setInterval(function(){
+            imgclicktimes++;
+            if(imgclicktimes > 20){
+                imgclickflag = false;
+                clearInterval(imgclicktimer);
+            }
+        },25);
+    });
+    $(document).on('touchmove','.xb_sendimg_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        imgclickflag = false;
+        clearInterval(imgclicktimer);
+    });
+    $(document).on('touchend','.xb_sendimg_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        clearInterval(imgclicktimer);
+        if(imgclickflag){
+            showImage( $(this).attr('src'));
+        }
+    });
+
+    $(document).on('touchstart','#xb_img_expand_opcity',function(e){
+        if($(this).hasClass('longtap-img')){
+            $('#xb_img_expand_bigqrcode').show();
+            timeOutEvent = setTimeout("longPress()",500);
+        }else{
+            $('#xb_img_expand_bigqrcode').hide();
+        }
+        imgclicktimes = 0;
+        imgclickflag = true;
+        imgclicktimer = setInterval(function(){
+            imgclicktimes++;
+            if(imgclicktimes > 20){
+                imgclickflag = false;
+                clearInterval(imgclicktimer);
+            }
+        },25);
+    });
+    $(document).on('touchmove','#xb_img_expand_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        imgclickflag = false;
+        clearInterval(imgclicktimer);
+    });
+    $(document).on('touchend','#xb_img_expand_opcity',function(e){
+        clearTimeout(timeOutEvent);
+        timeOutEvent = 0;
+        clearInterval(imgclicktimer);
+        if(imgclickflag){
+            closeImage();
+        }
+    });
+
+    function longPress(){
+        if(longtapflag){
+            longtapflag = false;
+            timeOutEvent = 0;
+            var longtapimg = new Image();
+            longtapimg.src = longTapServer + '/gid/' + gameData.id + '/result/' + result['threshold'] + '/uid/' + uuid +'/account/' + attentioncid;
+        }
+    }
+    function showImage(src){
+        $('#xb_img_expand').attr('src',src);
+        $('#xb_img_expand_opcity').attr('src',src);
+        $('#xb_img_overlay').show();
+    }
+    function closeImage(){
+        $('#xb_img_expand').attr('src','');
+        $('#xb_img_expand_opcity').attr('src','');
+        $('#xb_img_overlay').hide();
+    }
+</script>
+<script src="js/common.js"></script>
+<script src="js/qucesubject.js"></script>
+<script src="js/tjpage.js"></script>
+<script src="js/v8.js"></script>
+<script>
+    window.onload = function() {
+        $(document).on('click','.btn_basic',function(){
+            if(!$(this).hasClass('disabled')){
+                $('#xb_chat_content').append(getAnswerDom($(this).html()));
+                scroll();
+                $('.btn_basic').addClass('disabled');
+                var fun = eval($(this).attr('data-onclick'));
+                fun;
+            }
+        });
+        initQuceTest();
+    }
+</script>
+<script src="js/jweixin-1.0.0.js"></script>
+<script>
+    /* shareConfig */
+    var conf_data = {
+        appId: '',
+        timestamp: 1516602511,
+        nonceStr: 'wetest',
+        signature: ''
+    }
+    var shareData = {
+        trigger: function(res) {
+            wx.onMenuShareAppMessage(shareData);
+            /*wx.onMenuShareTimeline(shareData);*/
+        },
+    };
+    wx.config({
+        debug: false,
+        appId: conf_data.appId,
+        timestamp: conf_data.timestamp,
+        nonceStr: conf_data.nonceStr,
+        signature: conf_data.signature,
+        jsApiList: ['checkJsApi', 'onMenuShareAppMessage', 'onMenuShareTimeline', 'closeWindow', 'hideMenuItems']
+    });
+    wx.ready(function() {
+        wx.hideMenuItems({
+            menuList: [
+                'menuItem:share:timeline'
+            ]
+        })
+        wx.onMenuShareAppMessage(shareData);
+        /*wx.onMenuShareTimeline(shareData);*/
+    });
+    wx.checkJsApi({
+        jsApiList: ['onMenuShareTimeline'],
+        success: function(res) {}
+    });
+
+    var _host = "http://" + window.location.host;
+    var share_url = _host + "/index.php/wetest/entry/index/id/5989/from/mp";//baseInfo.shareUrl || "http://www.weceshi.com/index.php/wetest/entry/index/id/5989";
+    var sharewbqz = _host + "/index.php/wetest/entry/index/id/5989";
+
+    function attention_wx() {
+        // alert("《趣测》 - 每天发布最萌、逗、炫、酷的小测试！无需下载，点开即测！每日更新！\n----点击确认，立即去关注----");
+        // location.href = 'http://mp.weixin.qq.com/s?__biz=MzA4OTY4ODUyOA==&mid=201224433&idx=1&sn=854e678b07926f3e37cab8afbeb58312#rd';
+    }
+
+    function attention_wx2() {
+        // alert("《全球星座网》 - 微信上最大的星座爱好者集中营，每天发布星座运势，汇聚最新最准的星座分析！\n----点击确认，立即加入----");
+        // location.href = 'http://mp.weixin.qq.com/s?__biz=MzA5NTI3MDQ4Mg==&mid=206046425&idx=7&sn=71c93d4a337237d0e31ec0f065487f6f#rd';
+    }
+
+    function aboutUS() {
+        location.href = 'http://mp.weixin.qq.com/s?__biz=MzA4OTY4ODUyOA==&mid=201224433&idx=1&sn=854e678b07926f3e37cab8afbeb58312#rd';
+    }
+    function moreGame() {
+        location.href = "/index.php/wetest/index/index";
+    }
+    function shareCallBack() {
+        ajaxGet("/index.php/wetest/entry/incshare/mid/" + baseInfo.id);
+        /*wqa.sendAction(110, 'sharewx',baseInfo.id);*/
+            attention_wx2();    }
+
+    shareData = {
+        title: '我参加了“' + baseInfo.title + '”测试，你也快来测测',
+        desc: "微信中最全最准测试平台-【趣测】",
+        link: share_url,
+        imgUrl: baseInfo.shareImg,
+        trigger: shareData.trigger,
+        success: function() {
+            shareCallBack();
+        }
+    };
+
+    var sinaUrl = 'http://service.weibo.com/share/share.php?';
+    var qzoneUrl = 'http://sns.qzone.qq.com/cgi-bin/qzshare/cgi_qzshare_onekey?';
+    var shareConfig = {
+        url: sharewbqz,
+        title: '我参加了“' + baseInfo.title + '”测试，你也快来测测',
+        desc: "",
+        pic: baseInfo.shareImg,
+        pics: baseInfo.shareImg,
+        summary: '',
+        site: ''
+    }
+
+    function diySerialize(obj, from) {
+        obj.url += '/from/' + from;
+        if(from == 'wb')
+        {
+            obj.title ="@趣测 "+ obj.title+ "✌戳这里你也快去测测👉👉";
+        }
+        var str = "";
+        for (var prop in obj) {
+            var temp = encodeURIComponent(obj[prop]);
+            str += prop + "=" + temp + "&"
+        }
+        return str;
+    }
+</script>
+<!-- menu -->
+<link rel="stylesheet" href="css/backhandle.css">
+<div class="prolist_container">
+    <div class="warpper"></div>
+    <div class="prolist_content">
+        <img class="prolist_close_btn" src="picture/close.png">
+        <p class="prolist_title"><span class="prolist_title_line"></span>专业测评·占卜推荐<span class="prolist_title_line"></span></p>
+        <ul id="prolist_list" class="prolist_list">
+        </ul>
+        <p id="moreprolist_btn" class="moreprolist_btn"><span style="position: relative;">更多专业测评·占卜<img class="moreprolist_img" src="picture/arrow2.png"></span></p>
+        <p class="prolist_ul_splite"></p>
+        <p class="prolist_tipwords"><span class="prolist_tip_i">*</span>以上测试均会生成一份详细的专业测评报告</p>
+        <p class="prolist_btnbox">
+            <span id="exitBtn" class="prolist_btn">仍要离开</span>
+            <span class="prolist_dontshow_box"><img class="prolist_btn_select prolist_btn_img" src="picture/select.png" alt=""><img class="prolist_btn_detect prolist_btn_img" src="picture/detect.png" alt=""><span>今日不再提醒</span></span>
+        </p>
+    </div>
+</div>
+<script type="text/template" id="prolist_list_litext">
+    <li class="prolist_list_li">
+        <span class="prolist_list_li_a" onclick="window.location.href='##host##/index.php/wetest/xinli001/brief/id/##id##/channel/10'">
+            <img class="prolist_list_li_icon" src="picture/ad45f08a81ce4783bc072cc6af29324f.gif" alt="">
+            <p class="prolist_list_li_title">##title##</p>
+            <span class="prolist_list_li_desc">##desc##</span>
+            <img class="prolist_list_li_arrow" src="picture/arrow_1.png" alt="">
+        </span>
+    </li>
+</script>
+<script type="text/template" id="lingji_list_litext">
+    <li class="prolist_list_li">
+        <span class="prolist_list_li_a" onclick="window.location.href='##link##'">
+            <img class="prolist_list_li_icon" src="picture/ad45f08a81ce4783bc072cc6af29324f.gif" alt="">
+            <p class="prolist_list_li_title">##title##</p>
+            <span class="prolist_list_li_desc">##desc##</span>
+            <img class="prolist_list_li_arrow" src="picture/arrow_1.png" alt="">
+        </span>
+    </li>
+</script>
+<script>
+    (function(){
+        var getProbindlist = "/index.php/wetest/entry/getbindlist/gid/"+gid+'/cid/'+gameData['cid'];
+        var prolistdom = $('#prolist_list_litext').html();
+        var lingjidom = $('#lingji_list_litext').html();
+        var WYisShowQR = true;
+        var WYisShow = true;
+        var exitType = !1;
+        var isAlert = true;
+        var _host =  window.location.host;
+        var maxHeight = document.body.clientHeight - 64;
+        var minHeight = 420;
+        console.log(maxHeight)
+        $.ajax({
+            type: "GET",
+            url: getProbindlist,
+            success: function(msg){
+                console.log(msg)
+                var ll = msg.length - 2;
+
+
+                $('#prolist_list').append(lingjidom.wreplace(msg[msg.length-2]));
+                $('#prolist_list').append('<li class="prolist_list_li_splite"></li>');
+
+                msg[0]['host'] = 'http://'+_host;
+                $('#prolist_list').append(prolistdom.wreplace(msg[0]));
+                $('#prolist_list').append('<li class="prolist_list_li_splite"></li>');
+
+                $('#prolist_list').append(lingjidom.wreplace(msg[msg.length-1]));
+                $('#prolist_list').append('<li class="prolist_list_li_splite"></li>');
+
+                if(maxHeight > minHeight){
+                    msg[1]['host'] = 'http://'+_host;
+                    $('#prolist_list').append(prolistdom.wreplace(msg[1]));
+                }
+
+
+            }
+        });
+
+
+        //getdate
+        function getNowFormatDate() {
+            var date = new Date();
+            var seperator1 = "-";
+            var month = date.getMonth() + 1;
+            var strDate = date.getDate();
+            if (month >= 1 && month <= 9) {
+                month = "0" + month;
+            }
+            var currentdate = date.getFullYear() + seperator1 + month + seperator1 + strDate;
+            return currentdate;
+        }
+        if(window.localStorage.getItem('game248_prefix_sel_date_'+gid) && (window.localStorage.getItem('game248_prefix_sel_date_'+gid) == getNowFormatDate())){
+            isAlert = false;
+            window.removeEventListener('popstate',null);
+        }else{
+            isAlert = true;
+        }
+
+
+        var woquTouch = "ontouchstart" in document.documentElement ? "touchend" : "click";
+        function hasClass(elements, cName) {
+            return !!elements.className.match(new RegExp("(\\s|^)" + cName + "(\\s|$)"));
+        };
+        function addClass(elements, cName) {
+            if (!hasClass(elements, cName)) {
+                elements.className += " " + cName;
+            };
+        };
+        function removeClass(elements, cName) {
+            if (hasClass(elements, cName)) {
+                elements.className = elements.className.replace(new RegExp("(\\s|^)" + cName + "(\\s|$)"), " ");
+            };
+        };
+        document.querySelector('.warpper').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            document.querySelector('.prolist_container').style.display = 'none';
+            document.querySelector('.warpper').style.display = 'none';
+            pushHistory();
+        });
+        document.querySelector('.prolist_dontshow_box').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            if(!hasClass(document.querySelector('.prolist_btn_select'),'select')){
+                addClass(document.querySelector('.prolist_btn_select'),'select');
+                document.querySelector('.prolist_btn_select').style.display = 'inline-block';
+                document.querySelector('.prolist_btn_detect').style.display = 'none';
+                isAlert = false;
+                window.removeEventListener('popstate',null);
+                window.localStorage.setItem('game248_prefix_sel_date_'+gid,getNowFormatDate())
+            }else{
+                removeClass(document.querySelector('.prolist_btn_select'),'select');
+                document.querySelector('.prolist_btn_select').style.display = 'none';
+                document.querySelector('.prolist_btn_detect').style.display = 'inline-block';
+                isAlert = true;
+                window.localStorage.removeItem('game248_prefix_sel_date_'+gid);
+            }
+        });
+        document.querySelector('.prolist_close_btn').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            document.querySelector('.prolist_container').style.display = 'none';
+            document.querySelector('.warpper').style.display = 'none';
+            pushHistory();
+        });
+        document.querySelector('#exitBtn').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            if(window.navigator.userAgent.toLowerCase().match(/MicroMessenger/i) == 'micromessenger'){
+                if(window.history.length > 2){
+                    var url  = "http://" + _host + "/index.php/wetest/index/index";
+                    window.location.href =  url;
+                }else{
+                    WeixinJSBridge.call('closeWindow');
+                }
+            }else{
+                exitType = 1;
+            }
+            if(exitType == 1 ){
+                document.querySelector('.prolist_container').style.display = 'none';
+                document.querySelector('.warpper').style.display = 'none';
+                window.removeEventListener('popstate',function(){
+                    exitType = !1;
+                })
+                var url  = "http://" + _host + "/index.php/wetest/index/index";
+                window.location.href =  url;
+            }
+        });
+        document.querySelector('#moreprolist_btn').addEventListener(woquTouch,function(e){
+            e.preventDefault();
+            var url  = "http://" + _host + "/index.php/wetest/index/professional/channel/10";
+            window.location.href =  url;
+        });
+        //store histoty
+        function pushHistory() {
+            if(isAlert){
+                var state = {
+                    title: document.title,
+                    url: location.href
+                };
+                window.history.pushState(state, document.title, location.href);
+            };
+        }
+        // cancel exit
+        function cancelExit(){
+            if(window.localStorage.getItem('game248_prefix_sel_date_'+gid) && (window.localStorage.getItem('game248_prefix_sel_date_'+gid) == getNowFormatDate())){
+                isAlert = false;
+                window.removeEventListener('popstate',null);
+            }else{
+                isAlert = true;
+            }
+            if(isAlert){
+                pushHistory();
+//                window.addEventListener("popstate", function(e) {
+//                    if(WYisShow){
+//                        document.querySelector('.warpper').style.display = 'block';
+//                        document.querySelector('.prolist_container').style.display = 'block';
+//                    }else{
+//                        WYisShow = true;
+//                    }
+//                }, false);
+            }
+        }
+
+        //deal with ios<7
+        var agent = navigator.userAgent.toLowerCase() ;
+        var version;
+        if(agent.indexOf("like mac os x") > 0){
+            //ios
+            var regStr_saf = /os [\d._]*/gi ;
+            var verinfo = agent.match(regStr_saf) ;
+            version = (verinfo+"").replace(/[^0-9|_.]/ig,"").replace(/_/ig,".");
+            var version_str = version+"";
+            if(version_str != "undefined" && version_str.length >0){
+                version=version.substring(0,1);
+                if(version>=8){
+                    cancelExit();
+                }
+                else{
+                    cancelExit();
+                }
+            }
+        }else{
+            cancelExit();
+        }
+    })()
+    var gameId="nryxxdzsydg";
+    var infor_data;
+    for(var i=0;i<information_data.length;i++){
+        if(gameId==information_data[i].gameId){
+            infor_data=information_data[i]
+        }
+    }
+    if(infor_data){
+        var _moreGameUrl=infor_data.moreGameUrl;
+        var ewmnum=Math.floor(Math.random()*infor_data.ewmUrl.length);
+        var _ewmUrl=infor_data.ewmUrl[ewmnum];
+        var imgnum=Math.floor(Math.random()*infor_data.ewmUrl.length);
+        var _imgUrl=infor_data.img[imgnum].imgUrl;
+        var _link=infor_data.img[imgnum].link;
+        HLMY_NANO_LIGHT.backInit({
+            gameId:gameId,
+            moreGameUrl:_moreGameUrl,
+            ewmUrl:_ewmUrl
+        })
+        HLMY_NANO_LIGHT.adInit({
+            imgUrl:_imgUrl,
+            link:_link
+        })
+    }
+
+
+</script>
+<div style="display:none">
+    <script src="https://s22.cnzz.com/z_stat.php?id=1272819450&web_id=1272819450" language="JavaScript"></script>
+</div>
+</body>
+
+<script>
+    var _mtac = {};
+    (function() {
+        var mta = document.createElement("script");
+        mta.src = "http://pingjs.qq.com/h5/stats.js?v2.0.4";
+        mta.setAttribute("name", "MTAH5");
+        mta.setAttribute("sid", "500148432");
+        mta.setAttribute("cid", "500492808");
+        var s = document.getElementsByTagName("script")[0];
+        s.parentNode.insertBefore(mta, s);
+    })();
+</script>
+</html>

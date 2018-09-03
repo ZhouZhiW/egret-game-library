@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<root>
+  <monsterRewardProbabilityDef name="monsterRewardProbabilityDef" id="8" typeName="掉落包掉落概率数据结构定义" subkey="" merge="0" multidimensional="" validation="" htmlField="" constNamespace="" constField="" iconPath=""/>
+</root>

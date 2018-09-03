@@ -1,0 +1,23 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/eui/eui.js",
+		"libs/modules/tween/tween.js",
+		"libs/modules/saveimage/saveimage.js",
+		"promise/bin/promise.js"
+	],
+	"game": [
+		"bin-debug/bg.js",
+		"bin-debug/data.js",
+		"bin-debug/end.js",
+		"bin-debug/game.js",
+		"bin-debug/LoadingUI.js",
+		"bin-debug/Main.js",
+		"bin-debug/SaveImageUtils.js",
+		"bin-debug/shape.js",
+		"bin-debug/upgo.js"
+	]
+}
