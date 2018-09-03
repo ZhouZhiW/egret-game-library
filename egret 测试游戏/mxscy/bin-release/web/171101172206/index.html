@@ -1,0 +1,263 @@
+<!DOCTYPE HTML>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>我要上头条</title>
+    <meta name="viewport" content="width=device-width,initial-scale=1, minimum-scale=1, maximum-scale=1, user-scalable=no" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="full-screen" content="true" />
+    <meta name="screen-orientation" content="portrait" />
+    <meta name="x5-fullscreen" content="true" />
+    <meta name="360-fullscreen" content="true" />
+    <style>
+        html,
+        body {
+            -ms-touch-action: none;
+            background: #888888;
+            padding: 0;
+            border: 0;
+            margin: 0;
+            height: 100%;
+        }
+        
+        .save-container {
+            position: absolute;
+            width: 100%;
+            height: 100%;
+            top: 0px;
+            bottom: 0;
+            right: 0;
+            /*background-color: rgba(0, 0, 0, .6);*/
+            text-align: center;
+            z-index: 5;
+            display: none;
+        }
+        
+        .save-wrapper {
+            position: absolute;
+            left: 0;
+            right: 0;
+            top: 0;
+            bottom: 0;
+            margin: 0 auto;
+            /*transform: translateY(-50%);
+            -ms-transform: translateY(-50%);
+            -moz-transform: translateY(-50%);
+            -webkit-transform: translateY(-50%);
+            -o-transform: translateY(-50%);*/
+        }
+        
+        .save-tip {
+            color: #fff;
+            padding-bottom: 0px;
+            font-size: 20px;
+            /*margin-top: 30px;*/
+            background-color: #18b4ed;
+        }
+        
+        .save-wrapper img {
+            width: 100%;
+            /*margin-top: 32px;*/
+            /*max-width: 300px;*/
+            display: block;
+            margin: 0 auto;
+            height: 100%;
+            /*margin-top:9%;*/
+        }
+        
+        .iconurl {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            width: 100%;
+        }
+        
+        .iconurl img {
+            width: 100%;
+            vertical-align: bottom;
+        }
+    </style>
+</head>
+
+<body>
+    <div style="margin: auto;width: 100%;height: 100%;" class="egret-player" data-entry-class="Main" data-orientation="auto" data-scale-mode="showAll" data-frame-rate="30" data-content-width="750" data-content-height="1206" data-show-paint-rect="false" data-multi-fingered="2"
+        data-show-fps="false" data-show-log="false" data-show-fps-style="x:0,y:0,size:12,textColor:0xffffff,bgAlpha:0.9">
+    </div>
+
+    <a class="iconurl" href="http://1758nb.25184wang.top/static/quiz/client/index.html">
+        <img src="./resource/res/down.jpg" width: 100%; height: auto; vertical-align: bottom;/>
+    </a>
+
+    <div id="saveContainer" class="save-container">
+        <div class="save-wrapper">
+            <div class="save-tip" style="height: 5%;">
+                长按保存到手机
+            </div>
+            <div style="height: 95%">
+                <img id="test" src="">
+            </div>
+            <!--<img id="btnshare" class="share-tip" src="resource/sharebtn.png">-->
+        </div>
+
+        <script>
+            var loadScript = function(list, callback) {
+                var loaded = 0;
+                var loadNext = function() {
+                    loadSingleScript(list[loaded], function() {
+                        loaded++;
+                        if (loaded >= list.length) {
+                            callback();
+                        } else {
+                            loadNext();
+                        }
+                    })
+                };
+                loadNext();
+            };
+
+            var loadSingleScript = function(src, callback) {
+                var s = document.createElement('script');
+                s.async = false;
+                s.src = src;
+                s.addEventListener('load', function() {
+                    s.parentNode.removeChild(s);
+                    s.removeEventListener('load', arguments.callee, false);
+                    callback();
+                }, false);
+                document.body.appendChild(s);
+            };
+
+            var xhr = new XMLHttpRequest();
+            xhr.open('GET', './manifest.json?v=' + Math.random(), true);
+            xhr.addEventListener("load", function() {
+                var manifest = JSON.parse(xhr.response);
+                var list = manifest.initial.concat(manifest.game);
+                loadScript(list, function() {
+                    /**
+                     * {
+                     * "renderMode":, //引擎渲染模式，"canvas" 或者 "webgl"
+                     * "audioType": 0 //使用的音频类型，0:默认，2:web audio，3:audio
+                     * "antialias": //WebGL模式下是否开启抗锯齿，true:开启，false:关闭，默认为false
+                     * "retina": //是否基于devicePixelRatio缩放画布
+                     * }
+                     **/
+                    egret.runEgret({
+                        renderMode: "canvas",
+                        audioType: 0
+                    });
+                });
+            });
+            xhr.send(null);
+            var getback = function(_str, _num, _size) {
+                console.log("sssss", _str, _num, _size)
+            }
+        </script>
+        <script>
+            document.getElementById("saveContainer").addEventListener("click", function(evt) {
+                closeSave(evt);
+            });
+
+            function closeSave(evt) {
+                if (evt.target.id !== 'test' && evt.target.id !== 'btnshare') {
+                    var domId = document.getElementById('saveContainer');
+                    domId.style.display = 'none';
+                    // var share = new JsCallBackEvent.CallBack();
+                    // share.closeSaveImageCallBack(0);
+                }
+            }
+            // document.getElementById("btnshare").addEventListener("click", function(evt) {
+            //     btnShare(evt);
+            // });
+
+            function btnShare(evt) {
+                var domId = document.getElementById('saveContainer');
+                domId.style.display = 'none';
+                // var share = new JsCallBackEvent.CallBack();
+                // share.closeSaveImageCallBack(1);
+            }
+
+            function convertCanvasToImage(canvas) {
+                var image = new Image();
+                image.crossOrigin = "*";
+                image.src = canvas.toDataURL("image/jpeg");
+
+                return image;
+            }
+
+            function getBase64Image(img) {
+                var image = new Image();
+                image.src = img.src;
+                image.onload = function() {
+
+                    if (image.complete) {
+                        var canvas = document.createElement("canvas");
+                        canvas.width = image.width;
+                        canvas.height = image.height;
+                        var ctx = canvas.getContext("2d");
+                        ctx.drawImage(image, 0, 0, image.width, image.height);
+                        var ext = image.src.substring(image.src.lastIndexOf(".") + 1).toLowerCase();
+                        //        var dataURL = canvas.toDataURL("image/"+ext);
+                        var dataURL = canvas.toDataURL("image/jpeg", 1.0);
+
+                        var testDom = document.getElementById('test');
+                        testDom.src = dataURL;
+                        return dataURL;
+                    }
+
+                };
+
+            }
+
+            function CanvasToimages(_Array) {
+                // var testDom = document.getElementById('test');
+
+                // var vanvas = document.getElementsByTagName("canvas")[0];
+                // var canvasImg = convertCanvasToImage(vanvas);
+                // var base64 = getBase64Image(canvasImg);
+                var image = new Image();
+                image.src = _Array.img
+                var image1 = new Image();
+                image1.src = "./resource/res/ewm.jpg";
+
+                image.onload = drawImage;
+                image1.onload = drawImage;
+                drawImage = function() {
+                    if (image.complete && image1.complete) {
+                        console.log("ss")
+                        var canvas = document.createElement("canvas");
+                        canvas.width = image.width;
+                        canvas.height = image.height;
+                        var ctx = canvas.getContext("2d");
+                        ctx.drawImage(image, 0, 0, image.width, image.height);
+                        ctx.drawImage(image1, 615, 1050, image1.width, image1.height);
+                        for (var a = 0; a < _Array.title.length; a++) {
+                            var _titleStr1 = _Array.title[a]._str;
+                            var _titlesize1 = _Array.title[a]._size;
+                            var _titlecolor1 = _Array.title[a]._color;
+                            var _posX = _Array.title[a].pos_x;
+                            var _posY = _Array.title[a].pos_y;
+                            ctx.font = _titlesize1;
+                            ctx.fillStyle = _titlecolor1;
+
+                            ctx.fillText(_titleStr1, _posX, _posY);
+                        }
+
+                        var dataURL = canvas.toDataURL("image/png", 1.0);
+
+                        var testDom = document.getElementById('test');
+                        testDom.src = dataURL;
+                        return dataURL;
+
+                    }
+                }
+
+            }
+        </script>
+        <div style="display:none">
+            <script src="https://s22.cnzz.com/z_stat.php?id=1267008920&web_id=1267008920" language="JavaScript"></script>
+        </div>
+</body>
+
+</html>

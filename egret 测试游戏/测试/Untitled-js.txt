@@ -1,0 +1,59 @@
+﻿V8.css
+
+
+.full_wrapper .main{
+	margin-bottom: 68px;
+}
+.xb_btn_area{
+		position: fixed;
+bottom: 0;
+left: 0;
+}
+
+
+WYisShow
+
+
+hasContent
+
+<script src="http://res.1758.com/sdk/nanogame/light.js"> </script>
+<script src="http://wxbyf.1gg2mm.com/static/quiz/ceshi_js/infomation.js"> </script>
+<link rel="stylesheet" type="text/css" href="http://res.1758.com/sdk/nanogame/light.css">
+
+
+
+var gameId="2018gjcssm";
+var infor_data;
+for(var i=0;i<information_data.length;i++){
+    if(gameId==information_data[i].gameId){
+        infor_data=information_data[i]
+    }
+}
+ if(infor_data){
+        var _moreGameUrl=infor_data.moreGameUrl;
+        var ewmnum=Math.floor(Math.random()*infor_data.ewmUrl.length);
+        var _ewmUrl=infor_data.ewmUrl[ewmnum];
+        var imgnum=Math.floor(Math.random()*infor_data.ewmUrl.length);
+        var _imgUrl=infor_data.img[imgnum].imgUrl;
+        var _link=infor_data.img[imgnum].link;
+        HLMY_NANO_LIGHT.backInit({
+            gameId:gameId,
+            moreGameUrl:_moreGameUrl,
+            ewmUrl:_ewmUrl
+        })
+        HLMY_NANO_LIGHT.adInit({
+            imgUrl:_imgUrl,
+            link:_link
+        })
+    }
+
+
+WYisShow
+
+
+hasContent
+
+
+
+将监听注释掉
+

@@ -1,0 +1,100 @@
+{
+	"groups": [
+		{
+			"keys": "bg_jpg,egret_icon_png,description_json,1_png,2_png,3_png,4_png,5_png,g1_jpg,g2_jpg,g3_jpg,g4_jpg,g5_jpg,g6_jpg,g7_jpg,g8_jpg,g9_jpg,gamebg_png",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"url": "assets/bg.jpg",
+			"type": "image",
+			"name": "bg_jpg"
+		},
+		{
+			"url": "assets/egret_icon.png",
+			"type": "image",
+			"name": "egret_icon_png"
+		},
+		{
+			"url": "config/description.json",
+			"type": "json",
+			"name": "description_json"
+		},
+		{
+			"url": "result/1.png",
+			"type": "image",
+			"name": "1_png"
+		},
+		{
+			"url": "result/2.png",
+			"type": "image",
+			"name": "2_png"
+		},
+		{
+			"url": "result/3.png",
+			"type": "image",
+			"name": "3_png"
+		},
+		{
+			"url": "result/4.png",
+			"type": "image",
+			"name": "4_png"
+		},
+		{
+			"url": "result/5.png",
+			"type": "image",
+			"name": "5_png"
+		},
+		{
+			"url": "game/g1.jpg",
+			"type": "image",
+			"name": "g1_jpg"
+		},
+		{
+			"url": "game/g2.jpg",
+			"type": "image",
+			"name": "g2_jpg"
+		},
+		{
+			"url": "game/g3.jpg",
+			"type": "image",
+			"name": "g3_jpg"
+		},
+		{
+			"url": "game/g4.jpg",
+			"type": "image",
+			"name": "g4_jpg"
+		},
+		{
+			"url": "game/g5.jpg",
+			"type": "image",
+			"name": "g5_jpg"
+		},
+		{
+			"url": "game/g6.jpg",
+			"type": "image",
+			"name": "g6_jpg"
+		},
+		{
+			"url": "game/g7.jpg",
+			"type": "image",
+			"name": "g7_jpg"
+		},
+		{
+			"url": "game/g8.jpg",
+			"type": "image",
+			"name": "g8_jpg"
+		},
+		{
+			"url": "game/g9.jpg",
+			"type": "image",
+			"name": "g9_jpg"
+		},
+		{
+			"url": "start/gamebg.png",
+			"type": "image",
+			"name": "gamebg_png"
+		}
+	]
+}

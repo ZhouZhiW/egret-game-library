@@ -1,0 +1,107 @@
+[
+    {
+        "name": "ftp-zzw",
+        "host": "host",
+        "user": "zzw",
+        "password": "zzw123",
+        "port": 21,
+        "protocol": "ftp",
+        "remotePath": "",
+        "passive": false,
+        "debug": false,
+        "privateKeyPath": null,
+        "ignoreDir": [
+            ".out/",
+            ".git/"
+        ],
+        "ignoreFileSuffix": [
+            "diff"
+        ],
+        "diffFile": "ftpdiff-1509938856331.diff",
+        "usediffFile": true
+    },
+    {
+        "name": "ftp-zzw",
+        "host": "host",
+        "user": "zzw",
+        "password": "zzw123",
+        "port": 21,
+        "protocol": "ftp",
+        "remotePath": "bin-release/web/zyn/",
+        "passive": false,
+        "debug": false,
+        "privateKeyPath": null,
+        "ignoreDir": [
+            ".out/",
+            ".git/"
+        ],
+        "ignoreFileSuffix": [
+            "diff"
+        ],
+        "diffFile": "ftpdiff-1509938998013.diff",
+        "usediffFile": true
+    },
+    {
+        "name": "ftp-171106113407",
+        "host": "host",
+        "user": "username",
+        "password": "password",
+        "port": 21,
+        "protocol": "ftp",
+        "remotePath": "zyn/",
+        "passive": false,
+        "debug": false,
+        "privateKeyPath": null,
+        "ignoreDir": [
+            ".out/",
+            ".git/"
+        ],
+        "ignoreFileSuffix": [
+            "diff"
+        ],
+        "diffFile": "ftpdiff-1509939255627.diff",
+        "usediffFile": true
+    },
+    {
+        "name": "ftp-171106113555",
+        "host": "host",
+        "user": "username",
+        "password": "password",
+        "port": 138,
+        "protocol": "ftp",
+        "remotePath": "zyn/",
+        "passive": false,
+        "debug": false,
+        "privateKeyPath": null,
+        "ignoreDir": [
+            ".out/",
+            ".git/"
+        ],
+        "ignoreFileSuffix": [
+            "diff"
+        ],
+        "diffFile": "ftpdiff-1509939367290.diff",
+        "usediffFile": true
+    },
+    {
+        "name": "ftp-171106113702",
+        "host": "host",
+        "user": "username",
+        "password": "password",
+        "port": 21,
+        "protocol": "ftp",
+        "remotePath": "zyn/",
+        "passive": false,
+        "debug": false,
+        "privateKeyPath": null,
+        "ignoreDir": [
+            ".out/",
+            ".git/"
+        ],
+        "ignoreFileSuffix": [
+            "diff"
+        ],
+        "diffFile": "ftpdiff-1509939479858.diff",
+        "usediffFile": true
+    }
+]

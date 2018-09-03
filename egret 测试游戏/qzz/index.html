@@ -1,0 +1,785 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>七宗の罪</title>
+    <meta name="viewport" id="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <link rel="stylesheet" href="./style.css?ver=2017100801">
+    <link href="./favicon.png" type="image/x-icon" rel="icon">
+    <link href="./favicon.png" type="image/x-icon" rel="shortcut icon">
+    <link href="./favicon.png" type="image/x-icon" rel="Bookmark">
+    <script type="text/javascript">
+        var MAX_WIDTH = 640;
+        // var CURRENT_VERSION = JAM.getVersion() ? JAM.getVersion() : '',
+            // THRESHOLD_VERSION = '1.5.9';
+        var APP_HOST = 'http://app.jammyfm.com';
+
+        /**
+         * IIFE: 设置 1REM = 1/10 * 屏幕宽度
+         */
+        (function () {
+            function setUnit() {
+                var docWidth = document.documentElement.clientWidth > MAX_WIDTH ? MAX_WIDTH : document.documentElement.clientWidth;
+                document.documentElement.style.fontSize = docWidth / 10 + "px";
+            }
+
+            var h = null;
+            window.addEventListener("resize", function () {
+                clearTimeout(h);
+                h = setTimeout(setUnit, 300);
+            }, false);
+
+            setUnit();
+
+            window.UAParam = {
+                isAndroid: navigator.userAgent.match(/android/gi),
+                isIos: navigator.userAgent.match(/iphone|ipod|ipad/gi),
+                isIos9: navigator.userAgent.match(/iPhone OS 9/i) || navigator.userAgent.match(/iPhone OS 10/i),
+                isWeixin: navigator.userAgent.match(/micromessenger/gi),
+                isWeibo: navigator.userAgent.match(/weibo/gi),
+                isChrome: navigator.userAgent.match(/Chrome\/([\d.]+)/i) || navigator.userAgent.match(/CriOS\/([\d.]+)/i),
+                isJamApp: navigator.userAgent.match(/JAMMusic/g)
+            }
+        })();
+    </script>
+    <script>
+        var _hmt = _hmt || [];
+        (function() {
+            var hm = document.createElement("script");
+            hm.src = "https://hm.baidu.com/hm.js?ed2c369ca7147f57fd78eb73f867ca5c";
+            var s = document.getElementsByTagName("script")[0];
+            s.parentNode.insertBefore(hm, s);
+        })();
+    </script>
+
+</head>
+
+<body>
+    <input type="hidden" id="userName" value="">
+    <!--<input type="hidden" id="userAvatar" value="http://img.jammyfm.com/file/2017/10/rk4K7aLm64.jpg">-->
+    <input type="hidden" id="userAvatar" value="./form.png">
+    <input type="hidden" id="unionId" value="wx_o-hqGwN3sU01e1Buhq7mGjZXcYpY">
+    <div class="wrapper">
+        <div class="landing page">
+            <div class="loading-inner">
+                <div class="loading-ind"></div>
+                <p class="progress">0%</p>
+            </div>
+        </div>
+        <div class="page-0 page">
+            <div class="start-btn"></div>
+        </div>
+        <div class="page-1 page">
+            <div class="question">
+                <div class="number">（1/7）</div>
+                <div class="title">这首音乐带给你的感受是？</div>
+            </div>
+            <div class="answer">
+                <div class="a-item item" data-target="p1" data-num="2">A.舒适</div>
+                <div class="a-item item" data-target="p1" data-num="3">B.悲伤</div>
+                <div class="a-item item" data-target="p1" data-num="4">C.优雅</div>
+                <div class="a-item item" data-target="p1" data-num="5">D.冷漠</div>
+            </div>
+        </div>
+        <div class="page-2 page">
+            <div class="question">
+                <div class="number">（2/7）</div>
+                <div class="title">这段音乐对应的场景应该是？</div>
+            </div>
+            <div class="answer">
+                <div class="a-item item" data-target="p5" data-num="2">A.清晨散步</div>
+                <div class="a-item item" data-target="p5" data-num="3">B.夜间赶路</div>
+                <div class="a-item item" data-target="p5" data-num="6">C.午后慵懒</div>
+                <div class="a-item item" data-target="p5" data-num="4">D.凌晨失眠</div>
+            </div>
+        </div>
+        <div class="page-3 page">
+            <div class="question">
+                <div class="number">（3/7）</div>
+                <div class="title">这段音乐的色彩是？</div>
+            </div>
+            <div class="answer">
+                <div class="a-item item" data-target="p4" data-num="4">A.红色</div>
+                <div class="a-item item" data-target="p4" data-num="1">B.水墨</div>
+                <div class="a-item item" data-target="p4" data-num="2">C.蓝色</div>
+                <div class="a-item item" data-target="p4" data-num="3">D.耀眼的金色</div>
+            </div>
+        </div>
+        <div class="page-4 page">
+            <div class="question">
+                <div class="number">（4/7）</div>
+                <div class="title">这段音乐播放的场景应该是？</div>
+            </div>
+            <div class="answer">
+                <div class="a-item item" data-target="p3" data-num="3">A.神秘的古堡</div>
+                <div class="a-item item" data-target="p3" data-num="1">B.室外的草坪</div>
+                <div class="a-item item" data-target="p3" data-num="3">C.热闹的餐厅</div>
+                <div class="a-item item" data-target="p3" data-num="2">D.空旷的会议室</div>
+            </div>
+        </div>
+        <div class="page-5 page">
+            <div class="question">
+                <div class="number">（5/7）</div>
+                <div class="title">这段音乐会让你想起下面哪种食物？</div>
+            </div>
+            <div class="answer">
+                <div class="a-item item" data-target="p7" data-num="1">A.一碗清淡的素面</div>
+                <div class="a-item item" data-target="p7" data-num="4">B.小火慢炖的卤肉</div>
+                <div class="a-item item" data-target="p7" data-num="8">C.丰盛诱人的海鲜</div>
+                <div class="a-item item" data-target="p7" data-num="6">D.精致考究的甜品</div>
+            </div>
+        </div>
+        <div class="page-6 page">
+            <div class="question">
+                <div class="number">（6/7）</div>
+                <div class="title">这段音乐是从什么地方播放出来的？</div>
+            </div>
+            <div class="answer">
+                <div class="a-item item" data-target="p2" data-num="3">A.咖啡馆的音响里</div>
+                <div class="a-item item" data-target="p2" data-num="2">B.漫步街头的耳机里</div>
+                <div class="a-item item" data-target="p2" data-num="7" style="font-size: 0.45rem;">C.昏暗房间的黑胶唱机里</div>
+                <div class="a-item item" data-target="p2" data-num="5" style="font-size: .4rem;">D.电视正在播放的电影片段里</div>
+            </div>
+        </div>
+        <div class="page-7 page">
+            <div class="question">
+                <div class="number">（7/7）</div>
+                <div class="title">与这段音乐最符合的画面是？</div>
+            </div>
+            <div class="answer">
+                <div class="a-item item-img" data-target="p6" data-num="2">
+                    <span>A.</span>
+                    <div class="image">
+                        <img src="http://h5cdn.jammyfm.com/sins/img/1.jpg" alt="">
+                    </div>
+                </div>
+                <div class="a-item item-img" data-target="p6" data-num="2">
+                    <span>B.</span>
+                    <div class="image">
+                        <img src="http://h5cdn.jammyfm.com/sins/img/2.jpg" alt="">
+                    </div>
+                </div>
+                <div class="a-item item-img" data-target="p6" data-num="3">
+                    <span>C.</span>
+                    <div class="image">
+                        <img src="http://h5cdn.jammyfm.com/sins/img/3.jpg" alt="">
+                    </div>
+                </div>
+                <div class="a-item item-img" data-target="p6" data-num="5">
+                    <span>D.</span>
+                    <div class="image">
+                        <img src="http://h5cdn.jammyfm.com/sins/img/4.jpg" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="result">
+            <div class="share-ind">长按下方图片保存</div>
+            <canvas id="draw" width="1085" height="1757" style="display: none;"></canvas>
+            <div id="radar" style="width: 750px; height: 750px; position: absolute; left: -9999px; top: -9999px; display: none;"></div>
+            <img id="result" src="" alt="" style="width: 100%; vertical-align: middle;">
+            <div class="restart-btn">更多游戏</div>
+        </div>
+        <div class="loading-wrapper">
+            <div class="loading-inner">
+                <div class="loading-ind"></div>
+                <p id="generatingText">正在分析中...</p>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal">
+        <div class="modal-inner">
+            <div class="title">别让“<span>强欲</span>”控制你的人生</div>
+
+            
+                        <p>这里有一些小窍门<br>可以让你脱离苦海</p>
+            <img src="http://img.jammyfm.com/wordpress/wp-content/themes/pinboard/images/weixin/61-qrcode.jpg" alt="" class="qrcode">
+            <a class="link" href="https://kdt.im/MRAlRh">开始赎罪</a>
+            <div class="close-btn"></div>
+        </div>
+    </div>
+
+    <script src="./jquery.min.js" charset="utf-8"></script>
+    <script src="./pxloader-all.min.js" charset="utf-8"></script>
+    <script src="./lrz.all.bundle.js" charset="utf-8"></script>
+    <script src="./echarts.min.js"></script>
+    <script src="./alerty.min.js"></script>
+    <script>
+        // delay each image and append the timestamp to prevent caching 
+        var APP_SERVER_HOST = 'http://app.jammyfm.com',
+            STAT_ENV = 'prod',
+
+            QRCODE_TEXT = '这里有一些小装备&lt;br/&gt;可以帮你脱离苦海',
+            
+            CONFIG_PARAM = {
+                p1_BTN_URL: 'https://kdt.im/jSYZRh',
+                p1_TEXT: '这里有一些小装备<br>可以让你脱离苦海',
+
+                p2_BTN_URL: 'https://kdt.im/jZTzRh',
+                p2_TEXT: '这里有一些小装备<br>可以让你脱离苦海',
+
+                p3_BTN_URL: 'https://kdt.im/iYLZRh',
+                p3_TEXT: '这里有一些小装备<br>可以让你脱离苦海',
+
+                p4_BTN_URL: 'https://kdt.im/GnjZRh',
+                p4_TEXT: '这里有一些小装备<br>可以让你脱离苦海',
+
+                p5_BTN_URL: 'https://kdt.im/v4uzRh',
+                p5_TEXT: '这里有一些小装备<br>可以让你脱离苦海',
+
+                p6_BTN_URL: 'https://kdt.im/vS5zRh',
+                p6_TEXT: '这里有一些小装备<br>可以让你脱离苦海',
+
+                p7_BTN_URL: 'https://kdt.im/NDezRh',
+                p7_TEXT: '这里有一些小装备<br>可以让你脱离苦海'
+            },
+
+            timestamp = new Date().getTime(),
+
+            $progress = $('.progress'), 
+            loader = new PxLoader(),
+            // baseURL = '/sins/img/';
+            baseURL = 'http://h5cdn.jammyfm.com/sins/img/';
+            avatarURL = $('#userAvatar').val(),
+            avatarURL = avatarURL ? avatarURL : '/sins/img/default_avatar.png',
+            // avatarURL = avatarURL ? avatarURL : 'http://img.jammyfm.com/file/2017/09/eSGYK3qnVc.jpg',
+            userName = $('#userName').val(),
+            unionId = $('#unionId').val(),
+            // 二维码显示比率
+            qrcodeShowRatio = 1,
+            qrcodeShowIndex = Math.random() >= qrcodeShowRatio;
+//             resultBg = loader.addImage(baseURL + 'result_bg_0.jpg', null, null, {origin: true}),
+
+        // if (window.UAParam.isJamApp) {
+        //     var randIndex = Math.floor(Math.random() * 100) >= 70;
+        //     var resultBg;
+        //     if (randIndex) {
+        //         resultBg = loader.addImage(baseURL + 'result_bg_app.jpg', null, null, {origin: true});
+        //     } else {
+        //         resultBg = loader.addImage(baseURL + 'result_bg_7.jpg', null, null, {origin: true});
+        //     }
+        //     var resultBgArrow = loader.addImage(baseURL + 'result_bg_arrow.jpg', null, null, {origin: true});
+        // } else {
+            var resultBgs = [7],
+                randIndex = resultBgs[Math.floor((Math.random() * resultBgs.length))],
+                resultBg = loader.addImage(baseURL + 'result_bg_' + randIndex + '.jpg', null, null, {origin: true});
+        // }
+
+        if (qrcodeShowIndex) {
+            $('.modal').addClass('random');
+            $('.modal p').html('这里有一些小装备<br>可以让你脱离苦海')
+        }
+        
+        loader.addImage(baseURL + 'answer_item_bg.png'),
+        loader.addImage(baseURL + 'start-btn.png'),
+        loader.addImage(baseURL + '1.jpg'),
+        loader.addImage(baseURL + '2.jpg'),
+        loader.addImage(baseURL + '3.jpg'),
+        loader.addImage(baseURL + '4.jpg'),
+        loader.addImage(baseURL + 'img_wrapper.png'),
+        loader.addImage(baseURL + 'question_bg.jpg'),
+        // loader.addImage(avatarURL),
+        loader.addImage(baseURL + 'start_1.jpg');
+
+        for (var i = 1; i <= 7; i++) {
+            loader.addImage(baseURL + i + '.mp3');
+        }
+
+        // callback that runs every time an image loads
+        loader.addProgressListener(function(e) {
+            // the event provides stats on the number of completed items 
+            $progress.text( parseInt(e.completedCount / e.totalCount * 100) + '%' );
+
+            if (e.completedCount == e.totalCount) {
+                $('.landing').fadeOut();
+
+                sendStat('start_page_loaded');
+            }
+        });
+        
+        loader.start();
+
+        var computeParam = {
+            p1: {
+                name: '强欲',
+                value: 0
+            },  // 强欲
+            p2: {
+                name: '色欲',
+                value: 0
+            },  // 色欲
+            p3: {
+                name: '嫉妒',
+                value: 0
+            },  // 嫉妒
+            p4: {
+                name: '傲慢',
+                value: 0
+            },  // 傲慢
+            p5: {
+                name: '懒惰',
+                value: 0
+            },  // 懒惰
+            p6: {
+                name: '愤怒',
+                value: 0
+            },  // 愤怒
+            p7: {
+                name: '暴食',
+                value: 0
+            }   // 暴食
+        }, genChartData = [];
+
+        var myChart = echarts.init(document.getElementById('radar'));
+
+        var audio = new Audio();
+
+        $(function() {
+
+            if (window.UAParam.isJamApp) {
+                $('.share-ind').hide();
+            }
+
+            $('.start-btn').on('click', function() {
+                if (window.UAParam.isJamApp) {
+                    if (CURRENT_VERSION < THRESHOLD_VERSION) {
+                        alerty.alert('请升级至最新版本体验');
+                        return
+                    } else {
+                        if (userName == '') {
+                            if (!JAM.isLogin()) {
+                                JAM.doWxLogin({
+                                    success: function(user) {
+                                        var user = JSON.parse(user);
+                                        avatarURL = user.avatar;
+                                        userName = user.nickname;
+                                        unionId = user.userId;
+                                    }
+                                })
+                            }
+                            return
+                        }
+                    }
+                }
+
+                sendStat('start_btn_clicked');
+
+                $('.page').hide();
+                $('.page-1').show();
+                audio.src = baseURL + '1.mp3';
+                audio.loop = true;
+                audio.play();
+            })
+
+            $('.restart-btn').on('click', function() {
+                top.window.location.href ="http://quiz_qizongzui.m1758.com/static/partner/common/spf.html?chn=quiz_qizongzui";
+
+                // $('.page').hide();
+                // $('.result').hide();
+                // $('.page-0').show();
+
+                // genChartData = [];
+
+                // if (window.UAParam.isWeixin) {
+                //     wx.onMenuShareAppMessage({
+                //         title: shareData.title,
+                //         desc: shareData.excerpt,
+                //         link: shareData.url,
+                //         imgUrl: shareData.imgUrl
+                //     });
+                // } else if (window.UAParam.isJamApp) {
+                //     JAM.onShare({
+                //         title: '你敢直面你的七宗罪吗？测测你最大的弱点是什么',
+                //         desc: '7段音乐测出你的七宗罪',
+                //         image_url: 'http://h5cdn.jammyfm.com/sins/img/share-icon-large.jpg',
+                //         link: 'http://a.app.qq.com/o/simple.jsp?pkgname=com.jammyfm.jammusic&ckey=CK1362774841713',
+                //         type: 'link',
+                //         success: function() {
+                //         }
+                //     });
+                // }
+
+                // var canvas = document.getElementById("draw");
+                // var ctx = canvas.getContext("2d");
+
+                // ctx.clearRect(0, 0, canvas.width, canvas.height);
+
+//                sendStat('click_left_bottom_btn');
+
+//                $('.modal').show();
+            });
+
+            $('.modal .close-btn').on('click', function() {
+                $('.modal').hide();
+            })
+
+            $('.qrcode').on('touchstart', function(e) {
+                e.stopPropagation();
+                time = setTimeout(function() {
+//                    sendStat('long_touch_qrcode');
+                }, 900);
+            });
+            $('.qrcode').on('touchend', function(e) {
+                e.stopPropagation();
+                clearTimeout(time);
+            });
+
+            $('.link').on('click', function() {
+//                sendStat('click_promote_btn');
+            })
+
+            $('.a-item').on('click', function() {
+                var $this = $(this);
+                var param = $this.data('target');
+                var num = $this.data('num');
+                var $wrapperEl = $this.parents('.page');
+                var questionNum = /page-(\d)/g.exec($wrapperEl.attr('class'))[1];
+
+                audio.pause();
+
+                computeParam[param]['value'] = num;
+
+                if (questionNum == 7) {
+                    //测试结束开始生成结果
+                    // timestamp = new Date().getTime();
+                    // sendStat('start_generate_result');                    
+
+                    var maxVal = 0, maxName = '', maxInd = '';
+
+                    $.each(computeParam, function(i, val){
+                        if (maxVal < val['value']) {
+                            maxVal = val['value'];
+                            maxName = val['name'];
+                            maxInd = i;
+                        }
+                        genChartData.push(val['value']);
+                    });
+
+                    if (navigator.userAgent.toLowerCase().match(/MicroMessenger/i) == 'micromessenger') {
+                        wx.onMenuShareAppMessage({
+                            title: '你敢直面你的七宗罪吗？我最大的弱点是' + maxName,
+                            desc: shareData.excerpt,
+                            link: shareData.url,
+                            imgUrl: shareData.imgUrl
+                        });
+                    }
+
+                    $('.modal .title span').text(maxName);
+
+                    if (qrcodeShowIndex) {
+                        $('.modal p').html(CONFIG_PARAM[maxInd + '_TEXT']);
+                        $('.modal .link').attr('href', CONFIG_PARAM[maxInd + '_BTN_URL']);
+                    }
+
+                    audio.pause();
+
+                    $('.loading-wrapper').show();
+
+                    generateResult();
+
+                    return;
+                }
+
+                $('.page').hide();
+
+                var nextNum = parseInt(++questionNum);
+                $('.page-' + nextNum).show();
+
+                audio.src = baseURL + nextNum + '.mp3';
+                audio.play();
+            })
+        })
+
+        // JAM.ready(function(){
+        //     if (JAM.isLogin()) {
+        //         var token = JAM.getAuthToken();
+        //         $.ajax({
+        //             url: APP_HOST + '/api/v1/user/get-user-info?token=' + token,
+        //             success: function(result) {
+        //                 avatarURL = result.data.avatar.small;
+        //                 userName = result.data.display_name;
+        //                 unionId = result.data.ID;
+        //             }
+        //         })
+        //     }
+
+        //     JAM.onShare({
+        //         title: '你敢直面你的七宗罪吗？测测你最大的弱点是什么',
+        //         desc: '7段音乐测出你的七宗罪',
+        //         image_url: 'http://h5cdn.jammyfm.com/sins/img/share-icon-large.jpg',
+        //         link: 'http://a.app.qq.com/o/simple.jsp?pkgname=com.jammyfm.jammusic&ckey=CK1362774841713',
+        //         type: 'link',
+        //         success: function() {
+        //         }
+        //     });
+        // });
+
+        function generateResult() {
+            window.data=null;
+            window.UAParam.isJamAp=false;
+            if (window.UAParam.isJamApp) {
+                //JAM App
+                draw(resultBgArrow, function(img) {
+                    document.getElementById('result').src = img;
+                    draw(resultBg, function(img) {
+                        localResizeUpload(img, function(res) {
+                            if (res.errcode == 0) {
+                                setTimeout(function() {
+                                    $('.page').hide();
+                                    $('.loading-wrapper').hide();
+                                    $('.result').show();
+
+                                    JAM.onShare({
+                                        title: '你敢直面你的七宗罪吗？测测你最大的弱点是什么',
+                                        desc: '7段音乐测出你的七宗罪',
+                                        link: 'http://a.app.qq.com/o/simple.jsp?pkgname=com.jammyfm.jammusic&ckey=CK1362774841713',
+                                        image_url: res.data.url,
+                                        type: 'image',
+                                        success: function() {
+                                        }
+                                    });
+
+                                    sendStat('result_generated');
+                                }, 500);
+                            }
+                        })
+                    })
+                })
+            } else {
+                //微信
+                draw(resultBg, function(img) {
+                    localResizeUpload(img, function(res) {
+                        if (res.errcode == 0) {
+//                            document.getElementById('result').src = res.data.url;
+                            document.getElementById('result').src = window.data;
+                            setTimeout(function() {
+                                $('.page').hide();
+                                $('.loading-wrapper').hide();
+                                $('.result').show();
+
+                                //测试结束展示结果
+                                // sendStat('end_generate_result', new Date().getTime() - timestamp);
+
+                                sendStat('result_generated');
+                            }, 500);
+                        }
+                    })
+                })
+            }
+        }
+        function draw(bg, cb) {
+            var canvas = document.getElementById("draw");
+            var ctx = canvas.getContext("2d");
+            ctx.clearRect(0, 0, canvas.width, canvas.height);
+            console.log("sss",bg);
+//            ctx.drawImage(bg, 0, 0, 1085, 1757);
+            var result_bg=new Image();
+            result_bg.src = "./result_bg_7.jpg";
+            ctx.drawImage(result_bg, 0, 0, 1085, 1757);
+//            var bg_img=new Image();
+//            bg_img.src = "./bg.png";
+
+//            sendStat('debug_avatar_url', avatarURL);
+
+            var img1 = new Image();
+            img1.crossOrigin = "anonymous";
+            // img1.src = '/sins/img/fdt.png';
+            result_bg.onload = drawImage;
+            function drawImage(){
+                if(result_bg.complete){
+                    img1.onload = function() {
+                        // 调试统计
+//                sendStat('debug_img1_onload', timestamp);
+                        ctx.drawImage(result_bg, 0, 0, 1085, 1757);
+                        ctx.drawImage(img1, 460, 537, 155, 155);
+//                ctx.drawImage(bg_img, 570, 1500, 511, 254);
+                        ctx.font = "bold 50px serif";
+                        ctx.fillStyle = "#fff";
+                        ctx.textAlign = "center";
+                        ctx.fillText(userName, 542, 770);
+
+                        option.series[0].data[0].value = genChartData;
+                        myChart.setOption(option);
+                        var chartImg = new Image();
+                        chartImg.onload = function() {
+
+                            ctx.drawImage(chartImg, 140, 780, 805, 805);
+
+                            cb(canvas.toDataURL());
+                        }
+                        chartImg.src = myChart.getDataURL();
+                    }
+                    img1.src = avatarURL;
+                    setTimeout(function() {
+                        if ( !img1.complete || !img1.naturalWidth )
+                        {
+//                    img1.src = "http://h5cdn.jammyfm.com/sins/img/default_avatar.png";
+                        }
+                    }, 3000);
+                }
+            }
+
+
+        }
+
+        function localResizeUpload(img, cb) {
+            lrz(img, {quality: 0.9, fieldName: 'file'})
+                .then(function (rst) {
+                    // 处理成功会执行                    
+                    $.ajax({
+                        url: APP_SERVER_HOST + '/api/v1/image/upload',
+                        data: rst.formData,
+                        processData: false,
+                        contentType: false,
+                        type: 'POST',
+                        beforeSend: function() {
+                            $('#generatingText').text('正在生成结果...');
+                        },
+                        success: cb,
+                        complete: function(res) {
+                        },
+                        error: function(jqXHR, textStatus) {
+                            if(textStatus === 'timeout') {
+                                 alert('超时，请稍后重试');
+                                 $('.loading-wrapper').hide();
+                                 $('#generatingText').text('正在分析中...');
+                            }
+                        },
+                        timeout: 30000
+                    });
+                })
+        }
+
+        function sendStat(name, value) {
+            $.post(APP_SERVER_HOST + '/api/v1/data/stat', JSON.stringify({
+                env: STAT_ENV,
+                key: name,
+                value: value ? value : unionId,
+                region: 'STAT_QIZONGZUI_20170920',
+                device_info: window.navigator.userAgent
+            }))
+        }
+
+        var option = {
+            radar: {
+                // shape: 'circle',
+                name: {
+                    textStyle: {
+                        color: '#fff',
+                        borderRadius: 3,
+                        padding: [3, 5],
+                        fontFamily: 'serif',
+                        fontSize: 42
+                   }
+                },
+                indicator: [
+                   { name: '强欲', max: 5},
+                   { name: '色欲', max: 5},
+                   { name: '嫉妒', max: 5},
+                   { name: '傲慢', max: 5},
+                   { name: '懒惰', max: 5},
+                   { name: '愤怒', max: 5},
+                   { name: '暴食', max: 5}
+                ],
+                axisLine: {
+                    lineStyle: {
+                        color: '#348353',
+                        width: 2
+                    }
+                },
+                splitNumber: 4,
+                splitLine: {
+                    lineStyle: {
+                        color: '#348353',
+                        width: 2
+                    }
+                },
+                splitArea: {
+                    show: false
+                }
+            },
+            series: [{
+                type: 'radar',
+                itemStyle: {
+                    normal: {
+                        opacity: 0
+                    }
+                },
+                lineStyle: {
+                    normal: {
+                        color: '#41c06f',
+                        width: 5
+                    }
+                },
+                areaStyle: {
+                    normal: {
+                        color: '#13b5b1'
+                    }
+                },
+                // areaStyle: {normal: {}},
+                data : [
+                    {
+                        value : [1, 2, 3, 4, 4, 3, 10],
+                    }
+                ]
+            }]
+        };
+    </script>
+
+    <script>
+        var shareData = {};
+        if(navigator.userAgent.toLowerCase().match(/MicroMessenger/i) == 'micromessenger') {
+            shareData = {
+                url: 'http://h5.jammyfm.com/sins/index',
+                title: "你敢直面你的七宗罪吗？测测你最大的弱点是什么",
+                imgUrl: "http://h5cdn.jammyfm.com/sins/img/share-icon-large.jpg",
+                excerpt: "7段音乐测出你的七宗罪"
+            };
+            window.setTimeout('initWxShare()', 100);
+        }
+
+        function initWxShare() {
+            $.getScript("http://res.wx.qq.com/open/js/jweixin-1.0.0.js", function(){
+                var url = 'http://www.jammyfm.com/wordpress/wp-content/themes/v2/wx_config.js.php?t=' + new Date().getTime();
+                $.getScript(url, function(){
+                    wx.ready(function(){
+                        wx.checkJsApi({
+                            jsApiList: ['onMenuShareTimeline', 'onMenuShareAppMessage'],
+                            success: function(){
+                                wx.onMenuShareTimeline({
+                                    title: shareData.title,
+                                    link: shareData.url,
+                                    imgUrl: shareData.imgUrl,
+                                    success: function () {
+                                    },
+                                    cancel: function () {
+                                    }
+                                });
+
+                                wx.onMenuShareAppMessage({
+                                    title: shareData.title,
+                                    desc: shareData.excerpt,
+                                    link: shareData.url,
+                                    imgUrl: shareData.imgUrl,
+                                    type: '',
+                                    dataUrl: '',
+                                    success: function () {
+                                    },
+                                    cancel: function () {
+                                    }
+                                });
+
+                            }
+                        });
+                    });
+                })
+            });
+        }
+    </script>
+    <div style="display:none">
+    <script src="https://s19.cnzz.com/z_stat.php?id=1265107452&web_id=1265107452" language="JavaScript"></script>
+    </div>
+</body>
+</html>
