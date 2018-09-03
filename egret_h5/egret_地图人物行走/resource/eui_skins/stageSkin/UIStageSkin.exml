@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="UIStageSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui" xmlns:ns1="*">
+	<ns1:MoveBar id="moveBar" width="200" height="200" left="0" top="600"/>
+</e:Skin>

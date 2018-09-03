@@ -1,0 +1,12 @@
+{
+    "topRectTween_tweenTime": 3000,
+    "topRectTween_endScale": 1,
+    "bottomRectTween_tweenTime": 3000,
+    "bottomRectTween_endScale": 1,
+    "titleTween_waitTime": 1500,
+    "titleTween_tweenTime": 1500,
+    "titleTween_endAlpha": 1,
+    "contentTween_waitTime": 1500,
+    "contentTween_tweenTime": 1500,
+    "contentTween_endAlpha": 1
+}

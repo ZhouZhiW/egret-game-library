@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="RoleBaseSkin" width="32" height="32" xmlns:e="http://ns.egret.com/eui">
+<e:Image id="roleModel"  width="100%" height="100%" left="0" top="0"></e:Image>
+	<e:Group id="nameGroup" width="200" height="32" x="-84" y="-32">
+		<e:BitmapLabel text="宁缺" id="roleName" width="100%" height="100%" left="0" top="0" font="RoleFnt_fnt" textAlign="center" verticalAlign="middle"/>
+	</e:Group>
+</e:Skin>

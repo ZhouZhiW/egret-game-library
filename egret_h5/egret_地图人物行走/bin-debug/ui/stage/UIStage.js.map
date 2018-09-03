@@ -1,0 +1,1 @@
+{"version":3,"file":"UIStage.js","sourceRoot":"","sources":["../../../src/ui/stage/UIStage.ts"],"names":[],"mappings":";;;;;;;;AAAA;;GAEG;AACH;IAAsB,2BAAS;IAC9B,iBAAmB,WAAuB;QAA1C,YACC,iBAAO,SAGP;QAFA,KAAI,CAAC,QAAQ,GAAC,+CAA+C,CAAC;QAC9D,KAAI,CAAC,OAAO,CAAC,WAAW,GAAC,WAAW,CAAC;;IACtC,CAAC;IAMF,cAAC;AAAD,CAAC,AAXD,CAAsB,SAAS,GAW9B;AAXK,UAAA,OAAO,sBAWZ,CAAA"}

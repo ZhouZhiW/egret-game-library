@@ -1,0 +1,164 @@
+{
+    "columnCount": 5,
+    "rowCount": 300,
+    "tileWidth": 32,
+    "tileHeight": 32,
+    "mbList": [
+        [
+            {
+                "backGroundTileImageName": "map_tile_07_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 0,
+                "x": 0,
+                "y": 0,
+                "name": "mapBlock0000"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_02_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 1,
+                "x": 0,
+                "y": 800,
+                "name": "mapBlock0100"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_09_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 2,
+                "x": 0,
+                "y": 1600,
+                "name": "mapBlock0200"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_02_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 3,
+                "x": 0,
+                "y": 2400,
+                "name": "mapBlock0300"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_08_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 4,
+                "x": 0,
+                "y": 3200,
+                "name": "mapBlock0400"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_04_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 5,
+                "x": 0,
+                "y": 4000,
+                "name": "mapBlock0500"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_06_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 6,
+                "x": 0,
+                "y": 4800,
+                "name": "mapBlock0600"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_03_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 7,
+                "x": 0,
+                "y": 5600,
+                "name": "mapBlock0700"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_06_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 8,
+                "x": 0,
+                "y": 6400,
+                "name": "mapBlock0800"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_03_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 9,
+                "x": 0,
+                "y": 7200,
+                "name": "mapBlock0900"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_08_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 10,
+                "x": 0,
+                "y": 8000,
+                "name": "mapBlock1000"
+            }
+        ],
+        [
+            {
+                "backGroundTileImageName": "map_tile_05_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 25,
+                "HNumber": 0,
+                "VNumber": 11,
+                "x": 0,
+                "y": 8800,
+                "name": "mapBlock1100"
+            }
+        ]
+    ]
+}

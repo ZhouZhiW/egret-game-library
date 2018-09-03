@@ -1,0 +1,11 @@
+{
+    "name":"firstAct",
+    "btnStart_Name": "开始游戏",
+    "btnOption_Name": "游戏选项",
+    "btnExit_Name": "退出游戏",
+    "title_Name": "我的修仙之路",
+    "titleTween_TweenTime": 1500,
+    "titleTween_WaitTime": 3000,
+    "titleTween_startScale": 0,
+    "titleTween_endScale": 1
+}

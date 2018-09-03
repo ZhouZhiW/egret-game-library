@@ -1,0 +1,21 @@
+{
+  "skins": {},
+  "autoGenerateExmlsList": true,
+  "exmls": [
+    "resource/H5GameEuiSkins/testItem.exml",
+    "resource/eui_skins/HScrollBarSkin.exml",
+    "resource/eui_skins/ScrollerSkin.exml",
+    "resource/eui_skins/VScrollBarSkin.exml",
+    "resource/eui_skins/commponentsSkin/BaseSkin.exml",
+    "resource/eui_skins/commponentsSkin/DecratorHSkin.exml",
+    "resource/eui_skins/commponentsSkin/MoveBarSkin.exml",
+    "resource/eui_skins/commponentsSkin/OvButtonSkin.exml",
+    "resource/eui_skins/commponentsSkin/StoryTitleSkin.exml",
+    "resource/eui_skins/roleBaseSkin/RoleBaseSkin.exml",
+    "resource/eui_skins/stageSkin/ControlStageSkin.exml",
+    "resource/eui_skins/stageSkin/GameManagerSkin.exml",
+    "resource/eui_skins/stageSkin/StartGameStageSkin.exml",
+    "resource/eui_skins/stageSkin/UIStageSkin.exml",
+    "resource/ui/starSgin/Sgin_ListItemSkin.exml"
+  ]
+}

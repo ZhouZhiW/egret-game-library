@@ -1,0 +1,8 @@
+{
+    "posX": 0, 
+    "posY": 0, 
+    "name": "宁缺", 
+    "onMap": "ForthMap_json", 
+    "font": "RoleFnt_fnt",
+    "roleModel":"Hero_0_png"
+}

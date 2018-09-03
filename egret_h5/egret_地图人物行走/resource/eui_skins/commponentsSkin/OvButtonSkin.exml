@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="OvButtonSkin" width="250" height="100" xmlns:e="http://ns.egret.com/eui">
+    <e:Image width="100%" height="100%" left="0" top="0" source="BtnBorder_png"/>
+    <e:BitmapLabel id="labelDisplay" width="100%" height="100%" left="0" top="0"  font="buttonFnt_fnt" textAlign="center" verticalAlign="middle"/>
+</e:Skin>

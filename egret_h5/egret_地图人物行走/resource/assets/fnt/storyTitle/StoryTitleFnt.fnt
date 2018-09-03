@@ -1,0 +1,12 @@
+info face="楷体" size=48 bold=0 italic=0 charset="" unicode=1 stretchH=100 smooth=1 aa=1 padding=0,0,0,0 spacing=1,1 outline=0
+common lineHeight=48 base=41 scaleW=256 scaleH=256 pages=1 packed=0 alphaChnl=0 redChnl=4 greenChnl=4 blueChnl=4
+page id=0 file="StoryTitleFnt_0.png"
+chars count=8
+char id=32   x=222   y=0     width=3     height=1     xoffset=-1    yoffset=47    xadvance=24    page=0  chnl=15
+char id=19968 x=39    y=45    width=43    height=7     xoffset=3     yoffset=20    xadvance=48    page=0  chnl=15
+char id=22238 x=0     y=45    width=38    height=31    xoffset=5     yoffset=8     xadvance=48    page=0  chnl=15
+char id=22320 x=176   y=0     width=45    height=36    xoffset=2     yoffset=5     xadvance=48    page=0  chnl=15
+char id=29425 x=129   y=0     width=46    height=38    xoffset=1     yoffset=5     xadvance=48    page=0  chnl=15
+char id=31456 x=0     y=0     width=44    height=44    xoffset=2     yoffset=2     xadvance=48    page=0  chnl=15
+char id=31532 x=45    y=0     width=36    height=44    xoffset=6     yoffset=2     xadvance=48    page=0  chnl=15
+char id=36718 x=82    y=0     width=46    height=39    xoffset=1     yoffset=4     xadvance=48    page=0  chnl=15

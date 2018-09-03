@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="MoveBarSkin" width="200" height="200" xmlns:e="http://ns.egret.com/eui">
+	<e:Image id="btnTop" width="40" height="40" x="100" y="12" anchorOffsetX="36" anchorOffsetY="25" rotation="-90" source="moveArrow_png"/>
+    <e:Image id="btnRight" width="40" height="40" x="160" y="80" source="moveArrow_png"/>
+    <e:Image id="btnLeft" width="40" height="40" x="40" y="120" rotation="180" source="moveArrow_png"/>
+    <e:Image id="btnBottom" width="40" height="40" x="115" y="160" rotation="90" source="moveArrow_png"/>
+</e:Skin>

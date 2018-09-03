@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="StoryTitleSkin" width="480" height="800" xmlns:e="http://ns.egret.com/eui">
+	<e:Group width="100%" height="35%" left="0" top="0">
+    <e:Rect id="topRect" fillColor="0x00000" width="100%" height="280" left="0" top="0" scaleY="0" alpha="0.8"></e:Rect>
+    </e:Group>
+	<e:Group width="100%" height="30%" left="0" top="35%">
+		<e:BitmapLabel id="title" width="100%" height="50%" left="0" top="0" font="StoryTitleFnt_fnt" textAlign="center" verticalAlign="middle" alpha="0"/>
+		<e:BitmapLabel id="content" width="100%" height="50%" left="0" top="50%" font="StoryTitleFnt_fnt" textAlign="center" verticalAlign="middle" alpha="0"/>
+	</e:Group>
+	<e:Group width="100%" height="35%" left="0" top="65%">
+		<e:Rect id="bottomRect" fillColor="0x00000" width="100%" height="280" anchorOffsetY="280" y="280" scaleY="0" alpha="0.8"></e:Rect>	
+	</e:Group>
+</e:Skin>

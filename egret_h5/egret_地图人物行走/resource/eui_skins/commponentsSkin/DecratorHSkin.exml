@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="DecratorHSkin" width="480" height="10" xmlns:e="http://ns.egret.com/eui">
+	<e:Image width="100%" height="100%" left="0" top="0" source="DecratorH_png"/>
+</e:Skin>

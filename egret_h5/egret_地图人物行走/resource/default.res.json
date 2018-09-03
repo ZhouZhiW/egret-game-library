@@ -1,0 +1,185 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,DecratorH_png,TitleFnt_fnt,TitleFnt_0_png,buttonFnt_fnt,buttonFnt_0_png,BtnBorder_png,StoryTitleFnt_txt,StoryTitleFnt_fnt,StoryTitleFnt_0_png,StartGameStageConfig_json,StoryTitleConfig_json,SceneConfig_json,map_tile_00_png,map_tile_01_png,map_tile_02_png,map_tile_03_png,map_tile_04_png,map_tile_05_png,map_tile_06_png,map_tile_07_png,map_tile_08_png,map_tile_09_png,map_fog_tile_00_png,FirstMap_json,RoleFnt_txt,RoleFnt_fnt,RoleFnt_0_png,Hero_json,Hero_0_png,moveArrow_png,SecondMap_json,ThirdMap_json,ForthMap_json,FifthMap_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "DecratorH_png",
+			"type": "image",
+			"url": "assets/image/commponents/decrator/DecratorH.png"
+		},
+		{
+			"name": "TitleFnt_fnt",
+			"type": "font",
+			"url": "assets/fnt/titie/TitleFnt.fnt"
+		},
+		{
+			"name": "TitleFnt_0_png",
+			"type": "image",
+			"url": "assets/fnt/titie/TitleFnt_0.png"
+		},
+		{
+			"name": "buttonFnt_fnt",
+			"type": "font",
+			"url": "assets/fnt/button/buttonFnt.fnt"
+		},
+		{
+			"name": "buttonFnt_0_png",
+			"type": "image",
+			"url": "assets/fnt/button/buttonFnt_0.png"
+		},
+		{
+			"name": "BtnBorder_png",
+			"type": "image",
+			"url": "assets/image/commponents/decrator/BtnBorder.png"
+		},
+		{
+			"name": "StoryTitleFnt_txt",
+			"type": "text",
+			"url": "assets/fnt/storyTitle/StoryTitleFnt.txt"
+		},
+		{
+			"name": "StoryTitleFnt_fnt",
+			"type": "font",
+			"url": "assets/fnt/storyTitle/StoryTitleFnt.fnt"
+		},
+		{
+			"name": "StoryTitleFnt_0_png",
+			"type": "image",
+			"url": "assets/fnt/storyTitle/StoryTitleFnt_0.png"
+		},
+		{
+			"name": "StartGameStageConfig_json",
+			"type": "json",
+			"url": "assets/json/config/StartGameStageConfig.json"
+		},
+		{
+			"name": "StoryTitleConfig_json",
+			"type": "json",
+			"url": "assets/json/config/StoryTitleConfig.json"
+		},
+		{
+			"name": "SceneConfig_json",
+			"type": "json",
+			"url": "assets/json/config/SceneConfig.json"
+		},
+		{
+			"name": "map_tile_00_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_00.png"
+		},
+		{
+			"name": "map_tile_01_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_01.png"
+		},
+		{
+			"name": "map_tile_02_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_02.png"
+		},
+		{
+			"name": "map_tile_03_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_03.png"
+		},
+		{
+			"name": "map_tile_04_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_04.png"
+		},
+		{
+			"name": "map_tile_05_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_05.png"
+		},
+		{
+			"name": "map_tile_06_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_06.png"
+		},
+		{
+			"name": "map_tile_07_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_07.png"
+		},
+		{
+			"name": "map_tile_08_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_08.png"
+		},
+		{
+			"name": "map_tile_09_png",
+			"type": "image",
+			"url": "assets/image/tile/map_tile_09.png"
+		},
+		{
+			"name": "map_fog_tile_00_png",
+			"type": "image",
+			"url": "assets/image/tile/map_fog_tile_00.png"
+		},
+		{
+			"name": "FirstMap_json",
+			"type": "json",
+			"url": "assets/json/map/FirstMap.json"
+		},
+		{
+			"name": "RoleFnt_txt",
+			"type": "text",
+			"url": "assets/fnt/role/RoleFnt.txt"
+		},
+		{
+			"name": "RoleFnt_fnt",
+			"type": "font",
+			"url": "assets/fnt/role/RoleFnt.fnt"
+		},
+		{
+			"name": "RoleFnt_0_png",
+			"type": "image",
+			"url": "assets/fnt/role/RoleFnt_0.png"
+		},
+		{
+			"name": "Hero_json",
+			"type": "json",
+			"url": "assets/json/role/hero/Hero.json"
+		},
+		{
+			"name": "Hero_0_png",
+			"type": "image",
+			"url": "assets/image/role/Hero_0.png"
+		},
+		{
+			"name": "moveArrow_png",
+			"type": "image",
+			"url": "assets/image/commponents/moveArrow.png"
+		},
+		{
+			"name": "SecondMap_json",
+			"type": "json",
+			"url": "assets/json/map/SecondMap.json"
+		},
+		{
+			"name": "ThirdMap_json",
+			"type": "json",
+			"url": "assets/json/map/ThirdMap.json"
+		},
+		{
+			"name": "ForthMap_json",
+			"type": "json",
+			"url": "assets/json/map/ForthMap.json"
+		},
+		{
+			"name": "FifthMap_json",
+			"type": "json",
+			"url": "assets/json/map/FifthMap.json"
+		}
+	]
+}

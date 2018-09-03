@@ -1,0 +1,29 @@
+1.链接到远程服务器118.190.105.124
+2.进入到文件夹  game
+  cd  game  
+  查看game下的文件
+  ls  或者  ll
+3.获取源文件 （network 下  copy -> copy all as  HAR）
+4.创建文件  xx(随意定义) 
+  vi xx
+5.将源文件黏贴到 xx 中
+6.保存源文件 xx
+    按  Esc      
+	:wq
+7.过滤源文件并将新文件输入到 xxxx
+    grep "\"url\":" xx > xxxx
+8.编辑xxxx
+    :%s/          "url":/wget -x/g
+	:%s/,//g
+9.搜索带"?"的文件并且处理
+   /?
+   按键 x  删除字符
+   n寻找下一个
+         dd  删除整行
+	恢复在命令格式下  （按  Esc） 按 u	
+10.保存退出
+   Esc
+   :wq
+11. 执行可执行文件
+    chmod 755   xxxx
+	./xxxx

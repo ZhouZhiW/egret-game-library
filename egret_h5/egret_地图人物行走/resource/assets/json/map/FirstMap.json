@@ -1,0 +1,21 @@
+{
+    "columnCount": 5,
+    "rowCount": 5,
+    "tileWidth": 32,
+    "tileHeight": 32,
+    "mbList": [
+        [
+            {
+                "backGroundTileImageName": "map_tile_08_png",
+                "fogTileImageName": "map_fog_tile_00_png",
+                "columnCount": 5,
+                "rowCount": 5,
+                "HNumber": 0,
+                "VNumber": 0,
+                "x": 0,
+                "y": 0,
+                "name": "mapBlock0000"
+            }
+        ]
+    ]
+}
