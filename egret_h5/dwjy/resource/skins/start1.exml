@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="start" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image width="640" height="1136" source="start_bg_jpg" horizontalCenter="0" verticalCenter="0"/>
+	<e:Image width="231" height="249" y="194" source="start_bg1_jpg" horizontalCenter="0"/>
+	<e:Image id="btn1" width="345" height="113" y="517" source="start_btn1_png" horizontalCenter="0.5"/>
+	<e:Image id="btn2" width="345" height="113" y="687" horizontalCenter="0.5" source="start_btn2_png"/>
+	<e:Image id="rankbtn" width="178" height="142" y="890" horizontalCenter="-94" source="start_ranklist_png"/>
+	<e:Image id="morebtn" width="164" height="113" y="919" horizontalCenter="97" source="moregame_png"/>
+</e:Skin>

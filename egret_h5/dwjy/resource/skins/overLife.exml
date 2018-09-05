@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="overLife" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1136" x="0" y="0" fillAlpha="0.8"/>
+	<e:Image id="btn" width="384" height="138" y="758" source="sharebtn_png" anchorOffsetY="0" anchorOffsetX="0" horizontalCenter="0"/>
+	<e:Image id="skipbtn" width="212" height="44" y="970" anchorOffsetX="0" anchorOffsetY="0" source="skipbtn_png" horizontalCenter="0"/>
+	<e:Label text="当前得分" x="230" y="188" size="40"/>
+</e:Skin>

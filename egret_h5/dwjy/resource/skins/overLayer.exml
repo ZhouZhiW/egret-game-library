@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="over" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Rect width="640" height="1136" x="0" y="0" fillAlpha="0.8"/>
+	<e:Image width="620" height="602" y="162" source="overbg_png" anchorOffsetY="0" horizontalCenter="0"/>
+	<e:BitmapLabel id="bitfont" width="574" height="68" y="280.18" text="0" font="num_fnt" anchorOffsetX="0.5" anchorOffsetY="0.5" horizontalCenter="0" textAlign="center"/>
+	<e:Image id="challengeBtn" width="219" height="63" y="382.06" source="share0ver_png" anchorOffsetX="0" anchorOffsetY="0" horizontalCenter="0.5"/>
+	<e:Label id="lefrBtn" text="" x="152" y="696" anchorOffsetX="0" width="138" anchorOffsetY="0" height="52" textColor="0x020000" size="40"/>
+	<e:Label id="rightBtn" text="" x="400.5" y="696" anchorOffsetX="0" width="136" anchorOffsetY="0" height="52" textColor="0x110000" size="40"/>
+	<e:Image id="anginBtn" width="351" height="110" y="860" source="angin_png" scaleX="1.2" scaleY="1.2" horizontalCenter="0"/>
+	<e:Image id="startBtn" source="startSkip_png" x="33" y="29"/>
+	<e:Label id="leftbtn" text="好友榜" x="71" y="710" anchorOffsetX="0" width="108" textColor="0x0a0000"/>
+</e:Skin>
