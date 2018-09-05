@@ -1,0 +1,26 @@
+{
+	"initial": [
+		"libs/modules/egret/egret.js",
+		"libs/modules/egret/egret.web.js",
+		"libs/modules/game/game.js",
+		"libs/modules/res/res.js",
+		"libs/modules/dragonBones/dragonBones.js",
+		"libs/modules/d5sdk/d5sdk.js",
+		"libs/modules/d5bitmapui/d5bitmapui.js",
+		"libs/modules/d5/d5.js"
+	],
+	"game": [
+		"bin-debug/SingleFrameCharacter.js",
+		"bin-debug/Main.js",
+		"bin-debug/D5Particle.js",
+		"bin-debug/D5ParticleCenter.js",
+		"bin-debug/GameScene.js",
+		"bin-debug/ID5Particle.js",
+		"bin-debug/D5BitmapParticle.js",
+		"bin-debug/Platform.js",
+		"bin-debug/Car.js",
+		"bin-debug/TouchController.js",
+		"bin-debug/UnlimitCamera.js",
+		"bin-debug/UnlimitMap.js"
+	]
+}

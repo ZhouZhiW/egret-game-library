@@ -1,0 +1,15 @@
+{
+	"initial": [
+		"js/egret.min_acd30022.js",
+		"js/egret.web.min_3e311c0e.js",
+		"js/game.min_45aa06f6.js",
+		"js/res.min_88dd41cb.js",
+		"js/dragonBones.min_6252b9c4.js",
+		"js/d5sdk.min_bf8d956e.js",
+		"js/d5bitmapui.min_2982e631.js",
+		"js/d5.min_762c6db3.js"
+	],
+	"game": [
+		"js/main.min_935f77b8.js"
+	]
+}

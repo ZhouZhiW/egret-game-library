@@ -1,0 +1,10 @@
+<data nameString='' subUIResource=''>
+  <res path="resource/car0.png" type="2" name="resource/car0.png" posx="0" posy="0" w="48" h="76" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+  <res path="resource/car1.png" type="2" name="resource/car1.png" posx="163" posy="117" w="48" h="100" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+  <res path="resource/car2.png" type="2" name="resource/car2.png" posx="110" posy="113" w="48" h="96" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+  <res path="resource/car3.png" type="2" name="resource/car3.png" posx="55" posy="110" w="48" h="98" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+  <res path="resource/car4.png" type="2" name="resource/car4.png" posx="158" posy="7" w="48" h="100" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+  <res path="resource/car5.png" type="2" name="resource/car5.png" posx="106" posy="6" w="46" h="100" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+  <res path="resource/car6.png" type="2" name="resource/car6.png" posx="54" posy="4" w="48" h="93" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+  <res path="resource/car7.png" type="2" name="resource/car7.png" posx="5" posy="109" w="44" h="84" cutx1="0" cuty1="0" cutx2="0" cuty2="0" label=""/>
+</data>
