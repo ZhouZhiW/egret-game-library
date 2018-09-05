@@ -1,0 +1,196 @@
+{
+	"groups": [
+		{
+			"keys": "description_json,hero1_json,hero1_png,hero2_json,hero2_png,hero3_json,hero3_png,hero4_json,hero4_png,bg1_jpg,bg2_jpg,bg3_jpg,bg4_jpg,bg5_jpg,moon_png,stage1_png,stick1_png,arrow_png,hero01_png,hero02_png,hero03_png,hero04_png,lovered_png,mainqiehuan_png,scoreAdd1_png,scoreBg_png,stage12_png,stick12_png,uires_1_png,uires_2_png,uires_3_png,uires_5_png,uires_8_png,uires_9_png,weixinhaoyou_png,weixinpyquan_png,uipng_json",
+			"name": "preload"
+		}
+	],
+	"resources": [
+		{
+			"name": "description_json",
+			"type": "json",
+			"url": "config/description.json"
+		},
+		{
+			"name": "hero1_json",
+			"type": "json",
+			"url": "image/anim/hero1.json"
+		},
+		{
+			"name": "hero1_png",
+			"type": "image",
+			"url": "image/anim/hero1.png"
+		},
+		{
+			"name": "hero2_json",
+			"type": "json",
+			"url": "image/anim/hero2.json"
+		},
+		{
+			"name": "hero2_png",
+			"type": "image",
+			"url": "image/anim/hero2.png"
+		},
+		{
+			"name": "hero3_json",
+			"type": "json",
+			"url": "image/anim/hero3.json"
+		},
+		{
+			"name": "hero3_png",
+			"type": "image",
+			"url": "image/anim/hero3.png"
+		},
+		{
+			"name": "hero4_json",
+			"type": "json",
+			"url": "image/anim/hero4.json"
+		},
+		{
+			"name": "hero4_png",
+			"type": "image",
+			"url": "image/anim/hero4.png"
+		},
+		{
+			"name": "bg1_jpg",
+			"type": "image",
+			"url": "image/bg/bg1.jpg"
+		},
+		{
+			"name": "bg2_jpg",
+			"type": "image",
+			"url": "image/bg/bg2.jpg"
+		},
+		{
+			"name": "bg3_jpg",
+			"type": "image",
+			"url": "image/bg/bg3.jpg"
+		},
+		{
+			"name": "bg4_jpg",
+			"type": "image",
+			"url": "image/bg/bg4.jpg"
+		},
+		{
+			"name": "bg5_jpg",
+			"type": "image",
+			"url": "image/bg/bg5.jpg"
+		},
+		{
+			"name": "moon_png",
+			"type": "image",
+			"url": "image/bg/moon.png"
+		},
+		{
+			"name": "stage1_png",
+			"type": "image",
+			"url": "image/stage1.png"
+		},
+		{
+			"name": "stick1_png",
+			"type": "image",
+			"url": "image/stick1.png"
+		},
+		{
+			"name": "arrow_png",
+			"type": "image",
+			"url": "image/uipng/arrow.png"
+		},
+		{
+			"name": "hero01_png",
+			"type": "image",
+			"url": "image/uipng/hero01.png"
+		},
+		{
+			"name": "hero02_png",
+			"type": "image",
+			"url": "image/uipng/hero02.png"
+		},
+		{
+			"name": "hero03_png",
+			"type": "image",
+			"url": "image/uipng/hero03.png"
+		},
+		{
+			"name": "hero04_png",
+			"type": "image",
+			"url": "image/uipng/hero04.png"
+		},
+		{
+			"name": "lovered_png",
+			"type": "image",
+			"url": "image/uipng/lovered.png"
+		},
+		{
+			"name": "mainqiehuan_png",
+			"type": "image",
+			"url": "image/uipng/mainqiehuan.png"
+		},
+		{
+			"name": "scoreAdd1_png",
+			"type": "image",
+			"url": "image/uipng/scoreAdd1.png"
+		},
+		{
+			"name": "scoreBg_png",
+			"type": "image",
+			"url": "image/uipng/scoreBg.png"
+		},
+		{
+			"name": "stage12_png",
+			"type": "image",
+			"url": "image/uipng/stage1.png"
+		},
+		{
+			"name": "stick12_png",
+			"type": "image",
+			"url": "image/uipng/stick1.png"
+		},
+		{
+			"name": "uires_1_png",
+			"type": "image",
+			"url": "image/uipng/uires_1.png"
+		},
+		{
+			"name": "uires_2_png",
+			"type": "image",
+			"url": "image/uipng/uires_2.png"
+		},
+		{
+			"name": "uires_3_png",
+			"type": "image",
+			"url": "image/uipng/uires_3.png"
+		},
+		{
+			"name": "uires_5_png",
+			"type": "image",
+			"url": "image/uipng/uires_5.png"
+		},
+		{
+			"name": "uires_8_png",
+			"type": "image",
+			"url": "image/uipng/uires_8.png"
+		},
+		{
+			"name": "uires_9_png",
+			"type": "image",
+			"url": "image/uipng/uires_9.png"
+		},
+		{
+			"name": "weixinhaoyou_png",
+			"type": "image",
+			"url": "image/uipng/weixinhaoyou.png"
+		},
+		{
+			"name": "weixinpyquan_png",
+			"type": "image",
+			"url": "image/uipng/weixinpyquan.png"
+		},
+		{
+			"name": "uipng_json",
+			"type": "sheet",
+			"url": "image/uipng.json",
+			"subkeys": "arrow_png,hero01_png,hero02_png,hero03_png,hero04_png,lovered_png,mainqiehuan_png,scoreAdd1_png,scoreBg_png,uires_1_png,uires_2_png,uires_3_png,uires_5_png,uires_8_png,uires_9_png,weixinhaoyou_png,weixinpyquan_png"
+		}
+	]
+}

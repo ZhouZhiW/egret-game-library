@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="game" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<e:Image id="bg" source="bg2_jpg" x="0" y="0"/>
+	<e:Image id="moon" source="moon_png" y="48" anchorOffsetY="0" height="738" anchorOffsetX="0" width="640" x="-6"/>
+	<e:Image id="block1" width="160" height="356" x="0" y="780" source="stage1_png" anchorOffsetX="0"/>
+	<e:Image id="block2" width="162" height="356" x="316" y="780" source="stage1_png" anchorOffsetX="0"/>
+</e:Skin>

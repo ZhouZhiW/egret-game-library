@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<e:Skin class="start" width="640" height="1136" xmlns:e="http://ns.egret.com/eui" xmlns:w="http://ns.egret.com/wing">
+	<w:Config id="164d0bbd886"/>
+	<e:Image id="startbg2" source="bg1_jpg" x="0" y="0"/>
+	<e:Image source="uires_1_png" y="137.82" scaleX="0.6" scaleY="0.6" horizontalCenter="0.5"/>
+	<e:Image id="start_btn" width="200" height="200" touchEnabled="true" name="start" anchorOffsetX="0.5" anchorOffsetY="0.5" source="uires_2_png" x="220.5" y="424.5"/>
+	<e:Group id="group" width="200" height="412" y="730" anchorOffsetY="0.5" anchorOffsetX="0.5" x="220.5">
+		<e:Image id="hero" source="hero01_png" y="-1" horizontalCenter="0" name="hero" x="74" scaleX="1" scaleY="1"/>
+		<e:Image source="stage1_png" y="55" anchorOffsetX="0" width="200" anchorOffsetY="0" height="356" horizontalCenter="0" x="0" scaleX="1" scaleY="1"/>
+		<e:Image id="genggai_btn" source="mainqiehuan_png" y="130" horizontalCenter="0" visible="true" touchEnabled="true" name="genggai" x="4" scaleX="1" scaleY="1"/>
+	</e:Group>
+</e:Skin>
